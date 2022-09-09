@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
+import TopBar from "../components/ui/top-bar";
+import styles from "./index.module.scss";
 
-const index: NextPage = () => {
-  return (
-    <div>
-      <h1>This is 9z match.ez</h1>
-    </div>
-  );
-};
+const index: NextPage = () => (
+  <div className={styles.mainFrame}>
+    <TopBar />
+  </div>
+);
 
 export default index;
