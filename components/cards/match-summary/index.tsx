@@ -24,7 +24,6 @@ const index: NextPage = () => {
                 height={50}
                 objectFit="cover"
                 loading="lazy"
-                placeholder="blur"
               />
 
               <span>{HISTORIC_MATCH.opponents[0].opponent.name}</span>
@@ -59,7 +58,6 @@ const index: NextPage = () => {
                 height={50}
                 objectFit="cover"
                 loading="lazy"
-                placeholder="blur"
               />
 
               <span>{HISTORIC_MATCH.opponents[1].opponent.name}</span>
