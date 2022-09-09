@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
-import { LAST_FIVE_GAMES } from "../../../dummy-data";
-import { TLastFiveStyle } from "../../../types/stats.types";
+import { LAST_FIVE_GAMES } from "dummy-data";
+import TLastFiveStyle from "types/stats";
 import styles from "./stats.module.scss";
 
 const lastFiveStyle: TLastFiveStyle = {

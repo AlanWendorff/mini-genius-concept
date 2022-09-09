@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import {
-  teamLogoValidator,
-  teamResultValidator,
-} from "../../../utils/team.validate";
+import { teamLogoValidator, teamResultValidator } from "@utils/team.validate";
 import InformationOutlineIcon from "mdi-react/InformationOutlineIcon";
-import { HISTORIC_MATCHES } from "../../../dummy-data";
+import { HISTORIC_MATCHES } from "dummy-data";
 import styles from "./match-summary.module.scss";
 
 const index: NextPage = () => {

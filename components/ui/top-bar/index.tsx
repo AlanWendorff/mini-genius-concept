@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import { ESection } from "../../../constants/enums";
-import { TSections } from "../../../types/sections.types";
+import { ESection } from "@constants/enums";
+import { TSections } from "types/sections";
 import HistoryIcon from "mdi-react/HistoryIcon";
-import logo from "../../../assets/images/9z-logo.webp";
+import logo from "@images/9z-logo.webp";
 import styles from "./top-bar.module.scss";
 
 interface IProps {

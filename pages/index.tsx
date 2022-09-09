@@ -1,11 +1,11 @@
 import { useState } from "react";
 import type { NextPage } from "next";
-import TopBar from "../components/ui/top-bar";
-import HistoricMatches from "../components/sections/historic-matches";
-import TeamSummary from "../components/sections/team-summary";
-import UpcomingMatches from "../components/sections/upcoming-matches";
-import { ESection } from "../constants/enums";
-import { TSections } from "../types/sections.types";
+import TopBar from "@ui/top-bar";
+import HistoricMatches from "@sections/historic-matches";
+import TeamSummary from "@sections/team-summary";
+import UpcomingMatches from "@sections/upcoming-matches";
+import { ESection } from "@constants/enums";
+import { TSections } from "types/sections";
 import styles from "./index.module.scss";
 
 const index: NextPage = () => {

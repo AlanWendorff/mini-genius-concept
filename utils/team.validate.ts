@@ -1,5 +1,5 @@
-import styles from "../components/cards/match-summary/match-summary.module.scss";
-import logo_unknown from "../assets/images/logo-unknown.webp";
+import styles from "@cards/match-summary/match-summary.module.scss";
+import logo_unknown from "@assets/images/logo-unknown.webp";
 
 export const teamLogoValidator = (logo: string | null) => logo ?? logo_unknown;
 

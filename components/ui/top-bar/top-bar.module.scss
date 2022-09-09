@@ -1,7 +1,4 @@
 @use "../../../styles/mixins.scss" as mixins;
-/* @use "./colors.scss" as colors;
-@use "./fonts.scss" as fonts;
-@use "./variables.scss" as var; */
 
 .container {
   @include mixins.flex_container(row, center, center);

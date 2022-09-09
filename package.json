@@ -12,6 +12,7 @@
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "customize-cra": "^1.0.0",
     "sass": "^1.54.8",
     "mdi-react": "^8.3.1"
   },
@@ -19,6 +20,7 @@
     "@types/node": "18.7.15",
     "@types/react": "18.0.18",
     "@types/react-dom": "18.0.6",
+    "@types/customize-cra": "^1.0.2",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "typescript": "4.8.2"
