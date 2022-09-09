@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ESection } from "@constants/enums";
 import { TSections } from "types/sections";
 import HistoryIcon from "mdi-react/HistoryIcon";
-import logo from "@images/9z-logo.webp";
+import MAIN_LOGO from "@assets/images/9z-logo.webp";
 import styles from "./top-bar.module.scss";
 
 interface IProps {
@@ -20,7 +20,7 @@ const index: NextPage<IProps> = ({ section, handleSection }) => {
           handleSection(ESection.SUMMARY);
         }}
       >
-        <Image src={logo} width={30} height={30} placeholder="blur" />
+        <Image src={MAIN_LOGO} width={30} height={30} placeholder="blur" />
       </button>
       <button
         className={section === ESection.UPCOMING ? styles.on : ""}
