@@ -11,27 +11,4 @@
   overflow: hidden;
   margin: 1rem 0;
   font-family: fonts.$gilroy-extra-bold;
-
-  .lostGame {
-    color: maroon;
-  }
-
-  .winnedGame {
-    color: green;
-  }
-
-  .generalStats {
-    color: colors.$brand-dark;
-    font-family: fonts.$gilroy-light;
-    span {
-      color: colors.$team-violet-dark;
-      font-family: fonts.$gilroy-extra-bold;
-    }
-  }
-
-  .generalStats,
-  .lastFive {
-    width: 100%;
-    @include mixins.flex_container(row, space-evenly, center);
-  }
 }

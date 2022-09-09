@@ -1,26 +1,31 @@
 import type { NextPage } from "next";
+import { LAST_FIVE_GAMES } from "../../../dummy-data";
+import { TLastFiveStyle } from "../../../types/stats.types";
 import styles from "./stats.module.scss";
 
-const wl = ["W", "W", "W", "W", "W"];
+const lastFiveStyle: TLastFiveStyle = {
+  W: styles.winnedGame,
+  L: styles.lostGame,
+};
 
 const index: NextPage = () => {
   return (
     <div className={styles.container}>
-      <div className="container-estadistica">
-        <span className="stadistic-span ">
-          Winrate : <span className="font-stadistic-data">70.00%</span>
-        </span>
-        <span className="stadistic-span ">
-          Winstrike : <span className="font-stadistic-data">10</span>{" "}
-        </span>
-      </div>
-      <div className="win-and-loose" title="Last 5 games">
-        {wl.map((status, index) => (
-          <span key={index} className={status === "W" ? "W-green" : "L-red"}>
+      <section className={styles.generalStats}>
+        <p>
+          Winrate: <span>70.00%</span>
+        </p>
+        <p>
+          Winstrike: <span>2</span>
+        </p>
+      </section>
+      <section className={styles.lastFive} title="Last 5 games">
+        {LAST_FIVE_GAMES.map((status, index) => (
+          <span key={index} className={lastFiveStyle[status]}>
             {status}
           </span>
         ))}
-      </div>
+      </section>
     </div>
   );
 };
