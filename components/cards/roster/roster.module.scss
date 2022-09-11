@@ -1,0 +1,72 @@
+@use "../../../styles/mixins.scss" as mixins;
+@use "../../../styles/fonts.scss" as fonts;
+@use "../../../styles/colors.scss" as colors;
+
+.container {
+  @include mixins.flex_container(column, flex-start, center);
+  width: 100%;
+  background-color: colors.$brand-ice;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  color: colors.$team-violet-dark;
+
+  h2 {
+    margin: 2rem;
+  }
+
+  .roster {
+    @include mixins.flex_container(row, center, center);
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: fonts.$gilroy-light;
+    font-size: 0.938rem;
+
+    .player {
+      @include mixins.flex_container(column, space-between, center);
+      background-color: colors.$brand-ice;
+      border-radius: 7px;
+      width: 250px;
+      margin: 15px;
+      padding: 10px;
+      box-shadow: rgb(0 0 0 / 75%) 0px 0px 5px 0px;
+
+      .imageContainer {
+        @include mixins.flex_container(row, center, center);
+        width: 100%;
+        /* background-color: red; */
+        position: relative;
+
+        .backgroundLogo {
+          position: absolute;
+          top: 0;
+          -webkit-filter: blur(2px);
+          filter: blur(2px);
+          z-index: 0;
+        }
+
+        .playerImage {
+          height: 100%;
+          position: absolute;
+          top: 0;
+          z-index: 1;
+        }
+      }
+
+      .playerName {
+        margin: 0.5rem 0;
+
+        span {
+          font-family: fonts.$gilroy-extra-bold;
+        }
+      }
+
+      .nationality {
+        @include mixins.flex_container(row, center, center);
+
+        p {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

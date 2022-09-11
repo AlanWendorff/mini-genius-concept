@@ -3,7 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["cdn.pandascore.co"],
+    domains: [
+      "cdn.pandascore.co",
+      "img-cdn.hltv.org",
+      "purecatamphetamine.github.io",
+    ],
   },
 };
 
