@@ -46,8 +46,8 @@
         position: absolute;
         top: 0;
         right: 0;
-        height: 10px;
-        width: 10px;
+        height: 0.625rem;
+        width: 0.625rem;
         background-color: #f80000;
         border-radius: 50%;
       }
@@ -56,19 +56,11 @@
     .historicMatch,
     .upcomingMatch {
       @include mixins.flex_container(row, space-evenly, center);
-      margin: 10px 0;
+      margin: 0.625rem 0;
       width: 100%;
 
       .winner {
         font-family: fonts.$gilroy-extra-bold;
-      }
-
-      .team {
-        @include mixins.flex_container(column, center, center);
-
-        .teamName {
-          margin-top: 5px;
-        }
       }
     }
   }

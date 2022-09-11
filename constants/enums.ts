@@ -8,3 +8,8 @@ export enum EMatchType {
   HISTORIC = "historic",
   UPCOMING = "upcoming",
 }
+
+export enum ETeamComponentMode {
+  ROW = "row",
+  COLUMN = "column",
+}
