@@ -57,10 +57,6 @@
       @include mixins.flex_container(row, space-evenly, center);
       margin: 0.625rem 0;
       width: 100%;
-
-      .winner {
-        font-family: fonts.$gilroy-extra-bold;
-      }
     }
   }
 }

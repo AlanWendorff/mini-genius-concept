@@ -11,6 +11,11 @@ import {
 } from "react-share";
 import styles from "./social-share.module.scss";
 
+const SOCIAL_STATES = {
+  true: styles.social,
+  false: styles.hide,
+};
+
 const index: NextPage = () => {
   const [showSocials, setShowSocials] = useState(false);
 
@@ -23,7 +28,7 @@ const index: NextPage = () => {
         <ShareVariantIcon size={"20px"} />
       </button>
 
-      <div className={styles.social}>
+      <div className={SOCIAL_STATES[`${showSocials}`]}>
         <FacebookShareButton
           url={`${window.location.href}`}
           hashtag="#csgo"

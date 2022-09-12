@@ -3,6 +3,8 @@ import type { NextPage } from "next";
 import Moment from "moment";
 import TeamLogo from "../../team-logo";
 import SocialShare from "../../social-share";
+import { isMatchFinal } from "@utils/tournament.validate";
+import { resultValidator } from "@utils/team.validate";
 import { ETeamComponentMode } from "@constants/enums";
 import ChevronDownIcon from "mdi-react/ChevronDownIcon";
 import ChevronUpIcon from "mdi-react/ChevronUpIcon";
@@ -16,27 +18,39 @@ interface IProps {
 
 const index: NextPage<IProps> = ({ match }) => {
   const [detailState, setDetailState] = useState(false);
-  const { opponents, results, bestOf, league, serie, begin_at } = match;
+  const { opponents, results, bestOf, league, serie, begin_at, stage } = match;
 
   return (
     <div className={styles.container}>
       <div className={styles.match}>
-        <p>fase en la que se jugo</p>
-        <div className={styles.team}>
+        <p className={isMatchFinal(stage)}>{stage}</p>
+        <div
+          className={`${styles.team} ${
+            results[0].score < results[1].score ? styles.lost : ""
+          }`}
+        >
           <TeamLogo
             componentMode={ETeamComponentMode.ROW}
             teamLogo={opponents[0].opponent.image_url}
             teamName={opponents[0].opponent.name}
           />
-          <p>{results[0].score}</p>
+          <p className={resultValidator(results[0].score, results[1].score)}>
+            {results[0].score}
+          </p>
         </div>
-        <div className={styles.team}>
+        <div
+          className={`${styles.team} ${
+            results[1].score < results[0].score ? styles.lost : ""
+          }`}
+        >
           <TeamLogo
             componentMode={ETeamComponentMode.ROW}
             teamLogo={opponents[1].opponent.image_url}
             teamName={opponents[1].opponent.name}
           />
-          <p>{results[1].score}</p>
+          <p className={resultValidator(results[1].score, results[0].score)}>
+            {results[1].score}
+          </p>
         </div>
         <p>{bestOf}</p>
       </div>
@@ -54,7 +68,7 @@ const index: NextPage<IProps> = ({ match }) => {
         <div className={styles.matchDetail}>
           <p>
             <TrophyOutlineIcon size={"20px"} />
-            {league.name + " " + serie.full_name}
+            {`${league.name} ${serie.full_name}`}
           </p>
           <p>
             <CalendarClockIcon size={"20px"} />
