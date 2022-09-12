@@ -9,7 +9,7 @@
   background-color: colors.$brand-ice;
   border-radius: 1.25rem;
   margin: 1rem 0;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
 
   .match {
     @include mixins.flex_container(column, space-between, center);
@@ -24,11 +24,23 @@
   }
 
   .arrow {
-    margin: 1rem;
+    width: 100%;
+    margin-top: 1rem;
   }
 
   .matchDetail {
     @include mixins.flex_container(column, space-evenly, flex-start);
     width: 100%;
+    padding-top: 0.5rem;
+
+    p {
+      @include mixins.flex_container(row, flex-start, center);
+      margin-bottom: 1rem;
+
+      svg {
+        color: colors.$team-violet-dark;
+        margin-right: 0.625rem;
+      }
+    }
   }
 }

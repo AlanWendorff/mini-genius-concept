@@ -1,7 +1,13 @@
 import { useState } from "react";
 import type { NextPage } from "next";
+import Moment from "moment";
 import TeamLogo from "../../team-logo";
+import SocialShare from "../../social-share";
 import { ETeamComponentMode } from "@constants/enums";
+import ChevronDownIcon from "mdi-react/ChevronDownIcon";
+import ChevronUpIcon from "mdi-react/ChevronUpIcon";
+import TrophyOutlineIcon from "mdi-react/TrophyOutlineIcon";
+import CalendarClockIcon from "mdi-react/CalendarClockIcon";
 import styles from "./historic-match.module.scss";
 
 interface IProps {
@@ -10,7 +16,7 @@ interface IProps {
 
 const index: NextPage<IProps> = ({ match }) => {
   const [detailState, setDetailState] = useState(false);
-  const { opponents } = match;
+  const { opponents, results, bestOf, league, serie, begin_at } = match;
 
   return (
     <div className={styles.container}>
@@ -22,8 +28,7 @@ const index: NextPage<IProps> = ({ match }) => {
             teamLogo={opponents[0].opponent.image_url}
             teamName={opponents[0].opponent.name}
           />
-          <p>name</p>
-          <p>points</p>
+          <p>{results[0].score}</p>
         </div>
         <div className={styles.team}>
           <TeamLogo
@@ -31,22 +36,32 @@ const index: NextPage<IProps> = ({ match }) => {
             teamLogo={opponents[1].opponent.image_url}
             teamName={opponents[1].opponent.name}
           />
-          <p>name</p>
-          <p>points</p>
+          <p>{results[1].score}</p>
         </div>
-        <p>Best of ?</p>
+        <p>{bestOf}</p>
       </div>
       <button
         className={styles.arrow}
         onClick={() => setDetailState(!detailState)}
       >
-        arrow
+        {detailState ? (
+          <ChevronUpIcon size={"30px"} />
+        ) : (
+          <ChevronDownIcon size={"30px"} />
+        )}
       </button>
       {detailState && (
         <div className={styles.matchDetail}>
-          <p>liga y toda la wea</p>
-          <p>Fecha en la que se jugo + hora</p>
-          <div>componente social share</div>
+          <p>
+            <TrophyOutlineIcon size={"20px"} />
+            {league.name + " " + serie.full_name}
+          </p>
+          <p>
+            <CalendarClockIcon size={"20px"} />
+            {Moment(begin_at).format("Do")}{" "}
+            {Moment(begin_at).format("MMMM - H:mm")} hs
+          </p>
+          <SocialShare />
         </div>
       )}
     </div>

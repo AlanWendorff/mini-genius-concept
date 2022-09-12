@@ -20,6 +20,7 @@ body {
   @include mixins.flex_container(column, flex-start, center);
   width: var.$web-width;
   padding-bottom: 1rem;
+  font-family: fonts.$gilroy-light;
 }
 
 @font-face {
