@@ -10,8 +10,8 @@
   overflow: hidden;
   color: colors.$team-violet-dark;
 
-  h2 {
-    margin: 2rem;
+  h1 {
+    margin: 2rem 0 1.5rem 0;
   }
 
   .roster {
@@ -22,18 +22,18 @@
     font-size: 0.938rem;
 
     .player {
-      @include mixins.flex_container(column, space-between, center);
+      @include mixins.flex_container(column, flex-start, center);
       background-color: colors.$brand-ice;
       border-radius: 7px;
-      width: 250px;
-      margin: 15px;
-      padding: 10px;
-      box-shadow: rgb(0 0 0 / 75%) 0px 0px 5px 0px;
+      width: 17rem;
+      height: 16.2rem;
+      margin: 8px;
+      padding: 10px 0;
+      /*  box-shadow: rgb(0 0 0 / 75%) 0px 0px 5px 0px; */
 
       .imageContainer {
         @include mixins.flex_container(row, center, center);
         width: 100%;
-        /* background-color: red; */
         position: relative;
 
         .backgroundLogo {

@@ -7,7 +7,7 @@ import styles from "./roster.module.scss";
 const index: NextPage = () => {
   return (
     <div className={styles.container}>
-      <h2>Roster of 9z</h2>
+      <h1>Roster of 9z</h1>
       <div className={styles.roster}>
         {PLAYERS.map(
           ({ first_name, image_url, last_name, name, nationality }) => (
@@ -18,8 +18,8 @@ const index: NextPage = () => {
                   src={
                     "https://cdn.pandascore.co/images/team/image/126709/9996.png"
                   }
-                  width={150}
-                  height={150}
+                  width={180}
+                  height={180}
                   objectFit="contain"
                   loading="lazy"
                 />
@@ -36,7 +36,7 @@ const index: NextPage = () => {
               </p>
 
               <div className={styles.nationality}>
-                <p>{getCountryName(nationality)}</p>
+                <p>{/* getCountryName(nationality) */} Country name</p>
                 <Image
                   className={styles.backgroundLogo}
                   src={getCountryFlag(nationality)}
