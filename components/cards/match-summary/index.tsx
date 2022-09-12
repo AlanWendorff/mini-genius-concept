@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import TeamLogo from "../../team-logo";
-import { logoValidator, resultValidator } from "@utils/team.validate";
-import { ETeamComponentMode } from "@constants/enums";
+import { resultValidator } from "@utils/team.validate";
+import { ETeamComponentMode, ESection } from "@constants/enums";
+import IProps from "@interfaces/section.props";
 import InformationOutlineIcon from "mdi-react/InformationOutlineIcon";
 import { HISTORIC_MATCHES } from "dummy-data";
 import styles from "./match-summary.module.scss";
 
-const index: NextPage = () => {
+const index: NextPage<IProps> = ({ handleSection }) => {
   const HISTORIC_MATCH = HISTORIC_MATCHES[4];
   const UPCOMING_MATCH: never[] = [];
   const RUNNING = false;
@@ -49,7 +49,13 @@ const index: NextPage = () => {
             teamName={HISTORIC_MATCH.opponents[1].opponent.name}
           />
         </div>
-        <InformationOutlineIcon size={"20px"} />
+        <button
+          onClick={() => {
+            handleSection(ESection.HISTORIC);
+          }}
+        >
+          <InformationOutlineIcon size={"20px"} />
+        </button>
       </section>
 
       <hr />
@@ -71,7 +77,13 @@ const index: NextPage = () => {
                 teamName={HISTORIC_MATCH.opponents[1].opponent.name}
               />
             </div>
-            <InformationOutlineIcon size={"20px"} />
+            <button
+              onClick={() => {
+                handleSection(ESection.UPCOMING);
+              }}
+            >
+              <InformationOutlineIcon size={"20px"} />
+            </button>
           </>
         ) : (
           <div>

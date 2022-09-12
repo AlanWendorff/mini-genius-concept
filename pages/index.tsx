@@ -16,7 +16,7 @@ const index: NextPage = () => {
   };
 
   const SECTIONS = {
-    [ESection.SUMMARY]: <TeamSummary />,
+    [ESection.SUMMARY]: <TeamSummary handleSection={handleSection} />,
     [ESection.UPCOMING]: <UpcomingMatches />,
     [ESection.HISTORIC]: <HistoricMatches />,
   };

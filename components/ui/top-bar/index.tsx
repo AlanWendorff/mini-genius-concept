@@ -1,15 +1,10 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import { ESection } from "@constants/enums";
-import { TSections } from "types/sections";
+import IProps from "@interfaces/section.props";
 import HistoryIcon from "mdi-react/HistoryIcon";
 import MAIN_LOGO from "@assets/images/9z-logo.webp";
 import styles from "./top-bar.module.scss";
-
-interface IProps {
-  section: TSections;
-  handleSection: (section: TSections) => void;
-}
 
 const index: NextPage<IProps> = ({ section, handleSection }) => {
   return (
