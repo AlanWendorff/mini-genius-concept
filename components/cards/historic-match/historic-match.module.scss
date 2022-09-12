@@ -1,0 +1,34 @@
+@use "../../../styles/mixins.scss" as mixins;
+@use "../../../styles/fonts.scss" as fonts;
+@use "../../../styles/colors.scss" as colors;
+
+.container {
+  @include mixins.flex_container(column, space-between, center);
+  min-height: 17rem;
+  width: 100%;
+  background-color: colors.$brand-ice;
+  border-radius: 1.25rem;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+
+  .match {
+    @include mixins.flex_container(column, space-between, center);
+    height: 13.5rem;
+    width: 100%;
+
+    .team {
+      @include mixins.flex_container(row, space-between, center);
+      width: 100%;
+      margin: 0.5rem;
+    }
+  }
+
+  .arrow {
+    margin: 1rem;
+  }
+
+  .matchDetail {
+    @include mixins.flex_container(column, space-evenly, flex-start);
+    width: 100%;
+  }
+}
