@@ -21,7 +21,6 @@
     @include mixins.flex_container(column, space-between, center);
     position: absolute;
     top: 0;
-    transform: translate(-200%, -75%);
 
     button {
       opacity: 0;

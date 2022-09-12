@@ -4,13 +4,12 @@ import { resultValidator } from "@utils/team.validate";
 import { ETeamComponentMode, ESection } from "@constants/enums";
 import IProps from "@interfaces/section.props";
 import InformationOutlineIcon from "mdi-react/InformationOutlineIcon";
-import { HISTORIC_MATCHES } from "dummy-data";
+import { HISTORIC_MATCHES, UPCOMING_MATCHES } from "dummy-data";
 import styles from "./match-summary.module.scss";
 
 const index: NextPage<IProps> = ({ handleSection }) => {
-  const HISTORIC_MATCH = HISTORIC_MATCHES[4];
-  const UPCOMING_MATCH: never[] = [];
-  const RUNNING = false;
+  const HISTORIC_MATCH = HISTORIC_MATCHES[0];
+  const UPCOMING_MATCH = UPCOMING_MATCHES[0];
 
   return (
     <div className={styles.container}>
@@ -60,21 +59,21 @@ const index: NextPage<IProps> = ({ handleSection }) => {
 
       <hr />
       <section>
-        {RUNNING && <div className={styles.live} />}
+        {UPCOMING_MATCH.isRunning && <div className={styles.live} />}
         {UPCOMING_MATCH ? (
           <>
             <p>Next Game</p>
             <div className={styles.upcomingMatch}>
               <TeamLogo
                 componentMode={ETeamComponentMode.COLUMN}
-                teamLogo={HISTORIC_MATCH.opponents[0].opponent.image_url}
-                teamName={HISTORIC_MATCH.opponents[0].opponent.name}
+                teamLogo={UPCOMING_MATCH.opponents[0].opponent.image_url}
+                teamName={UPCOMING_MATCH.opponents[0].opponent.name}
               />
               <p>vs</p>
               <TeamLogo
                 componentMode={ETeamComponentMode.COLUMN}
-                teamLogo={HISTORIC_MATCH.opponents[1].opponent.image_url}
-                teamName={HISTORIC_MATCH.opponents[1].opponent.name}
+                teamLogo={UPCOMING_MATCH.opponents[1].opponent.image_url}
+                teamName={UPCOMING_MATCH.opponents[1].opponent.name}
               />
             </div>
             <button

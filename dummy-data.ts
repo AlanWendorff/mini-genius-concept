@@ -41,7 +41,7 @@ export const PLAYERS = [
   },
 ];
 
-export const LAST_FIVE_GAMES = ["W", "W", "L", "W", "L"];
+export const LAST_FIVE_GAMES = ["L", "W", "W", "W", "W"];
 
 export const HISTORIC_MATCHES = [
   {
@@ -2944,5 +2944,68 @@ export const HISTORIC_MATCHES = [
       },
     ],
     official_stream_url: "https://www.twitch.tv/ESL_CSGOb",
+  },
+];
+
+export const UPCOMING_MATCHES = [
+  {
+    status: "not_started",
+    isRunning: false,
+    stage: "Group A",
+    bestOf: "Best of 1",
+    league: {
+      image_url:
+        "https://cdn.pandascore.co/images/league/image/4471/600px-FiRe_Logo.png",
+      name: "FiReLEAGUE",
+      id: 4471,
+      colors: {
+        LightVibrant: "#eb8d8d",
+        Vibrant: "#dc3434",
+        DarkVibrant: "#711313",
+      },
+    },
+    serie: {
+      full_name: "Latin Power Fall 2022",
+    },
+    tournament: {
+      league_id: 4471,
+    },
+    begin_at: "2022-09-15T18:10:00Z",
+    id: 648483,
+    opponents: [
+      {
+        opponent: {
+          id: 126709,
+          name: "9z",
+          image_url:
+            "https://cdn.pandascore.co/images/team/image/126709/9996.png",
+          colors: {
+            DarkVibrant: "#44248b",
+          },
+        },
+      },
+      {
+        opponent: {
+          id: 129269,
+          name: "Mad Kings",
+          image_url:
+            "https://cdn.pandascore.co/images/team/image/129269/147px_mad_kings_csgo.png",
+          colors: {
+            DarkVibrant: "#056180",
+          },
+        },
+      },
+    ],
+    results: [
+      {
+        score: 0,
+        team_id: 126709,
+      },
+      {
+        score: 0,
+        team_id: 129269,
+      },
+    ],
+    official_stream_url: null,
   },
 ];

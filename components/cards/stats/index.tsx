@@ -16,7 +16,7 @@ const index: NextPage = () => {
           Winrate: <span>70.00%</span>
         </p>
         <p>
-          Winstrike: <span>2</span>
+          Winstrike: <span>0</span>
         </p>
       </section>
       <section className={styles.lastFive} title="Last 5 games">

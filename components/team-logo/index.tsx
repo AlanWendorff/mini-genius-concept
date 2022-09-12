@@ -13,20 +13,28 @@ interface IProps {
   componentMode: ETeamComponentMode.ROW | ETeamComponentMode.COLUMN;
   teamLogo: string | undefined | null;
   teamName: string | null;
+  big?: boolean;
 }
 
-const index: NextPage<IProps> = ({ componentMode, teamLogo, teamName }) => (
+const index: NextPage<IProps> = ({
+  componentMode,
+  teamLogo,
+  teamName,
+  big,
+}) => (
   <div className={COMPONENT_MODE[componentMode]}>
     <Image
       src={logoValidator(teamLogo)}
-      width={50}
-      height={50}
+      width={big ? 190 : 50}
+      height={big ? 190 : 50}
       objectFit="contain"
       loading="lazy"
       draggable="false"
     />
 
-    <p className={styles.teamName}>{nameValidator(teamName)}</p>
+    <p className={`${styles.teamName} ${big && styles.bigLetters}`}>
+      {nameValidator(teamName)}
+    </p>
   </div>
 );
 

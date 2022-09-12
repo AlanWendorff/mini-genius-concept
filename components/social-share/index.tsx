@@ -16,7 +16,11 @@ const SOCIAL_STATES = {
   false: styles.hide,
 };
 
-const index: NextPage = () => {
+interface IProps {
+  distanceOfSocials?: number;
+}
+
+const index: NextPage<IProps> = ({ distanceOfSocials }) => {
   const [showSocials, setShowSocials] = useState(false);
 
   return (
@@ -28,7 +32,10 @@ const index: NextPage = () => {
         <ShareVariantIcon size={"20px"} />
       </button>
 
-      <div className={SOCIAL_STATES[`${showSocials}`]}>
+      <div
+        className={SOCIAL_STATES[`${showSocials}`]}
+        style={{ transform: `translate(-${distanceOfSocials ?? 200}%, -75%)` }}
+      >
         <FacebookShareButton
           url={`${window.location.href}`}
           hashtag="#csgo"
