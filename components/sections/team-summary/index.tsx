@@ -5,11 +5,11 @@ import Roster from "@cards/roster";
 
 const index: NextPage = () => {
   return (
-    <div>
+    <>
       <Stats />
       <MatchSummary />
       <Roster />
-    </div>
+    </>
   );
 };
 

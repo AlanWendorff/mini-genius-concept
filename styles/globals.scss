@@ -10,7 +10,6 @@
 html,
 body {
   @include mixins.flex_container(row, center, flex-start);
-  height: 100%;
   background-color: colors.$brand-dark;
   padding: 0;
   margin: 0;
@@ -19,7 +18,7 @@ body {
 #__next {
   @include mixins.flex_container(column, flex-start, center);
   width: var.$web-width;
-  height: 100%;
+  padding-bottom: 1rem;
 }
 
 @font-face {
@@ -50,4 +49,10 @@ a {
 
 p {
   margin: 0;
+}
+
+button {
+  cursor: crosshair;
+  background-color: transparent;
+  border: none;
 }

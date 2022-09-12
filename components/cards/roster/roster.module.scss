@@ -24,11 +24,11 @@
     .player {
       @include mixins.flex_container(column, flex-start, center);
       background-color: colors.$brand-ice;
-      border-radius: 7px;
+      border-radius: 0.438rem;
       width: 17rem;
       height: 16.2rem;
-      margin: 8px;
-      padding: 10px 0;
+      margin: 0.5rem;
+      padding: 0.625rem 0;
       /*  box-shadow: rgb(0 0 0 / 75%) 0px 0px 5px 0px; */
 
       .imageContainer {
@@ -39,8 +39,8 @@
         .backgroundLogo {
           position: absolute;
           top: 0;
-          -webkit-filter: blur(2px);
-          filter: blur(2px);
+          -webkit-filter: blur(0.125rem);
+          filter: blur(0.125rem);
           z-index: 0;
         }
 
@@ -64,7 +64,7 @@
         @include mixins.flex_container(row, center, center);
 
         p {
-          margin-right: 10px;
+          margin-right: 0.625rem;
         }
       }
     }
