@@ -23,6 +23,7 @@ const index: NextPage<IProps> = ({ componentMode, teamLogo, teamName }) => (
       height={50}
       objectFit="contain"
       loading="lazy"
+      draggable="false"
     />
 
     <p className={styles.teamName}>{nameValidator(teamName)}</p>

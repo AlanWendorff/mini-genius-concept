@@ -22,12 +22,14 @@ const index: NextPage = () => {
                   height={180}
                   objectFit="contain"
                   loading="lazy"
+                  draggable="false"
                 />
                 <img
                   className={styles.playerImage}
                   src={image_url}
                   alt={`player pic ${name}`}
                   loading="lazy"
+                  draggable="false"
                 />
               </div>
 
