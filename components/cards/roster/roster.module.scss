@@ -51,18 +51,13 @@
       }
 
       .playerName {
+        @include mixins.flex_container(row, center, center);
+        width: 100%;
         margin: 0.5rem 0;
+        font-family: fonts.$gilroy-extra-bold;
 
         span {
-          font-family: fonts.$gilroy-extra-bold;
-        }
-      }
-
-      .nationality {
-        @include mixins.flex_container(row, center, center);
-
-        p {
-          margin-right: 0.625rem;
+          margin-left: 0.625rem;
         }
       }
     }

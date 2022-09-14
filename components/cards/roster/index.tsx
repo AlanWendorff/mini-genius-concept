@@ -1,10 +1,14 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import { getCountryFlag, getCountryName } from "@services/country.api";
-import { PLAYERS } from "dummy-data";
+import { PLAYERS } from "data/roster";
 import styles from "./roster.module.scss";
 
-const index: NextPage = () => {
+interface IProps {
+  roster: any[];
+}
+
+const index: NextPage<IProps> = ({ roster }) => {
   return (
     <div className={styles.container}>
       <h1>Roster of 9z</h1>
@@ -34,26 +38,32 @@ const index: NextPage = () => {
               </div>
 
               <p className={styles.playerName}>
-                {first_name} <span>"{name}"</span> {last_name}
-              </p>
-
-              <div className={styles.nationality}>
-                <p>{/* getCountryName(nationality) */} Country name</p>
                 <Image
-                  className={styles.backgroundLogo}
                   src={getCountryFlag(nationality)}
                   width={24}
                   height={24}
+                  title={nationality}
                   objectFit="contain"
                   loading="lazy"
                 />
-              </div>
+                <span>"{name}"</span>
+              </p>
+
+              <p>
+                {first_name} {last_name}
+              </p>
             </div>
           )
         )}
       </div>
     </div>
   );
+};
+
+export const getStaticProps = () => {
+  return {
+    props: { roster: PLAYERS },
+  };
 };
 
 export default index;
