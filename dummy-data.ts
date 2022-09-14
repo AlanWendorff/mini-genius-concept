@@ -2950,7 +2950,6 @@ export const HISTORIC_MATCHES = [
 export const UPCOMING_MATCHES = [
   {
     status: "not_started",
-    isRunning: false,
     stage: "Group A",
     bestOf: "Best of 1",
     league: {
@@ -3004,6 +3003,64 @@ export const UPCOMING_MATCHES = [
       {
         score: 0,
         team_id: 129269,
+      },
+    ],
+    official_stream_url: null,
+  },
+  {
+    status: "not_started",
+    stage: "Round 1",
+    bestOf: "Best of 1",
+    league: {
+      image_url: null,
+      name: "IEM",
+      id: 4161,
+      colors: {
+        LightVibrant: "#8bbcd8",
+        Vibrant: "#248ccc",
+        DarkVibrant: "#0c74b4",
+      },
+    },
+    serie: {
+      full_name: "Road to Rio: Americas RMR 2022",
+    },
+    tournament: {
+      league_id: 4161,
+    },
+    begin_at: "2022-10-05T10:00:00Z",
+    id: 649081,
+    opponents: [
+      {
+        opponent: {
+          id: 129501,
+          name: "00 Nation",
+          image_url:
+            "https://cdn.pandascore.co/images/team/image/129501/64px_00_nation_lightmode.png",
+          colors: {
+            DarkVibrant: "#424242",
+          },
+        },
+      },
+      {
+        opponent: {
+          id: 126709,
+          name: "9z",
+          image_url:
+            "https://cdn.pandascore.co/images/team/image/126709/9996.png",
+          colors: {
+            DarkVibrant: "#44248b",
+          },
+        },
+      },
+    ],
+    results: [
+      {
+        score: 0,
+        team_id: 129501,
+      },
+      {
+        score: 0,
+        team_id: 126709,
       },
     ],
     official_stream_url: null,
