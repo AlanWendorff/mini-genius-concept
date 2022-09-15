@@ -10,8 +10,18 @@ const index: NextPage = () => {
       <h1>Roster of 9z</h1>
       <div className={styles.roster}>
         {PLAYERS.map(
-          ({ first_name, image_url, last_name, name, nationality }) => (
-            <div className={styles.player} key={name}>
+          ({
+            first_name,
+            image_url,
+            last_name,
+            name,
+            nationality,
+            isBenched,
+          }) => (
+            <div
+              className={`${styles.player} ${isBenched && styles.benched}`}
+              key={name}
+            >
               <div className={styles.imageContainer}>
                 <Image
                   className={styles.backgroundLogo}
@@ -48,6 +58,8 @@ const index: NextPage = () => {
               <p>
                 {first_name} {last_name}
               </p>
+
+              {isBenched && <p className={styles.benchedTxt}>Benched</p>}
             </div>
           )
         )}

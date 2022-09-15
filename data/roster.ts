@@ -18,10 +18,10 @@ export const PLAYERS = [
   {
     nationality: "AR",
     image_url:
-      "https://img-cdn.hltv.org/playerbodyshot/9SQEouJaO9QXN6brYLXjq-.png?ixlib=java-2.1.0&w=400&s=63dc900c6e769ef4f171e9c843c51aa6",
-    name: "rox",
-    first_name: "Martin",
-    last_name: "Molina",
+      "https://img-cdn.hltv.org/playerbodyshot/fYMYFO-kIyyXjE27Y2sN5_.png?ixlib=java-2.1.0&w=400&s=9c35b2e3724a10f4429025d002b4e424",
+    name: "buda",
+    first_name: "Nicolás",
+    last_name: "Kramer",
   },
   {
     nationality: "CL",
@@ -38,5 +38,14 @@ export const PLAYERS = [
     name: "nqz",
     first_name: "Lucas",
     last_name: "Soarez",
+  },
+  {
+    nationality: "AR",
+    image_url:
+      "https://img-cdn.hltv.org/playerbodyshot/9SQEouJaO9QXN6brYLXjq-.png?ixlib=java-2.1.0&w=400&s=63dc900c6e769ef4f171e9c843c51aa6",
+    name: "rox",
+    first_name: "Martin",
+    last_name: "Molina",
+    isBenched: true,
   },
 ];

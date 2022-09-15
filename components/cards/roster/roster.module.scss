@@ -9,6 +9,7 @@
   border-radius: 1.25rem;
   overflow: hidden;
   color: colors.$team-violet-dark;
+  padding-bottom: 2rem;
 
   h1 {
     margin: 2rem 0 1.5rem 0;
@@ -19,6 +20,10 @@
     flex-wrap: wrap;
     width: 100%;
     font-size: 0.938rem;
+
+    .benched {
+      opacity: 0.3;
+    }
 
     .player {
       @include mixins.flex_container(column, flex-start, center);
@@ -59,6 +64,11 @@
         span {
           margin-left: 0.625rem;
         }
+      }
+
+      .benchedTxt {
+        font-family: fonts.$gilroy-extra-bold;
+        margin-top: 0.5rem;
       }
     }
   }
