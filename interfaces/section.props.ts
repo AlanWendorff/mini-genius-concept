@@ -1,8 +1,8 @@
 import { TSections } from "types/sections";
 
-interface IProps {
+export interface IHandleSelection {
   section?: TSections;
   handleSection: (section: TSections) => void;
 }
 
-export default IProps;
+export default IHandleSelection;
