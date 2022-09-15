@@ -23,7 +23,6 @@ interface IProps {
 
 const index: NextPage<IProps> = ({ distanceOfSocials, msg }) => {
   const [showSocials, setShowSocials] = useState(false);
-  console.log(msg);
 
   return (
     <div className={styles.container}>
