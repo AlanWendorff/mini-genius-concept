@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import { getCountryFlag, getCountryName } from "@services/country.api";
+import { getCountryFlag } from "@services/country.api";
 import { PLAYERS } from "data/roster";
 import styles from "./roster.module.scss";
 
