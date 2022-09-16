@@ -107,3 +107,6 @@ dist
 
 # Build folder
 build/
+
+# Env
+.env
