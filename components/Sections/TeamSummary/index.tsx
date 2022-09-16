@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import Stats from "@components/Cards/Statsss";
+import Stats from "@components/Cards/Stats";
 import MatchSummary from "@components/Cards/MatchSummary";
-import Roster from "@components/Cards/Rosterrr";
+import Roster from "@components/Cards/Roster";
 import { TMatch, TStats } from "types/api";
 import { IHandleSelection } from "@interfaces/section.props";
 
