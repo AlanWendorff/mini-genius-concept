@@ -10,7 +10,7 @@ const HistoricMatchesMapper: NextPage<IProps> = ({ historic_matches }) => (
   <>
     {historic_matches.map((match) => (
       /*  <HistoricMatch key={match.id} match={match} /> */
-      <div></div>
+      <div key={match.id}></div>
     ))}
   </>
 );
