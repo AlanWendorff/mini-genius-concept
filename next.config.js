@@ -1,5 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const runtimeCaching = require("next-pwa/cache");
+
+const withPWA = require("next-pwa")({
+  dest: "public",
+  register: true,
+  skipWaiting: true,
+  runtimeCaching,
+});
+
+module.exports = withPWA({
   reactStrictMode: true,
   swcMinify: true,
   images: {
@@ -9,6 +17,4 @@ const nextConfig = {
       "purecatamphetamine.github.io",
     ],
   },
-};
-
-module.exports = nextConfig;
+});
