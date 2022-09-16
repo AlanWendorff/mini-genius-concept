@@ -54,8 +54,6 @@ const MainFrame: NextPage<IProps> = ({
 };
 
 export const getStaticProps = async () => {
-  console.log("re-generating");
-
   const matches = await getTeamMatches();
 
   return {
