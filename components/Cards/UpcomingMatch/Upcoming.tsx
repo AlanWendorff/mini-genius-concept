@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Moment from "moment";
-import TeamLogo from "../../team-logo";
-import SocialShare from "../../ui/social-share";
+import TeamLogo from "../../TeamLogo";
+import SocialShare from "../../Ui/SocialShare";
 import { createUpcomingMsg } from "@utils/social-share";
 import { ETeamComponentMode } from "@constants/enums";
 import IProps from "interfaces/match.props";
@@ -9,7 +9,7 @@ import TrophyOutlineIcon from "mdi-react/TrophyOutlineIcon";
 import FormatListGroupIcon from "mdi-react/FormatListGroupIcon";
 import CalendarClockIcon from "mdi-react/CalendarClockIcon";
 import TrophyAwardIcon from "mdi-react/TrophyAwardIcon";
-import styles from "./match.module.scss";
+import styles from "./Match.module.scss";
 
 const Upcoming: NextPage<IProps> = ({ match }) => {
   const {

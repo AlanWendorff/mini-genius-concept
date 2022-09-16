@@ -4,7 +4,7 @@ import { ESection } from "@constants/enums";
 import IProps from "@interfaces/section.props";
 import HistoryIcon from "mdi-react/HistoryIcon";
 import MAIN_LOGO from "@assets/images/9z-logo.webp";
-import styles from "./top-bar.module.scss";
+import styles from "./TopBar.module.scss";
 
 const TopBar: NextPage<IProps> = ({ section, handleSection }) => {
   return (

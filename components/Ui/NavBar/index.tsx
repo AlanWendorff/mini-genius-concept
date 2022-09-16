@@ -5,7 +5,7 @@ import activeClassName from "./navigation.validate";
 import { ALL_MATCHES, MAIN_PAGE } from "@constants/routes";
 import CardsIcon from "mdi-react/CardsIcon";
 import AccountGroupIcon from "mdi-react/AccountGroupIcon";
-import styles from "./nav-bar.module.scss";
+import styles from "./NavBar.module.scss";
 
 const NavBar: NextPage = () => {
   const { pathname } = useRouter();

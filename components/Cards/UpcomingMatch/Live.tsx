@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Moment from "moment";
-import TeamLogo from "../../team-logo";
-import SocialShare from "../../ui/social-share";
+import TeamLogo from "../../TeamLogo";
+import SocialShare from "../../Ui/SocialShare";
 import { isMatchFinal } from "@utils/tournament.validate";
 import { createLiveMsg } from "@utils/social-share";
 import { resultValidator } from "@utils/team.validate";
@@ -10,7 +10,7 @@ import IProps from "interfaces/match.props";
 import TrophyOutlineIcon from "mdi-react/TrophyOutlineIcon";
 import CalendarClockIcon from "mdi-react/CalendarClockIcon";
 import TwitchIcon from "mdi-react/TwitchIcon";
-import styles from "./match.module.scss";
+import styles from "./Match.module.scss";
 
 const Live: NextPage<IProps> = ({ match }) => {
   const {

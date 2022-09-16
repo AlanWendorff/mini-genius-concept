@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import HistoricMatch from "../../cards/historic-match";
+import HistoricMatch from "../../Cards/HistoricMatch";
 import { TMatch } from "types/api";
 
 interface IProps {
