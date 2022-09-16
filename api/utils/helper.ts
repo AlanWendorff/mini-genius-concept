@@ -1,13 +1,13 @@
 import { TEAM_ID } from "@constants/api";
 import IMatchMapped, {
   IMatchPandaScore,
-  TOpponent,
+  IOpponent,
 } from "@api/interfaces/match";
 import logo_unknown from "@assets/images/logo-unknown.webp";
 import logo_team_to_be_defined from "@assets/images/team-tbd.webp";
 
-const opponentValidate = (opponent: TOpponent) => {
-  if (!opponent) {
+const opponentValidate = (opponents: IOpponent) => {
+  if (!opponents) {
     return {
       id: 0,
       name: "To be defined",
@@ -16,9 +16,9 @@ const opponentValidate = (opponent: TOpponent) => {
   }
 
   return {
-    id: opponent.id,
-    name: opponent.name,
-    image_url: opponent.image_url ?? logo_unknown.src,
+    id: opponents.opponent.id,
+    name: opponents.opponent.name,
+    image_url: opponents.opponent.image_url ?? logo_unknown.src,
   };
 };
 
@@ -49,29 +49,6 @@ export const makeStatistics = (HISTORIC_MATCHES: IMatchMapped[]) => {
     win_rate: WIN_RATE,
   };
 };
-
-/* export const playingStage = (results) => {
-  let mapPlaying;
-  if (results[0].score === 0 && results[1].score === 0) {
-    mapPlaying = " - Playing 1st map";
-  } else if (
-    (results[0].score === 1 && results[1].score === 0) ||
-    (results[0].score === 0 && results[1].score === 1)
-  ) {
-    mapPlaying = " - Playing 2th map";
-  } else {
-    mapPlaying = " - Playing 3th map";
-  }
-  if (
-    (results[0].score === 2 && results[1].score === 1) ||
-    (results[0].score === 1 && results[1].score === 2)
-  ) {
-    mapPlaying = " - Playing 4th map";
-  } else if (results[0].score === 2 && results[1].score === 2) {
-    mapPlaying = " - Playing 5th map";
-  }
-  return mapPlaying;
-}; */
 
 export const matchesMapper = (MATCHES: IMatchPandaScore[]) =>
   MATCHES.map((MATCH) => {
@@ -104,11 +81,34 @@ export const matchesMapper = (MATCHES: IMatchPandaScore[]) =>
       serie_name: serie.full_name,
       winner_id: winner ? winner.id : null,
       opponents: [
-        opponentValidate(opponents[0].opponent),
+        opponentValidate(opponents[0]),
 
-        opponentValidate(opponents[1].opponent),
+        opponentValidate(opponents[1]),
       ],
       results: results,
       official_stream_url: official_stream_url,
     };
   });
+
+/* export const playingStage = (results) => {
+  let mapPlaying;
+  if (results[0].score === 0 && results[1].score === 0) {
+    mapPlaying = " - Playing 1st map";
+  } else if (
+    (results[0].score === 1 && results[1].score === 0) ||
+    (results[0].score === 0 && results[1].score === 1)
+  ) {
+    mapPlaying = " - Playing 2th map";
+  } else {
+    mapPlaying = " - Playing 3th map";
+  }
+  if (
+    (results[0].score === 2 && results[1].score === 1) ||
+    (results[0].score === 1 && results[1].score === 2)
+  ) {
+    mapPlaying = " - Playing 4th map";
+  } else if (results[0].score === 2 && results[1].score === 2) {
+    mapPlaying = " - Playing 5th map";
+  }
+  return mapPlaying;
+}; */

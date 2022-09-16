@@ -9,7 +9,7 @@ export const createHistoricMsg = (
 ) =>
   `${opponents[0].name}: ${results[0].score} VS ${opponents[1].name}: ${
     results[1].score
-  } |  ${league_name + " " + serie_name} -> ${window.location.href}`;
+  } |  ${league_name + " " + serie_name} -> https://next-match-ez.vercel.app/`;
 
 export const createUpcomingMsg = (
   opponents: TOpponent[],
@@ -22,11 +22,14 @@ export const createUpcomingMsg = (
     opponents[1].name
   } | Best of ${number_of_games} | ${Moment(begin_at).format("Do")} ${Moment(
     begin_at
-  ).format("MMMM - H:mm")} hs | ${league_name + " " + serie_name} -> ${
-    window.location.href
-  }`;
+  ).format("MMMM - H:mm")} hs | ${
+    league_name + " " + serie_name
+  } -> https://next-match-ez.vercel.app/`;
 
 export const createLiveMsg = (
+  isLive: boolean,
+  begin_at: Date,
+  serie_name: string,
   opponents: TOpponent[],
   results: TResults[],
   number_of_games: number,
@@ -34,8 +37,16 @@ export const createLiveMsg = (
   official_stream_url: string | null,
   stage: string
 ) =>
-  `${opponents[0].name}: ${results[0].score} - ${opponents[1].name}: ${
-    results[1].score
-  } | Best of ${number_of_games} | ${league_name + " " + stage} -> ${
-    official_stream_url ?? "Stream not available :'("
-  }`;
+  isLive
+    ? `${opponents[0].name}: ${results[0].score} - ${opponents[1].name}: ${
+        results[1].score
+      } | Best of ${number_of_games} | ${league_name + " " + stage} -> ${
+        official_stream_url ?? "Stream not available :'("
+      }`
+    : `${opponents[0].name} VS ${
+        opponents[1].name
+      } | Best of ${number_of_games} | ${Moment(begin_at).format(
+        "Do"
+      )} ${Moment(begin_at).format("MMMM - H:mm")} hs | ${
+        league_name + " " + serie_name
+      } -> https://next-match-ez.vercel.app/`;
