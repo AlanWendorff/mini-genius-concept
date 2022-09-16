@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app";
 import NavBar from "@components/Ui/NavBar";
-import Web from "@components/Web";
+import Web from "@components/Webbb";
 import "@styles/globals.scss";
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
