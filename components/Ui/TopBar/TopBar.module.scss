@@ -9,6 +9,7 @@
   overflow: hidden;
 
   .on {
+    transition: background-color 0.3s ease-in-out;
     background-color: #474747;
   }
 

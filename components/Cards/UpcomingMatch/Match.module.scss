@@ -80,6 +80,7 @@
     @include mixins.flex_container(column, space-evenly, flex-start);
     width: 100%;
     padding-top: 0.5rem;
+    text-align: start;
 
     p {
       @include mixins.flex_container(row, flex-start, center);
