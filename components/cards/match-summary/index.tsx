@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import TeamLogo from "../../TeamLogo";
+import TeamLogo from "../../team-logo";
 import { resultValidator } from "@utils/team.validate";
 import { ETeamComponentMode, ESection } from "@constants/enums";
 import { TMatch } from "types/api";

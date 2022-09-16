@@ -1,10 +1,10 @@
 import { useState } from "react";
 import type { NextPage } from "next";
 import getTeamMatches from "@api/getters/team-matches/getTeamMatches";
-import TopBar from "@components/Ui/TopBar";
-import HistoricMatchesMapper from "@components/Sections/HistoricMatchesMapper";
-import TeamSummary from "@components/Sections/TeamSummary";
-import UpcomingMatchesMapper from "@components/Sections/UpcomingMatchesMapper";
+import TopBar from "@components/ui/top-bar";
+import HistoricMatchesMapper from "@components/sections/historic-matches-mapper";
+import TeamSummary from "@components/sections/team-summary";
+import UpcomingMatchesMapper from "@components/sections/upcoming-matches-mapper";
 import { ESection } from "@constants/enums";
 import { REVALIDATE_TIME } from "@constants/config";
 import { TSections } from "types/sections";

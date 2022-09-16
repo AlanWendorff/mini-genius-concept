@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Moment from "moment";
-import TeamLogo from "../../TeamLogo";
-import SocialShare from "../../Ui/SocialShare";
+import TeamLogo from "../../team-logo";
+import SocialShare from "../../ui/social-share";
 import { createUpcomingMsg } from "@utils/social-share";
 import { ETeamComponentMode } from "@constants/enums";
 import IProps from "interfaces/match.props";

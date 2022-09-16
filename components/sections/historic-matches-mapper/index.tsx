@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-//import HistoricMatch from "../../Cards/HistoricMatch";
+import HistoricMatch from "../../cards/historic-match";
 import { TMatch } from "types/api";
 
 interface IProps {
@@ -9,8 +9,7 @@ interface IProps {
 const HistoricMatchesMapper: NextPage<IProps> = ({ historic_matches }) => (
   <>
     {historic_matches.map((match) => (
-      /*  <HistoricMatch key={match.id} match={match} /> */
-      <div key={match.id}></div>
+      <HistoricMatch key={match.id} match={match} />
     ))}
   </>
 );

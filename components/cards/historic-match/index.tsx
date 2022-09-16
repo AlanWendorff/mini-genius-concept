@@ -1,8 +1,8 @@
 import { useState } from "react";
 import type { NextPage } from "next";
 import Moment from "moment";
-import TeamLogo from "../../TeamLogo";
-import SocialShare from "../../Ui/SocialShare";
+import TeamLogo from "../../team-logo";
+import SocialShare from "../../ui/social-share";
 import { createHistoricMsg } from "@utils/social-share";
 import { isMatchFinal } from "@utils/tournament.validate";
 import { resultValidator } from "@utils/team.validate";
