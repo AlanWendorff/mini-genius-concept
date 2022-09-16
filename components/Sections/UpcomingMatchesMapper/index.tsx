@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
-import UpcomingMatch from "../../Cards/UpcomingMatch/Upcoming";
-import LiveMatch from "../../Cards/UpcomingMatch/Live";
+import UpcomingMatch from "../../Cards/upcoming-match/Upcoming";
+import LiveMatch from "../../Cards/upcoming-match/Live";
 import { TMatch } from "types/api";
 
 interface IProps {
