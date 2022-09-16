@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import getAllMatches from "@api/getters/all-matches/getAllMatches";
-import UpcomingMatch from "@components/Cards/UpcomingMatch/Live";
+import UpcomingMatch from "@components/cards/upcoming-match/Live";
 import { REVALIDATE_TIME } from "@constants/config";
 import { TMatch } from "types/api";
 import styles from "../MainFrame.module.scss";
