@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import { getCountryFlag } from "@services/country.api";
-import { REVALIDATE_TIME } from "@constants/config";
 import { PLAYERS } from "data/roster";
 import styles from "./Roster.module.scss";
 
@@ -74,7 +73,6 @@ const Roster: NextPage = () => (
 export const getStaticProps = () => {
   return {
     props: { roster: PLAYERS },
-    revalidate: REVALIDATE_TIME,
   };
 };
 

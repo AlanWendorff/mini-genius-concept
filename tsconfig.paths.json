@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "forceConsistentCasingInFileNames": false,
+
     "baseUrl": "./",
     "paths": {
       "@assets/*": ["public/assets/*"],
