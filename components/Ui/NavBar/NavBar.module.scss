@@ -12,31 +12,31 @@
 
   .navBar {
     @include mixins.flex_container(row, space-between, center);
-    height: 100%;
-    width: 8rem;
-    padding: 0 0.7rem;
+    height: auto;
+    width: auto;
+    padding: 0.7rem 0;
     margin-bottom: 2rem;
     background-color: #c7cce6;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 
-    .default {
+    .default,
+    .active {
       @include mixins.flex_container(row, center, center);
-      width: 3rem;
-      height: 3rem;
+      width: 3.5rem;
+      height: 3.5rem;
       padding: 0.35rem;
       cursor: crosshair;
+      margin: 0 0.7rem;
+    }
+
+    .default {
       color: #41278d;
       transition: color 0.2s ease-in-out;
     }
 
     .active {
-      @include mixins.flex_container(row, center, center);
-      width: 3rem;
-      height: 3rem;
-      padding: 0.35rem;
-      cursor: crosshair;
       background-color: #41278d;
-      border-radius: 10px;
+      border-radius: 0.9rem;
       color: #c7cce6;
       transition: background-color 0.2s ease-in-out;
     }
