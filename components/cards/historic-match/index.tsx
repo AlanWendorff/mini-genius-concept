@@ -12,7 +12,7 @@ import ChevronDownIcon from "mdi-react/ChevronDownIcon";
 import ChevronUpIcon from "mdi-react/ChevronUpIcon";
 import TrophyOutlineIcon from "mdi-react/TrophyOutlineIcon";
 import CalendarClockIcon from "mdi-react/CalendarClockIcon";
-import styles from "./HistoricMatch.module.scss";
+import styles from "./historic-match.module.scss";
 
 const HistoricMatch: NextPage<IProps> = ({ match }) => {
   const [detailState, setDetailState] = useState(false);

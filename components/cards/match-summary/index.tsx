@@ -5,7 +5,7 @@ import { ETeamComponentMode, ESection } from "@constants/enums";
 import { TMatch } from "types/api";
 import { IHandleSelection } from "@interfaces/section.props";
 import InformationOutlineIcon from "mdi-react/InformationOutlineIcon";
-import styles from "./MatchSummary.module.scss";
+import styles from "./match-summary.module.scss";
 
 interface IProps extends IHandleSelection {
   last_match: TMatch;

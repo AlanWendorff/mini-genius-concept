@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import { logoValidator, nameValidator } from "@utils/team.validate";
 import { ETeamComponentMode } from "@constants/enums";
-import styles from "./TeamLogo.module.scss";
+import styles from "./team-logo.module.scss";
 
 const COMPONENT_MODE = {
   [ETeamComponentMode.ROW]: styles.containerRow,

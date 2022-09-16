@@ -9,7 +9,7 @@ import { ESection } from "@constants/enums";
 import { REVALIDATE_TIME } from "@constants/config";
 import { TSections } from "types/sections";
 import { TMatch, TStats } from "types/api";
-import styles from "./MainFrame.module.scss";
+import styles from "./main-frame.module.scss";
 
 interface IProps {
   historic_matches: TMatch[];

@@ -10,7 +10,7 @@ import IProps from "interfaces/match.props";
 import TrophyOutlineIcon from "mdi-react/TrophyOutlineIcon";
 import CalendarClockIcon from "mdi-react/CalendarClockIcon";
 import TwitchIcon from "mdi-react/TwitchIcon";
-import styles from "./Match.module.scss";
+import styles from "./match.module.scss";
 
 const Live: NextPage<IProps> = ({ match }) => {
   const {

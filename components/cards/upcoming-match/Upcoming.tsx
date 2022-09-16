@@ -9,7 +9,7 @@ import TrophyOutlineIcon from "mdi-react/TrophyOutlineIcon";
 import FormatListGroupIcon from "mdi-react/FormatListGroupIcon";
 import CalendarClockIcon from "mdi-react/CalendarClockIcon";
 import TrophyAwardIcon from "mdi-react/TrophyAwardIcon";
-import styles from "./Match.module.scss";
+import styles from "./match.module.scss";
 
 const Upcoming: NextPage<IProps> = ({ match }) => {
   const {

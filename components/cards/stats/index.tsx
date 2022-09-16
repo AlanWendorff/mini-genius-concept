@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { TStats } from "types/api";
 import TLastFiveStyle from "types/stats";
-import styles from "./Stats.module.scss";
+import styles from "./stats.module.scss";
 
 const lastFiveStyle: TLastFiveStyle = {
   W: styles.winnedGame,

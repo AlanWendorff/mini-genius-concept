@@ -9,7 +9,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
-import styles from "./SocialShare.module.scss";
+import styles from "./social-share.module.scss";
 
 const SOCIAL_STATES = {
   true: styles.social,

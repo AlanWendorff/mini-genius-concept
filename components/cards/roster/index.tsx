@@ -3,7 +3,7 @@ import Image from "next/image";
 import { getCountryFlag } from "@services/country.api";
 import { REVALIDATE_TIME } from "@constants/config";
 import { PLAYERS } from "data/roster";
-import styles from "./Roster.module.scss";
+import styles from "./roster.module.scss";
 
 const Roster: NextPage = () => (
   <div className={styles.container}>
