@@ -4,6 +4,7 @@ import TeamLogo from "../../TeamLogo";
 import SocialShare from "../../Ui/SocialShare";
 import { createUpcomingMsg } from "@utils/social-share";
 import { ETeamComponentMode } from "@constants/enums";
+import { TEAM_ID } from "@constants/api";
 import IProps from "interfaces/match.props";
 import TrophyOutlineIcon from "mdi-react/TrophyOutlineIcon";
 import FormatListGroupIcon from "mdi-react/FormatListGroupIcon";
@@ -21,13 +22,15 @@ const Upcoming: NextPage<IProps> = ({ match }) => {
     stage,
   } = match;
 
+  const EXACT_INDEX = opponents[0].id !== TEAM_ID ? 0 : 1;
+
   return (
     <div className={styles.containerUpcoming}>
       <div className={styles.team}>
         <TeamLogo
           componentMode={ETeamComponentMode.COLUMN}
-          teamLogo={`${opponents[0].image_url}`}
-          teamName={opponents[0].name}
+          teamLogo={`${opponents[EXACT_INDEX].image_url}`}
+          teamName={opponents[EXACT_INDEX].name}
           big
         />
       </div>
