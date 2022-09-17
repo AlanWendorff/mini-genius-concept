@@ -2,9 +2,36 @@ import { TEAM_ID } from "@constants/api";
 import IMatchMapped, {
   IMatchPandaScore,
   IOpponent,
+  IResult,
 } from "@api/interfaces/match";
 import logo_unknown from "@assets/images/logo-unknown.webp";
 import logo_team_to_be_defined from "@assets/images/team-tbd.webp";
+
+const whatMapArePlaying = (results: IResult[]) => {
+  let mapPlaying;
+
+  if (results[0].score === 0 && results[1].score === 0) {
+    mapPlaying = "1st";
+  } else if (
+    (results[0].score === 1 && results[1].score === 0) ||
+    (results[0].score === 0 && results[1].score === 1)
+  ) {
+    mapPlaying = "2nd";
+  } else {
+    mapPlaying = "3rd";
+  }
+
+  if (
+    (results[0].score === 2 && results[1].score === 1) ||
+    (results[0].score === 1 && results[1].score === 2)
+  ) {
+    mapPlaying = "4th";
+  } else if (results[0].score === 2 && results[1].score === 2) {
+    mapPlaying = "5th";
+  }
+
+  return mapPlaying;
+};
 
 const opponentValidate = (opponents: IOpponent) => {
   if (!opponents) {
@@ -80,6 +107,7 @@ export const matchesMapper = (MATCHES: IMatchPandaScore[]) =>
       league_name: league.name,
       serie_name: serie.full_name,
       winner_id: winner ? winner.id : null,
+      map_playing: results.length === 0 ? null : whatMapArePlaying(results),
       opponents: [
         opponentValidate(opponents[0]),
 
@@ -89,26 +117,3 @@ export const matchesMapper = (MATCHES: IMatchPandaScore[]) =>
       official_stream_url: official_stream_url,
     };
   });
-
-/* export const playingStage = (results) => {
-  let mapPlaying;
-  if (results[0].score === 0 && results[1].score === 0) {
-    mapPlaying = " - Playing 1st map";
-  } else if (
-    (results[0].score === 1 && results[1].score === 0) ||
-    (results[0].score === 0 && results[1].score === 1)
-  ) {
-    mapPlaying = " - Playing 2th map";
-  } else {
-    mapPlaying = " - Playing 3th map";
-  }
-  if (
-    (results[0].score === 2 && results[1].score === 1) ||
-    (results[0].score === 1 && results[1].score === 2)
-  ) {
-    mapPlaying = " - Playing 4th map";
-  } else if (results[0].score === 2 && results[1].score === 2) {
-    mapPlaying = " - Playing 5th map";
-  }
-  return mapPlaying;
-}; */

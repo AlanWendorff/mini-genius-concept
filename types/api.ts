@@ -7,6 +7,7 @@ export type TMatch = {
   league_name: string;
   serie_name: string;
   winner_id: number | null;
+  map_playing: string | null;
   opponents: TOpponent[];
   results: TResults[];
   official_stream_url: string | null;

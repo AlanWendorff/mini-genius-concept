@@ -7,6 +7,7 @@ interface IMatchMapped {
   league_name: string;
   serie_name: string;
   winner_id: number | null;
+  map_playing: string | null;
   opponents: TOpponent[];
   results: IResult[];
   official_stream_url: string | null;
@@ -108,7 +109,7 @@ interface ITeamClass {
   slug: string;
 }
 
-interface IResult {
+export interface IResult {
   score: number;
   team_id: number;
 }

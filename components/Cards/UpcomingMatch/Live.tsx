@@ -17,6 +17,7 @@ const Live: NextPage<IProps> = ({ match }) => {
     isLive,
     opponents,
     results,
+    map_playing,
     number_of_games,
     league_name,
     serie_name,
@@ -53,7 +54,10 @@ const Live: NextPage<IProps> = ({ match }) => {
             </p>
           )}
         </div>
-        <p>Best of {number_of_games}</p>
+        <p>
+          Best of {number_of_games}{" "}
+          {isLive && `- Playing the ${map_playing} map`}
+        </p>
       </div>
       <div className={styles.matchDetail}>
         <p>
