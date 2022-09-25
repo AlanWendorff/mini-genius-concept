@@ -1,4 +1,4 @@
-import { ESection } from "../constants/enums";
+import { ESection } from "../utils/constants/enums";
 
 export type TSections =
   | ESection.SUMMARY

@@ -3,19 +3,20 @@
 
     "baseUrl": "./",
     "paths": {
+      "@public/*": ["public/*"],
       "@assets/*": ["public/assets/*"],
       "@api/*": ["api/*"],
-      "@components/*": ["components/*"],
-      "@cards/*": ["components/cards/*"],
-      "@sections/*": ["components/sections/*"],
-      "@ui/*": ["components/ui/*"],
-      "@constants/*": ["constants/*"],
-      "@interfaces/*": ["interfaces/*"],
-      "@public/*": ["public/*"],
-      "@styles/*": ["styles/*"],
-      "@utils/*": ["utils/*"],
-      "@services/*": ["services/*"],
-      "@hooks/*": ["hooks/*"],
+      "@components/*": ["src/components/*"],
+      "@Cards/*": ["src/components/Cards/*"],
+      "@Sections/*": ["src/components/Sections/*"],
+      "@Ui/*": ["src/components/Ui/*"],
+      "@styles/*": ["src/styles/*"],
+      "@scripts/*": ["utils/scripts/*"],
+      "@services/*": ["utils/services/*"],
+      "@constants/*": ["utils/constants/*"],
+      "@interfaces/*": ["utils/interfaces/*"],
+      "@hooks/*": ["utils/hooks/*"],
+      "@data/*": ["utils/data/*"],
     }
   }
 }
