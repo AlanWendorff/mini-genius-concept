@@ -17,7 +17,7 @@ const AllMatches: NextPage<IProps> = ({ upcoming_matches }) => (
   </div>
 );
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const matches = await getAllMatches();
 
   return {

@@ -53,7 +53,7 @@ const MainFrame: NextPage<IProps> = ({
   );
 };
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const matches = await getTeamMatches();
 
   return {
