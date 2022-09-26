@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import getAllMatches from "@api/src/AllMatches/getAllMatches";
 import UpcomingMatch from "src/components/Cards/UpcomingMatch/Live";
-import { REVALIDATE_TIME } from "@constants/config";
+//import { REVALIDATE_TIME } from "@constants/config";
 import { TMatch } from "types/api";
 import styles from "../main-frame.module.scss";
 
@@ -22,7 +22,7 @@ export const getStaticProps = async () => {
 
   return {
     props: matches,
-    revalidate: REVALIDATE_TIME,
+    //revalidate: REVALIDATE_TIME,
   };
 };
 

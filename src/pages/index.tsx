@@ -6,7 +6,7 @@ import HistoricMatchesMapper from "src/components/Sections/HistoricMatchesMapper
 import TeamSummary from "src/components/Sections/TeamSummary";
 import UpcomingMatchesMapper from "src/components/Sections/UpcomingMatchesMapper";
 import { ESection } from "@constants/enums";
-import { REVALIDATE_TIME } from "@constants/config";
+//import { REVALIDATE_TIME } from "@constants/config";
 import { TSections } from "types/sections";
 import { TMatch, TStats } from "types/api";
 import styles from "./main-frame.module.scss";
@@ -58,7 +58,7 @@ export const getStaticProps = async () => {
 
   return {
     props: matches,
-    revalidate: REVALIDATE_TIME,
+    //revalidate: REVALIDATE_TIME,
   };
 };
 
