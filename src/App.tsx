@@ -4,7 +4,7 @@ import "./styles.css";
 
 const App = () => (
   <div className="container">
-    <h1>"What is behind JSX (React 16)"</h1>
+    <h1>What is behind JSX (React 16)</h1>
     <p>We will describe what is behind the JSX code.</p>
     <p>
       JSX is an HTML-like syntax that browsers don’t understand out of the box,
