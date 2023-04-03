@@ -1,0 +1,29 @@
+.container {
+  width: 31.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #c7cce6;
+  margin: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.2rem;
+  font-family: "Gilroy-ExtraBold", Arial, Helvetica, sans-serif;
+
+  a {
+    width: 13.875rem;
+    text-align: center;
+    text-decoration: none;
+    color: #c7cce6;
+    background-color: #41278d;
+    padding: 0.7rem 1rem;
+    border-radius: 2rem;
+    border: 0.3rem solid #41278d;
+    cursor: pointer;
+
+    &:hover {
+      color: #88248b;
+      background-color: #c7cce6;
+      border: 0.3rem solid #88248b;
+    }
+  }
+}

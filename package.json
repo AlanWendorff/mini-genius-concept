@@ -1,12 +1,14 @@
 {
-  "name": "react-component-types",
+  "name": "react-poo-vs-functional",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.2",
+    "react-router-dom": "^6.3.0",
+    "sass": "^1.54.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,6 +30,7 @@
   "devDependencies": {
     "@types/node": "^12.0.0",
     "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10"
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.1.7"
   }
 }
