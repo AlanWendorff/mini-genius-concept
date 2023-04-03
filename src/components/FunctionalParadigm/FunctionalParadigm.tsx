@@ -1,5 +1,5 @@
-import { ChangeEvent, FormEvent } from "react";
-import POSTForm from "../../services/POSTForm";
+import { ChangeEvent } from "react";
+import handleSubmit from "../../scripts/submitForm";
 import styles from "./FunctionalParadigm.module.scss";
 
 const FunctionalParadigm = () => {
@@ -16,14 +16,9 @@ const FunctionalParadigm = () => {
     };
   };
 
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    POSTForm(formData);
-  };
-
   return (
     <div className={styles.container}>
-      <form onSubmit={(e) => handleSubmit(e)}>
+      <form onSubmit={(e) => handleSubmit(e, formData)}>
         <label htmlFor="nick_name">
           Nick Name{" "}
           <input
