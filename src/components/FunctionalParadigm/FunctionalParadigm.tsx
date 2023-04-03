@@ -1,24 +1,30 @@
-import { ChangeEvent } from "react";
+import { ChangeEvent, useState } from "react";
+import ShowFormData from "../ShowFormData";
 import handleSubmit from "../../scripts/submitForm";
 import styles from "./FunctionalParadigm.module.scss";
 
 const FunctionalParadigm = () => {
-  let formData = {
+  const [submitted, setSubmitted] = useState(false);
+  const [formData, setFormData] = useState({
     nick_name: "",
     fav_game: "",
     fav_song: "",
-  };
+  });
 
   const handleSaveData = (e: ChangeEvent<HTMLInputElement>) => {
-    formData = {
+    setFormData({
       ...formData,
       [e.target.id]: e.target.value,
-    };
+    });
   };
 
   return (
     <div className={styles.container}>
-      <form onSubmit={(e) => handleSubmit(e, formData)}>
+      <form
+        onSubmit={(e) => {
+          handleSubmit(e, formData), setSubmitted(true);
+        }}
+      >
         <label htmlFor="nick_name">
           Nick Name{" "}
           <input
@@ -48,6 +54,8 @@ const FunctionalParadigm = () => {
 
         <button type="submit">SUBMIT</button>
       </form>
+
+      <ShowFormData submitted={submitted} formData={formData} />
     </div>
   );
 };

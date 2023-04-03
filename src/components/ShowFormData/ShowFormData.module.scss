@@ -1,0 +1,24 @@
+.containerHided {
+  bottom: 0;
+  position: absolute;
+}
+
+.containerShow {
+  position: absolute;
+  width: 31.5rem;
+  bottom: 0;
+  background-color: #c7cce6;
+  border-radius: 2rem;
+  padding: 1rem 1.2rem;
+  overflow: hidden;
+  transition: all 0.1s ease-in;
+  margin-bottom: 1rem;
+
+  h3 {
+    margin: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}

@@ -1,13 +1,15 @@
-import { ChangeEvent } from "react";
-import styles from "./ObjectParadigm.module.scss";
+import { ChangeEvent, useState } from "react";
+import ShowFormData from "../ShowFormData";
 import handleSubmit from "../../scripts/submitForm";
+import styles from "./ObjectParadigm.module.scss";
 
 const ObjectParadigm = () => {
-  let formData = {
+  const [submitted, setSubmitted] = useState(false);
+  const [formData, setFormData] = useState({
     nick_name: "",
     fav_game: "",
     fav_song: "",
-  };
+  });
 
   class FormField {
     id: string;
@@ -19,10 +21,10 @@ const ObjectParadigm = () => {
     }
 
     save(e: ChangeEvent<HTMLInputElement>) {
-      formData = {
+      setFormData({
         ...formData,
         [e.target.id]: e.target.value,
-      };
+      });
     }
 
     render() {
@@ -41,12 +43,17 @@ const ObjectParadigm = () => {
 
   return (
     <div className={styles.container}>
-      <form onSubmit={(e) => handleSubmit(e, formData)}>
+      <form
+        onSubmit={(e) => {
+          handleSubmit(e, formData), setSubmitted(true);
+        }}
+      >
         {renderNickName}
         {renderFavGame}
         {renderFavSong}
         <button type="submit">SUBMIT</button>
       </form>
+      <ShowFormData submitted={submitted} formData={formData} />
     </div>
   );
 };
