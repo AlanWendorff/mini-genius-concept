@@ -1,5 +1,3 @@
 ## ReactTs project example:
 
-### Object-oriented programming Paradigm
-
-### Functional programming Paradigm
+Object-oriented programming Paradigm and Functional programming Paradigm
