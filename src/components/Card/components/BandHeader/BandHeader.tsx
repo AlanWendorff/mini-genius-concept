@@ -27,9 +27,9 @@ const BandHeader = ({
 }: props) => {
   const backgroundColor = album
     ? `linear-gradient(${album.colors.primary}, ${album.colors.secondary})`
-    : `linear-gradient(#8e2a29, #6f2929)`;
+    : `linear-gradient(#6f2929, #222222)`;
 
-  const arrowColor = album ? album.colors.secondary : "#6f2929";
+  const arrowColor = album ? album.colors.secondary : "#222222";
 
   return (
     <div
