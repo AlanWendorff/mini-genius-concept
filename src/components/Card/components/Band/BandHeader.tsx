@@ -22,14 +22,31 @@ const BandHeader = ({
 }: props) => (
   <div className={styles.container}>
     <motion.img
-      draggable={false}
-      style={{ x, y, rotateX, rotateY, z: 10000 }}
       className={styles.image}
+      style={{ x, y, rotateX, rotateY, z: 10000 }}
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
+      draggable={false}
       src={image}
       alt="header image"
     />
-    <h1>{title}</h1>
-    <p className={styles.subtitle}>{subtitle}</p>
+    <div className={styles.bandName}>
+      <motion.h1
+        initial={{ x: -300 }}
+        animate={{ x: 0 }}
+        transition={{ type: "tween" }}
+      >
+        {title}
+      </motion.h1>
+      <motion.p
+        className={styles.subtitle}
+        initial={{ x: -300 }}
+        animate={{ x: 0 }}
+        transition={{ type: "tween" }}
+      >
+        {subtitle}
+      </motion.p>
+    </div>
   </div>
 );
 
