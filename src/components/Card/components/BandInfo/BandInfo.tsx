@@ -1,20 +1,24 @@
 import styles from "./BandInfo.module.scss";
 import { motion } from "framer-motion";
-import ALBUMS from "./data";
+import ALBUMS from "../../../../data/data";
 import { useEffect } from "react";
 
-const variants = {
-  onImageHover: {
-    scale: 0.9,
-  },
-};
+interface props {
+  handleAlbum: (id: number) => void;
+}
 
-const BandInfo = () => {
+const BandInfo = ({ handleAlbum }: props) => {
   const description =
-    "DVSR are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.";
+    " are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.";
 
   let i = 0;
   let speed = 10;
+
+  const variants = {
+    onImageHover: {
+      scale: 0.9,
+    },
+  };
 
   function typeWriter() {
     let timeout;
@@ -43,8 +47,7 @@ const BandInfo = () => {
         <h3>About “DVSR“</h3>
 
         <p id="description">
-          {/* <span>DVSR</span> are a fusion of Rap/Hip Hop and Metal. Combing these
-          two styles to create one of its own. */}
+          <span>DVSR</span>
         </p>
       </div>
 
@@ -56,6 +59,7 @@ const BandInfo = () => {
               key={id}
               className={styles.album}
               whileHover="onImageHover"
+              onClick={() => handleAlbum(id)}
             >
               <motion.img
                 variants={variants}

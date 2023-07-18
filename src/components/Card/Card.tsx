@@ -1,10 +1,13 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import IMAGE from "../../assets/images/dvsr-logo.jpg";
 import styles from "./Card.module.scss";
-import BandHeader from "./components/Band/BandHeader";
+import BandHeader from "./components/BandHeader/BandHeader";
 import BandInfo from "./components/BandInfo/BandInfo";
+import useChangeContent from "./useChangeContent";
+import AlbumSongs from "./components/AlbumSongs/AlbumSongs";
 
 const Card = () => {
+  const { album, handleAlbum, handleMenu } = useChangeContent();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const rotateX = useTransform(y, [-100, 100], [30, -30]);
@@ -27,6 +30,8 @@ const Card = () => {
       whileTap={{ cursor: "grabbing" }}
     >
       <BandHeader
+        album={album}
+        handleMenu={handleMenu}
         title="DVSR"
         subtitle="AKA: Designed via Strength & Respect, Devastator"
         x={x}
@@ -35,8 +40,11 @@ const Card = () => {
         rotateY={rotateY}
         image={IMAGE}
       />
-
-      <BandInfo />
+      {album ? (
+        <AlbumSongs album={album} />
+      ) : (
+        <BandInfo handleAlbum={handleAlbum} />
+      )}
     </motion.div>
   );
 };
