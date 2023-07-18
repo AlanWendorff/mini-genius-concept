@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import IMAGE from "../../assets/images/dvsr-logo.jpg";
+import IMAGE from "../../assets/images/band-3.jpeg";
 import styles from "./Card.module.scss";
 import BandHeader from "./components/BandHeader/BandHeader";
 import BandInfo from "./components/BandInfo/BandInfo";

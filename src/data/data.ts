@@ -53,7 +53,7 @@ const ALBUMS = [
     release_year: 2016,
     release_date: "August 7",
     band: "DVSR",
-    colors: { primary: "#bf3faf", secondary: "#0c040b" },
+    colors: { primary: "#0485e5", secondary: "#0c040b" },
     tracklist: ["Bad Company"],
   },
   {

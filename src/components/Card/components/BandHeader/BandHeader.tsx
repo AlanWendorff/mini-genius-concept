@@ -1,4 +1,4 @@
-import { MotionValue, motion } from "framer-motion";
+import { MotionValue, motion, AnimatePresence } from "framer-motion";
 import styles from "./BandHeader.module.scss";
 import TAlbum from "../../../../types/album";
 
@@ -37,49 +37,75 @@ const BandHeader = ({
       style={{ backgroundImage: backgroundColor }}
     >
       <div className={styles.arrow} style={{ borderTopColor: arrowColor }} />
-      <motion.img
-        className={styles.image}
-        style={{ x, y, rotateX, rotateY, z: 10000 }}
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        draggable={false}
-        src={album ? album.image : image}
-        alt="header image"
-      />
-      <div className={styles.bandName}>
-        <motion.h1
-          initial={{ x: -300 }}
-          animate={{ x: 0 }}
-          transition={{ type: "tween" }}
-        >
-          {album ? album.name : title}
-        </motion.h1>
-        {album ? (
-          <div className={styles.albumInfo}>
-            <h2 onClick={handleMenu}>
-              {/*   <svg
-                className={styles.goBack}
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 10.87 21.32"
-              >
-                <path d="M1.5 21.32L0 20l8.21-9.34L0 1.32 1.5 0l9.37 10.66L1.5 21.32"></path>
-              </svg> */}
-              {album.band}
-            </h2>
-            <p>
-              Released {album.release_date}, {album.release_year}
-            </p>
-          </div>
-        ) : (
-          <motion.p
-            className={styles.subtitle}
-            initial={{ x: -300 }}
-            animate={{ x: 0 }}
-            transition={{ type: "tween" }}
-          >
-            {subtitle}
-          </motion.p>
+
+      <AnimatePresence>
+        {!album && (
+          <motion.img
+            key="band"
+            className={styles.image}
+            style={{ x, y, rotateX, rotateY, z: 10000 }}
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            exit={{ scale: 0 }}
+            draggable={false}
+            src={image}
+            alt="band pic"
+          />
         )}
+      </AnimatePresence>
+      <AnimatePresence>
+        {album && (
+          <motion.img
+            key="album"
+            className={styles.image}
+            style={{ x, y, rotateX, rotateY, z: 10000 }}
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            exit={{ scale: 0 }}
+            draggable={false}
+            src={album.image}
+            alt="album pic"
+          />
+        )}
+      </AnimatePresence>
+
+      <div className={styles.hiddenOverflow}>
+        <AnimatePresence>
+          {!album && (
+            <motion.div
+              initial={{ x: -300 }}
+              animate={{ x: 0 }}
+              exit={{ x: -300 }}
+              transition={{ type: "tween" }}
+              className={styles.bandName}
+            >
+              <h1>{title}</h1>
+              <p className={styles.subtitle}>{subtitle}</p>
+            </motion.div>
+          )}
+        </AnimatePresence>
+        <AnimatePresence>
+          {album && (
+            <motion.div
+              className={styles.bandName}
+              initial={{ x: -300 }}
+              animate={{ x: 0 }}
+              exit={{ x: -300 }}
+              transition={{ type: "tween" }}
+            >
+              <AnimatePresence>
+                <h1>{album.name}</h1>
+
+                <div className={styles.albumInfo}>
+                  <h2 onClick={handleMenu}>{album.band}</h2>
+                  <p>
+                    Released {album.release_date}, {album.release_year}
+                  </p>
+                </div>
+              </AnimatePresence>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );
