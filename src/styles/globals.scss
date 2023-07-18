@@ -10,6 +10,18 @@
     url(../assets/fonts/Gilroy-ExtraBold.otf) format("opentype");
 }
 
+@font-face {
+  font-family: "programme_light";
+  src: local("programme_light"),
+    url(../assets/fonts/programme_light.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "programme_normal";
+  src: local("programme_normal"),
+    url(../assets/fonts/programme_normal.woff2) format("woff2");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -21,16 +33,30 @@ body {
   justify-content: center;
   align-items: flex-start;
   width: 100%;
+  height: 100%;
   background-color: #0c0c0c;
   padding: 0;
   margin: 0;
   user-select: none;
+  font-family: "programme_light", Arial, Helvetica, sans-serif;
 }
 
 #root {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-feature-settings: "ss07", "ss08", "ss11", "ss12", "ss14", "ss15", "ss16",
+    "ss18", "ss19", "ss20", "ss21";
+  line-height: 1.125;
+  overflow-wrap: break-word;
+
+  font-family: "programme_normal", Arial, Helvetica, sans-serif;
 }
