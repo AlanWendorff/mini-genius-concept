@@ -1,7 +1,7 @@
-import IMAGE_1 from "../../assets/images/albums/wt.jpg";
-import IMAGE_2 from "../../assets/images/albums/thrpy.jpg";
-import IMAGE_3 from "../../assets/images/albums/company.jpg";
-import IMAGE_4 from "../../assets/images/albums/dvsr.png";
+import IMAGE_1 from "../../../../assets/images/albums/wt.jpg";
+import IMAGE_2 from "../../../../assets/images/albums/thrpy.jpg";
+import IMAGE_3 from "../../../../assets/images/albums/company.jpg";
+import IMAGE_4 from "../../../../assets/images/albums/dvsr.png";
 
 const ALBUMS = [
   {

@@ -1,13 +1,4 @@
 .container {
-  width: 30rem;
-  //height: 40rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  //filter: drop-shadow(0px 0px 10px #f7f7f744);
-}
-
-.bandInfo {
   padding: 2rem 1rem 1rem 1rem;
   background-color: #f7f7f7;
   height: 100%;
@@ -57,19 +48,36 @@
         align-items: center;
         height: 167px;
         text-align: center;
+        cursor: pointer;
+        position: relative;
 
         img {
+          z-index: 100;
           width: 130px;
           height: 130px;
         }
 
-        p {
-          margin: 0;
-          font-size: 12px;
+        .info {
+          z-index: 100;
+          p {
+            margin: 0;
+            font-size: 12px;
+          }
+
+          .year {
+            color: #9a9a9a;
+          }
         }
 
-        .year {
-          color: #9a9a9a;
+        &:hover::before {
+          content: "";
+          z-index: 0;
+          position: absolute;
+          top: 0;
+          transform: translate(0%, -4px);
+          width: 138px;
+          height: 177px;
+          background-color: #e9e9e9;
         }
       }
     }
