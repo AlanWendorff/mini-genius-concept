@@ -1,18 +1,18 @@
 import { useState } from "react";
-import ALBUMS from "../../data/data";
-import TAlbum from "../../types/album";
+import BANDS from "data/band.data";
+import IAlbum from "interfaces/album";
 
 interface returnProps {
-  album: null | undefined | TAlbum;
+  album: null | undefined | IAlbum;
   handleAlbum: (id: number) => void;
   handleMenu: () => void;
 }
 
 const useChangeContent = (): returnProps => {
-  const [album, setAlbum] = useState<null | TAlbum | undefined>(null);
+  const [album, setAlbum] = useState<null | IAlbum | undefined>(null);
 
   const handleAlbum = (albumId: number) => {
-    const albumSelected = ALBUMS.find(({ id }) => id === albumId);
+    const albumSelected = BANDS.dvsr.albums.find(({ id }) => id === albumId);
     setAlbum(albumSelected);
   };
 

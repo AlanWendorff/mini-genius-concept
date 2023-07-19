@@ -4,9 +4,10 @@
     "paths": {
       "@images/*": ["public/assets/images/*"],
       "@components/*": ["src/components/*"],
-      "@data/*": ["utils/data/*"],
-      "@interfaces/*": ["utils/interfaces/*"],
-      "@types/*": ["utils/types/*"],
+    
     }
   }
 }
+ /*  "@data/*": ["utils/data/*"],
+      "@interfaces/*": ["utils/interfaces/*"],
+      "@types/*": ["utils/types/*"], */

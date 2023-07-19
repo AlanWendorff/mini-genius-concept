@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import styles from "./AlbumSongs.module.scss";
-import TAlbum from "../../../../types/album";
+import IAlbum from "interfaces/album";
 
 interface props {
-  album: null | undefined | TAlbum;
+  album: null | undefined | IAlbum;
 }
 
 const AlbumSongs = ({ album }: props) => (
@@ -20,7 +20,7 @@ const AlbumSongs = ({ album }: props) => (
         <li key={index}>
           <p>
             <span>{index + 1}</span>
-            {song}
+            {song.name}
           </p>
         </li>
       ))}

@@ -1,6 +1,6 @@
 import styles from "./BandInfo.module.scss";
 import { motion } from "framer-motion";
-import ALBUMS from "../../../../data/data";
+import BANDS from "data/band.data";
 import { useEffect } from "react";
 
 interface props {
@@ -54,7 +54,7 @@ const BandInfo = ({ handleAlbum }: props) => {
       <div className={styles.albums}>
         <h3>POPULAR DVSR ALBUMS</h3>
         <div className={styles.grid}>
-          {ALBUMS.map(({ id, image, name, release_year }) => (
+          {BANDS.dvsr.albums.map(({ id, image, name, release_year }) => (
             <motion.div
               key={id}
               className={styles.album}
@@ -64,7 +64,7 @@ const BandInfo = ({ handleAlbum }: props) => {
               <motion.img
                 variants={variants}
                 draggable={false}
-                src={image}
+                src={image.src}
                 alt={name}
               />
               <div className={styles.info}>

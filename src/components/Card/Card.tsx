@@ -1,11 +1,10 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import IMAGE from "../../assets/images/band-3.jpeg";
 import styles from "./Card.module.scss";
 import BandHeader from "./components/BandHeader/BandHeader";
 import BandInfo from "./components/BandInfo/BandInfo";
 import useChangeContent from "./useChangeContent";
 import AlbumSongs from "./components/AlbumSongs/AlbumSongs";
-import IBand from "@interfaces/band";
+import IBand from "interfaces/band";
 
 const Card = ({ band }: IBand) => {
   console.log(band);
@@ -41,7 +40,7 @@ const Card = ({ band }: IBand) => {
         y={y}
         rotateX={rotateX}
         rotateY={rotateY}
-        image={IMAGE}
+        image={band.band_image}
       />
       {album ? (
         <AlbumSongs album={album} />

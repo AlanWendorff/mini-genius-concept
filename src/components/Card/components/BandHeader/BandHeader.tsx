@@ -1,16 +1,17 @@
+import { StaticImageData } from "next/image";
 import { MotionValue, motion, AnimatePresence } from "framer-motion";
 import styles from "./BandHeader.module.scss";
-import TAlbum from "../../../../types/album";
+import IAlbum from "interfaces/album";
 
 interface props {
-  album: null | undefined | TAlbum;
+  album: null | undefined | IAlbum;
   x: MotionValue<number>;
   y: MotionValue<number>;
   rotateX: MotionValue<number>;
   rotateY: MotionValue<number>;
   title: string;
   subtitle: string;
-  image: string;
+  image: StaticImageData;
   handleMenu: () => void;
 }
 
@@ -61,7 +62,7 @@ const BandHeader = ({
             animate={{ scale: 1 }}
             exit={{ scale: 0 }}
             draggable={false}
-            src={image}
+            src={image.src}
             alt="band pic"
           />
         )}
@@ -76,7 +77,7 @@ const BandHeader = ({
             animate={{ scale: 1 }}
             exit={{ scale: 0 }}
             draggable={false}
-            src={album.image}
+            src={album.image.src}
             alt="album pic"
           />
         )}
