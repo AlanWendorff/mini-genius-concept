@@ -1,0 +1,13 @@
+@font-face {
+  font-display: swap;
+  font-family: "Programme Light";
+  src: local("programme_light"),
+    url("~@/fonts/programme-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Programme Normal";
+  src: local("programme_normal"),
+    url("~@/fonts/programme-normal.woff2") format("woff2");
+}

@@ -1,7 +1,7 @@
 {
   "name": "Next Match.ez",
   "short_name": "Next Match.ez",
-  "description": "CS:GO Schedule developed in Next.js Framework",
+  "description": "Your go-to site for future CS:GO competitive matches.",
   "theme_color": "#44248b",
   "background_color": "#0c0c0c",
   "display": "standalone",

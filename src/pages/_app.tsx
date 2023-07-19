@@ -1,17 +1,11 @@
 import type { AppProps } from "next/app";
-import Head from "next/head";
-import NavBar from "src/components/Ui/NavBar";
-
+import Layout from "@components/Layout";
 import "@styles/globals.scss";
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
-  <>
-    <Head>
-      <title>Next Match.ez</title>
-    </Head>
+  <Layout>
     <Component {...pageProps} />
-    <NavBar />
-  </>
+  </Layout>
 );
 
 export default MyApp;

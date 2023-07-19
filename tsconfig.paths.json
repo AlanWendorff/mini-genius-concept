@@ -1,22 +1,10 @@
 {
   "compilerOptions": {
-
     "baseUrl": "./",
     "paths": {
-      "@public/*": ["public/*"],
-      "@assets/*": ["public/assets/*"],
-      "@api/*": ["api/*"],
+      "@images/*": ["public/assets/images/*"],
       "@components/*": ["src/components/*"],
-      "@Cards/*": ["src/components/Cards/*"],
-      "@Sections/*": ["src/components/Sections/*"],
-      "@Ui/*": ["src/components/Ui/*"],
-      "@styles/*": ["src/styles/*"],
-      "@scripts/*": ["utils/scripts/*"],
-      "@services/*": ["utils/services/*"],
-      "@constants/*": ["utils/constants/*"],
-      "@interfaces/*": ["utils/interfaces/*"],
-      "@hooks/*": ["utils/hooks/*"],
-      "@data/*": ["utils/data/*"],
+      "@data/*": ["data/*"],
     }
   }
 }
