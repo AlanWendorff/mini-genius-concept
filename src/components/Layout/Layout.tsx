@@ -1,3 +1,4 @@
+import MetaTags from "@components/MetaTags";
 import styles from "./Layout.module.scss";
 
 interface props {
@@ -5,7 +6,10 @@ interface props {
 }
 
 const Layout = ({ children }: props) => (
-  <main className={styles.container}>{children}</main>
+  <main className={styles.container}>
+    <MetaTags />
+    {children}
+  </main>
 );
 
 export default Layout;
