@@ -20,7 +20,7 @@
   .goBack {
     position: absolute;
     top: 26px;
-    font-family: "programme_normal", Arial, Helvetica, sans-serif;
+    font-family: "Programme Normal", sans-serif;
     color: white;
     background-color: #ffffff17;
     border-radius: 4px;
@@ -30,6 +30,7 @@
     z-index: 10;
     transition: background-color 100ms;
     cursor: pointer;
+    padding: 1px 6px;
 
     &:hover {
       background-color: #ffffff25;
@@ -72,13 +73,13 @@
           font-size: 22px;
           font-weight: 400;
           margin-bottom: 0.25rem;
-          font-family: "programme_normal", Arial, Helvetica, sans-serif;
+          font-family: "Programme Normal", sans-serif;
         }
 
         p {
           margin-top: 0.5rem;
           color: #9a9a9a;
-          font-family: "programme_normal", Arial, Helvetica, sans-serif;
+          font-family: "Programme Normal", sans-serif;
           margin-bottom: 0.48rem;
         }
       }

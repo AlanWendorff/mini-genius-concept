@@ -11,6 +11,3 @@
     }
   }
 }
- /*  "@data/*": ["utils/data/*"],
-      "@interfaces/*": ["utils/interfaces/*"],
-      "@types/*": ["utils/types/*"], */

@@ -19,8 +19,6 @@ html {
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never;
@@ -30,13 +28,26 @@ body {
   background-color: var(--color-alpha);
   font-family: "Programme Light", sans-serif;
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 
   button {
-    font-family: "Programme Light", sans-serif;
+    font-family: "Programme Normal", sans-serif !important;
   }
 }
 
 .container {
   max-width: 90rem;
   margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-feature-settings: "ss07", "ss08", "ss11", "ss12", "ss14", "ss15", "ss16",
+    "ss18", "ss19", "ss20", "ss21";
+  line-height: 1.125;
+  overflow-wrap: break-word;
+  font-family: "Programme Normal", sans-serif !important;
 }
