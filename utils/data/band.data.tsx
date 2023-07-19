@@ -3,8 +3,11 @@ import ALBUM_2 from "@images/band/albums/thrpy.jpg";
 import ALBUM_3 from "@images/band/albums/company.jpg";
 import ALBUM_4 from "@images/band/albums/dvsr.png";
 
-const BAND = {
+import BAND_IMAGE from "@images/band/band.jpeg";
+
+const BANDS = {
   dvsr: {
+    band_image: BAND_IMAGE,
     albums: [
       {
         id: 19,
@@ -15,19 +18,55 @@ const BAND = {
         band: "DVSR",
         colors: { primary: "#8e2a29", secondary: "#6f2929" },
         tracklist: [
-          "No Sugar",
-          "Bloodlust (Ft. CJ McMahon)",
-          "Off Tap",
-          "TN Tax",
-          "Devil on My Shoulder",
-          "What’s the Proof? (Ft. Frankie Palmeri)",
-          "Liberate Me",
-          "Redrum",
-          "Rack 'em Up",
-          "Black Magic",
-          "Respect on the Name",
-          "Homesic",
-          "Leave and Die Slowly",
+          {
+            name: "No Sugar",
+            lyric: <p></p>,
+          },
+          {
+            name: "Bloodlust (Ft. CJ McMahon)",
+            lyric: <p></p>,
+          },
+          {
+            name: "TN Tax",
+            lyric: <p></p>,
+          },
+          {
+            name: "Devil on My Shoulder",
+            lyric: <p></p>,
+          },
+          {
+            name: "What’s the Proof? (Ft. Frankie Palmeri)",
+            lyric: <p></p>,
+          },
+          {
+            name: "Liberate Me",
+            lyric: <p></p>,
+          },
+
+          {
+            name: "Redrum",
+            lyric: <p></p>,
+          },
+          {
+            name: "Rack 'em Up",
+            lyric: <p></p>,
+          },
+          {
+            name: "Black Magic",
+            lyric: <p></p>,
+          },
+          {
+            name: "Respect on the Name",
+            lyric: <p></p>,
+          },
+          {
+            name: "Homesic",
+            lyric: <p></p>,
+          },
+          {
+            name: "Leave and Die Slowly",
+            lyric: <p></p>,
+          },
         ],
       },
       {
@@ -39,13 +78,34 @@ const BAND = {
         band: "DVSR",
         colors: { primary: "#7f7f7f", secondary: "#424242" },
         tracklist: [
-          "Endless",
-          "Detox",
-          "Slave To The Beat",
-          "First-Degree",
-          "Devil in 95's",
-          "Therapy",
-          "Ready For War",
+          {
+            name: "Endless",
+            lyric: <p></p>,
+          },
+          {
+            name: "Detox",
+            lyric: <p></p>,
+          },
+          {
+            name: "Slave To The Beat",
+            lyric: <p></p>,
+          },
+          {
+            name: "First-Degree",
+            lyric: <p></p>,
+          },
+          {
+            name: "Devil in 95's",
+            lyric: <p></p>,
+          },
+          {
+            name: "Therapy",
+            lyric: <p></p>,
+          },
+          {
+            name: "Ready For War",
+            lyric: <p></p>,
+          },
         ],
       },
       {
@@ -56,7 +116,12 @@ const BAND = {
         release_date: "August 7",
         band: "DVSR",
         colors: { primary: "#0485e5", secondary: "#0c040b" },
-        tracklist: ["Bad Company"],
+        tracklist: [
+          {
+            name: "Bad Company",
+            lyric: <p></p>,
+          },
+        ],
       },
       {
         id: 707,
@@ -67,23 +132,53 @@ const BAND = {
         band: "DVSR",
         colors: { primary: "#35c1d8", secondary: "#90d9f4" },
         tracklist: [
-          "Six Figures Deep",
-          "Fatal Attraction",
-          "Shutdown...",
-          "Life and Death",
-          "Beneath the Skin",
-          "Remission (Ft. Matt Gelsomino)",
-          "Hooded Race",
-          "The Forked Tongue",
-          "React",
-          "Unconscious",
+          {
+            name: "Six Figures Deep",
+            lyric: <p></p>,
+          },
+          {
+            name: "Fatal Attraction",
+            lyric: <p></p>,
+          },
+          {
+            name: "Shutdown...",
+            lyric: <p></p>,
+          },
+          {
+            name: "Life and Death",
+            lyric: <p></p>,
+          },
+          {
+            name: "Beneath the Skin",
+            lyric: <p></p>,
+          },
+          {
+            name: "Remission (Ft. Matt Gelsomino)",
+            lyric: <p></p>,
+          },
+          {
+            name: "Hooded Race",
+            lyric: <p></p>,
+          },
+          {
+            name: "The Forked Tongue",
+            lyric: <p></p>,
+          },
+          {
+            name: "React",
+            lyric: <p></p>,
+          },
+          {
+            name: "Unconscious",
+            lyric: <p></p>,
+          },
         ],
       },
     ],
   },
 };
 
-export default BAND;
+export default BANDS;
 
 const LYRIC = (
   <div
