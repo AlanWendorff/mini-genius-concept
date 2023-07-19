@@ -1,7 +1,9 @@
 import { StaticImageData } from "next/image";
 
-interface ITracklist {
+export interface ITrack {
   name: string;
+  band: string;
+  album: string;
   lyric: JSX.Element;
 }
 
@@ -18,7 +20,7 @@ interface IAlbum {
   release_date: string;
   band: string;
   colors: IColors;
-  tracklist: ITracklist[];
+  tracklist: ITrack[];
 }
 
 export default IAlbum;

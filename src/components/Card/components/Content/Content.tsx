@@ -1,4 +1,4 @@
-import styles from "./BandInfo.module.scss";
+import styles from "./Content.module.scss";
 import { motion } from "framer-motion";
 import BANDS from "data/band.data";
 import { useEffect } from "react";
@@ -7,7 +7,7 @@ interface props {
   handleAlbum: (id: number) => void;
 }
 
-const BandInfo = ({ handleAlbum }: props) => {
+const Content = ({ handleAlbum }: props) => {
   const description =
     " are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.";
 
@@ -78,4 +78,4 @@ const BandInfo = ({ handleAlbum }: props) => {
     </div>
   );
 };
-export default BandInfo;
+export default Content;

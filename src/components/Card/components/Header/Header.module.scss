@@ -1,0 +1,19 @@
+.container {
+  min-height: 11rem;
+  position: relative;
+  border-radius: 40px 40px 0 0;
+  color: white;
+  padding: 1.5rem 2rem 1.5rem 0;
+
+  .arrow {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transform: translate(15px, 12px);
+    border-width: 15px 15px 0 15px;
+    border-color: transparent;
+  }
+}

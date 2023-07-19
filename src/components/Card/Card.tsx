@@ -1,7 +1,7 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import styles from "./Card.module.scss";
-import BandHeader from "./components/BandHeader/BandHeader";
-import BandInfo from "./components/BandInfo/BandInfo";
+import Header from "./components/Header";
+import Content from "./components/Content";
 import useChangeContent from "./useChangeContent";
 import AlbumSongs from "./components/AlbumSongs/AlbumSongs";
 import IBand from "interfaces/band";
@@ -29,21 +29,17 @@ const Card = ({ band }: IBand) => {
       dragElastic={0.16}
       whileTap={{ cursor: "grabbing" }}
     >
-      <BandHeader
+      <Header
         album={album}
         handleMenu={handleMenu}
         title="DVSR"
         subtitle="AKA: Designed via Strength & Respect, Devastator"
-        x={x}
-        y={y}
-        rotateX={rotateX}
-        rotateY={rotateY}
         image={band.band_image}
       />
       {album ? (
         <AlbumSongs album={album} />
       ) : (
-        <BandInfo handleAlbum={handleAlbum} />
+        <Content handleAlbum={handleAlbum} />
       )}
     </motion.div>
   );

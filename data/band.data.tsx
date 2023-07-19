@@ -8,6 +8,8 @@ import BAND_IMAGE from "@images/band/band.jpeg";
 const BANDS = {
   dvsr: {
     band_image: BAND_IMAGE,
+    band_name: "DVSR",
+    band_aka: "AKA: Designed via Strength & Respect, Devastator",
     albums: [
       {
         id: 19,
@@ -20,51 +22,74 @@ const BANDS = {
         tracklist: [
           {
             name: "No Sugar",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "Bloodlust (Ft. CJ McMahon)",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "TN Tax",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "Devil on My Shoulder",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "What’s the Proof? (Ft. Frankie Palmeri)",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "Liberate Me",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
-
           {
             name: "Redrum",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "Rack 'em Up",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "Black Magic",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "Respect on the Name",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "Homesic",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
           {
             name: "Leave and Die Slowly",
+            band: "DVSR",
+            album: "West Technique",
             lyric: <p></p>,
           },
         ],
@@ -80,30 +105,44 @@ const BANDS = {
         tracklist: [
           {
             name: "Endless",
+            band: "DVSR",
+            album: "Therapy",
             lyric: <p></p>,
           },
           {
             name: "Detox",
+            band: "DVSR",
+            album: "Therapy",
             lyric: <p></p>,
           },
           {
             name: "Slave To The Beat",
+            band: "DVSR",
+            album: "Therapy",
             lyric: <p></p>,
           },
           {
             name: "First-Degree",
+            band: "DVSR",
+            album: "Therapy",
             lyric: <p></p>,
           },
           {
             name: "Devil in 95's",
+            band: "DVSR",
+            album: "Therapy",
             lyric: <p></p>,
           },
           {
             name: "Therapy",
+            band: "DVSR",
+            album: "Therapy",
             lyric: <p></p>,
           },
           {
             name: "Ready For War",
+            band: "DVSR",
+            album: "Therapy",
             lyric: <p></p>,
           },
         ],
@@ -119,6 +158,8 @@ const BANDS = {
         tracklist: [
           {
             name: "Bad Company",
+            band: "DVSR",
+            album: "Bad Company",
             lyric: <p></p>,
           },
         ],
@@ -134,42 +175,62 @@ const BANDS = {
         tracklist: [
           {
             name: "Six Figures Deep",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "Fatal Attraction",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "Shutdown...",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "Life and Death",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "Beneath the Skin",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "Remission (Ft. Matt Gelsomino)",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "Hooded Race",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "The Forked Tongue",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "React",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
           {
             name: "Unconscious",
+            band: "DVSR",
+            album: "D.V.S.R",
             lyric: <p></p>,
           },
         ],

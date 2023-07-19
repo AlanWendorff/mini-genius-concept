@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  max-width: 60%;
+  height: 100%;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.animatedContainer {
+  position: absolute;
+}
+
+.subtitle {
+  margin-top: 21.44px;
+}
+
+.albumInfo {
+  h2 {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+    font-family: "Programme Normal", sans-serif;
+  }
+
+  p {
+    margin-top: 0.5rem;
+    color: #9a9a9a;
+    font-family: "Programme Normal", sans-serif;
+    margin-bottom: 0.48rem;
+  }
+}
+
+.songInfo {
+}
