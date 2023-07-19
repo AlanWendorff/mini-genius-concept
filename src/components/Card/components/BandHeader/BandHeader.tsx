@@ -39,6 +39,19 @@ const BandHeader = ({
       <div className={styles.arrow} style={{ borderTopColor: arrowColor }} />
 
       <AnimatePresence>
+        {album && (
+          <motion.button
+            initial={{ rotateX: 80 }}
+            animate={{ rotateX: 0 }}
+            onClick={handleMenu}
+            className={styles.goBack}
+          >
+            back
+          </motion.button>
+        )}
+      </AnimatePresence>
+
+      <AnimatePresence>
         {!album && (
           <motion.img
             key="band"
@@ -97,7 +110,7 @@ const BandHeader = ({
                 <h1>{album.name}</h1>
 
                 <div className={styles.albumInfo}>
-                  <h2 onClick={handleMenu}>{album.band}</h2>
+                  <h2>{album.band}</h2>
                   <p>
                     Released {album.release_date}, {album.release_year}
                   </p>
