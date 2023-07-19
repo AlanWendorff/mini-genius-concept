@@ -7,8 +7,6 @@ import AlbumSongs from "./components/AlbumSongs/AlbumSongs";
 import IBand from "interfaces/band";
 
 const Card = ({ band }: IBand) => {
-  console.log(band);
-
   const { album, handleAlbum, handleMenu } = useChangeContent();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
