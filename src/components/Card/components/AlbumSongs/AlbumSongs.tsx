@@ -10,7 +10,12 @@ const AlbumSongs = ({ album }: props) => (
   <div className={styles.container}>
     <h2 className={styles.title}>{album?.name} TRACKLIST</h2>
 
-    <ul>
+    <motion.ul
+      initial={{ x: 450 }}
+      animate={{ x: 0 }}
+      exit={{ x: -300 }}
+      transition={{ type: "tween" }}
+    >
       {album?.tracklist.map((song, index) => (
         <li key={index}>
           <p>
@@ -19,7 +24,7 @@ const AlbumSongs = ({ album }: props) => (
           </p>
         </li>
       ))}
-    </ul>
+    </motion.ul>
   </div>
 );
 
