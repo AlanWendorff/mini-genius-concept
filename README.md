@@ -8,8 +8,7 @@
 ___
 ### Web preview:
 
-![web preview](https://github.com/Kremowy/framer-motion-demo/assets/62715512/20ae858b-5751-4f08-838f-9a7a7eb8d09a)
-![Group 1](https://github.com/Kremowy/framer-motion-demo/assets/62715512/1863c188-ba10-4a20-902c-1b126cf653f4)
+![web preview](https://github.com/Kremowy/framer-motion-demo/assets/62715512/1863c188-ba10-4a20-902c-1b126cf653f4)
 
 [Check it out](https://www.google.com)
 
