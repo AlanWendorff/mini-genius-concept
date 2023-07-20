@@ -7,7 +7,7 @@
   h4 {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1.33;
     letter-spacing: 0.025rem;
     font-weight: 100;
@@ -15,11 +15,11 @@
 
   .lyrics {
     overflow-y: auto;
-    height: 500px;
+    height: 31.25rem;
     padding-right: 0.5rem;
 
     &::-webkit-scrollbar {
-      width: 7px;
+      width: 0.4375rem;
     }
 
     &::-webkit-scrollbar-track {
@@ -28,7 +28,7 @@
 
     &::-webkit-scrollbar-thumb {
       background: #c5c5c5;
-      border-radius: 10px;
+      border-radius: 0.625rem;
     }
 
     &::-webkit-scrollbar-thumb:hover {

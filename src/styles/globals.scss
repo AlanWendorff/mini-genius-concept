@@ -1,5 +1,6 @@
 @use "./_fonts.scss";
 @use "./_colors.scss";
+@use "./_responsives.scss";
 
 :root {
   --color-white: #{colors.$colorWhite};
@@ -15,6 +16,10 @@
 html {
   scroll-behavior: smooth !important;
   overflow-x: hidden;
+
+  @include responsives.VGA {
+    font-size: 13.4px;
+  }
 }
 
 * {

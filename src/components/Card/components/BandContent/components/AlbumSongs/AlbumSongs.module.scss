@@ -6,7 +6,7 @@
   .title {
     padding: 0 1rem;
     margin-top: 0;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 0.5rem;
     color: #9a9a9a;
     text-transform: uppercase;
@@ -22,7 +22,7 @@
       margin: 0;
       list-style: none;
 
-      border-bottom: 1px solid #ccc;
+      border-bottom: 0.0625rem solid #ccc;
       padding-left: 0.5rem;
       margin: 0 1rem;
       transition: background-color 200ms;
@@ -42,7 +42,7 @@
 
         p {
           display: flex;
-          font-size: 18px;
+          font-size: 1.125rem;
           font-family: "Programme Normal", sans-serif;
           font-feature-settings: "ss07", "ss08", "ss11", "ss12", "ss14", "ss15",
             "ss16", "ss18", "ss19", "ss20", "ss21";

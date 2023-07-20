@@ -1,16 +1,4 @@
-@mixin MOBILE {
-  @media only screen and (max-width: 659px) {
-    @content;
-  }
-}
-
-@mixin MOBILE-UP {
-  @media (min-width: 660px) {
-    @content;
-  }
-}
-
-// Maded with standard resolutions from YouTube and devices
+// Standard resolutions from YouTube and common devices
 //https://es.wikipedia.org/wiki/Resoluci%C3%B3n_de_pantalla#:~:text=Existen%20distintas%20escalas%20de%20resoluci%C3%B3n,8K%20(7680%20%C3%97%204320p).
 
 @mixin LOW-VGA {
@@ -77,7 +65,7 @@
 }
 
 @mixin UHDV-UP {
-  // UHDV-UP = 3840 x 2160 to up
+  // UHDV-UP = 3840 x 2160 and upper
   @media (min-width: 3840px) {
     @content;
   }
