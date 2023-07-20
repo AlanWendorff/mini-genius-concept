@@ -1,5 +1,38 @@
 .animatedContainer {
   position: absolute;
+
+  a {
+    display: block;
+    width: fit-content;
+    padding: 0;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    cursor: pointer;
+
+    p {
+      margin: 0;
+      font-size: 1.125;
+      color: white;
+      font-weight: 100;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    svg {
+      top: 0;
+      fill: #ffffff;
+      width: 9.86px;
+      position: absolute;
+      margin-left: calc(-0.548625em);
+      right: 0;
+    }
+  }
 }
 
 .bandAka {
@@ -7,53 +40,7 @@
 }
 
 .albumInfo {
-  button {
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0.25rem;
-    position: relative;
-    cursor: pointer;
-
-    ::after {
-      content: "";
-      width: 100%;
-      height: 1px;
-      background-color: white;
-      position: absolute;
-      left: 0;
-      bottom: 6px;
-      transition: width 200ms;
-    }
-
-    &:hover {
-      ::after {
-        width: 0%;
-      }
-    }
-
-    p {
-      font-family: "Programme Normal", sans-serif;
-      color: white;
-      font-size: 22px;
-      font-weight: 400;
-      margin: 0;
-      margin-right: 0.8rem;
-    }
-
-    svg {
-      fill: rgb(255, 255, 255);
-      width: 0.8rem;
-      margin-left: calc(-0.548625em);
-      vertical-align: middle;
-    }
-  }
-
   p {
-    margin-top: 0.5rem;
     color: #9a9a9a;
     font-family: "Programme Normal", sans-serif;
     margin-bottom: 0.48rem;
@@ -62,48 +49,14 @@
 
 .songInfo {
   display: flex;
-  align-items: flex-start;
-  margin-top: 0.5rem;
-  margin-bottom: 0.48rem;
+  align-items: center;
+
+  > p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
 
   p {
     font-family: "Programme Light", sans-serif;
-    margin: 0;
-    font-size: 1.125;
-    color: white;
-    font-weight: 100;
-  }
-
-  a {
-    color: white;
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin-top: 0;
-    position: relative;
-    cursor: pointer;
-    font-size: 1rem;
-    position: relative;
-    text-decoration: underline;
-    text-decoration-color: white;
-
-    p {
-      margin-right: 0rem;
-    }
-
-    &:hover {
-      text-decoration: none;
-    }
-
-    svg {
-      fill: rgb(255, 255, 255);
-      width: 9.86px;
-      position: absolute;
-      margin-left: calc(-0.548625em);
-      right: 0;
-      margin-top: 3px;
-    }
   }
 }

@@ -23,12 +23,12 @@ const AlbumName = ({ show, key, selectedAlbum, handleReturnMenu }: props) => (
         <h1>{selectedAlbum?.name}</h1>
 
         <div className={styles.albumInfo}>
-          <button onClick={handleReturnMenu} aria-label="back to band">
-            <p>{selectedAlbum?.band}</p>
+          <a onClick={handleReturnMenu} role="button" aria-label="back to band">
+            <p>{selectedAlbum?.band}&nbsp;&nbsp;&nbsp;</p>
             <svg viewBox="0 0 6.6 16">
               <path d="M1.6 8.8l.6-.6 1 1 .5.7V6H0v-.8h4.5v4.6l.5-.6 1-1 .6.5L4 11.3 1.6 8.8z"></path>
             </svg>
-          </button>
+          </a>
           <p>
             Released {selectedAlbum?.release_date},{" "}
             {selectedAlbum?.release_year}
