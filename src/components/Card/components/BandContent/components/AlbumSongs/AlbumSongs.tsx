@@ -5,9 +5,10 @@ import IAlbum from "interfaces/album";
 interface props {
   selectedAlbum: null | undefined | IAlbum;
   show: boolean;
+  handleSelectSong: (songName: string) => void;
 }
 
-const AlbumSongs = ({ show, selectedAlbum }: props) => (
+const AlbumSongs = ({ show, selectedAlbum, handleSelectSong }: props) => (
   <AnimatePresence>
     {show && (
       <div className={styles.absoluteContainer}>
@@ -21,11 +22,13 @@ const AlbumSongs = ({ show, selectedAlbum }: props) => (
           transition={{ type: "tween" }}
         >
           {selectedAlbum?.tracklist.map((song, index) => (
-            <li key={index}>
-              <p>
-                <span>{index + 1}</span>
-                {song.name}
-              </p>
+            <li className={styles.track} key={index}>
+              <button onClick={() => handleSelectSong(song.name)}>
+                <p>
+                  <span>{index + 1}</span>
+                  {song.name}
+                </p>
+              </button>
             </li>
           ))}
         </motion.ul>

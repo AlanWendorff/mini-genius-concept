@@ -46,28 +46,22 @@ const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
   return (
     <AnimatePresence>
       {show && (
-        <div className={styles.absoluteContainer}>
-          <motion.div
-            className={styles.about}
-            initial={{ x: -480 }}
-            animate={{ x: 0 }}
-            exit={{ x: -480 }}
-            transition={{ type: "tween" }}
-          >
+        <motion.div
+          className={styles.animatedContainer}
+          initial={{ x: -480 }}
+          animate={{ x: 0 }}
+          exit={{ x: -480 }}
+          transition={{ type: "tween" }}
+        >
+          <div className={styles.about}>
             <h3>About “{selectedBand.band_name}“</h3>
 
             <p id="description">
               <span>{selectedBand.band_name}</span>
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className={styles.albums}
-            initial={{ x: -480 }}
-            animate={{ x: 0 }}
-            exit={{ x: -480 }}
-            transition={{ type: "tween" }}
-          >
+          <div className={styles.albums}>
             <h3>POPULAR {selectedBand.band_name} ALBUMS</h3>
             <div className={styles.grid}>
               {selectedBand.albums.map(({ id, image, name, release_year }) => (
@@ -90,8 +84,8 @@ const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
                 </motion.div>
               ))}
             </div>
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
       )}
     </AnimatePresence>
   );

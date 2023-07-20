@@ -1,6 +1,7 @@
 import { StaticImageData } from "next/image";
 
 export interface ITrack {
+  id: number;
   name: string;
   band: string;
   album: string;

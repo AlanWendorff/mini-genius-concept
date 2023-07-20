@@ -3,6 +3,7 @@ import AlbumSongs from "./components/AlbumSongs";
 import BandInformation from "./components/BandInformation";
 import { ECardStatus } from "@components/Card/useChangeContent";
 import props from "interfaces/sectionProps";
+import Lyric from "./components/Lyric/Lyric";
 
 interface IBandContent extends props {
   handleSelectAlbum: (id: number) => void;
@@ -27,10 +28,11 @@ const BandContent = ({
     <AlbumSongs
       key="album-songs"
       selectedAlbum={selectedAlbum}
+      handleSelectSong={handleSelectSong}
       show={cardStatus === ECardStatus.ALBUM}
     />
 
-    {/* {cardStatus === ECardStatus.SONG && <AlbumSongs />} */}
+    <Lyric show={cardStatus === ECardStatus.SONG} />
   </div>
 );
 

@@ -6,7 +6,7 @@ import IBand from "interfaces/band";
 export enum ECardStatus {
   "BAND" = 0,
   "ALBUM" = 1,
-  "SONG" = 1,
+  "SONG" = 2,
 }
 
 interface returnProps {
@@ -16,6 +16,7 @@ interface returnProps {
   handleSelectAlbum: (id: number) => void;
   handleSelectSong: (songName: string) => void;
   handleReturnMenu: () => void;
+  handleReturnAlbum: () => void;
 }
 
 const useChangeContent = (): returnProps => {
@@ -51,6 +52,11 @@ const useChangeContent = (): returnProps => {
     setCardStatus(ECardStatus.BAND);
   };
 
+  const handleReturnAlbum = () => {
+    setSelectedTrack(null);
+    setCardStatus(ECardStatus.ALBUM);
+  };
+
   return {
     cardStatus,
     selectedAlbum,
@@ -58,6 +64,7 @@ const useChangeContent = (): returnProps => {
     handleSelectAlbum,
     handleSelectSong,
     handleReturnMenu,
+    handleReturnAlbum,
   };
 };
 
