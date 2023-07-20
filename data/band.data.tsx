@@ -367,7 +367,7 @@ const BANDS = {
             ),
           },
           {
-            id: 666,
+            id: 3,
             name: "Off Tap",
             band: "DVSR",
             album: "West Technique",
@@ -543,7 +543,7 @@ const BANDS = {
             ),
           },
           {
-            id: 3,
+            id: 4,
             name: "TN Tax",
             band: "DVSR",
             album: "West Technique",
@@ -683,7 +683,7 @@ const BANDS = {
             ),
           },
           {
-            id: 4,
+            id: 5,
             name: "Devil on My Shoulder",
             band: "DVSR",
             album: "West Technique",
@@ -834,7 +834,7 @@ const BANDS = {
             ),
           },
           {
-            id: 5,
+            id: 6,
             name: "What’s the Proof? (Ft. Frankie Palmeri)",
             band: "DVSR",
             album: "West Technique",
@@ -1007,7 +1007,7 @@ const BANDS = {
             ),
           },
           {
-            id: 6,
+            id: 7,
             name: "Liberate Me",
             band: "DVSR",
             album: "West Technique",
@@ -1175,7 +1175,7 @@ const BANDS = {
             ),
           },
           {
-            id: 7,
+            id: 8,
             name: "Redrum",
             band: "DVSR",
             album: "West Technique",
@@ -1266,7 +1266,7 @@ const BANDS = {
             ),
           },
           {
-            id: 8,
+            id: 9,
             name: "Rack 'em Up",
             band: "DVSR",
             album: "West Technique",
@@ -1366,7 +1366,7 @@ const BANDS = {
             ),
           },
           {
-            id: 9,
+            id: 10,
             name: "Black Magic",
             band: "DVSR",
             album: "West Technique",
@@ -1513,7 +1513,7 @@ const BANDS = {
             ),
           },
           {
-            id: 10,
+            id: 11,
             name: "Respect on the Name",
             band: "DVSR",
             album: "West Technique",
@@ -1685,7 +1685,7 @@ const BANDS = {
             ),
           },
           {
-            id: 11,
+            id: 12,
             name: "Homesic",
             band: "DVSR",
             album: "West Technique",
@@ -1803,7 +1803,7 @@ const BANDS = {
             ),
           },
           {
-            id: 12,
+            id: 13,
             name: "Leave and Die Slowly",
             band: "DVSR",
             album: "West Technique",
