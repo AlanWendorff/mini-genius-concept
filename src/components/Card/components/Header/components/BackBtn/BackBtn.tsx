@@ -1,24 +1,20 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import styles from "./BackBtn.module.scss";
+import useChangeContent from "@components/Card/useChangeContent";
 
-interface props {
-  show: boolean;
-  handleMenu: () => void;
-}
+const BackBtn = () => {
+  const { handleReturnMenu } = useChangeContent();
 
-const BackBtn = ({ show, handleMenu }: props) => (
-  <AnimatePresence>
-    {show && (
-      <motion.button
-        initial={{ rotateX: 80 }}
-        animate={{ rotateX: 0 }}
-        onClick={handleMenu}
-        className={styles.button}
-      >
-        back
-      </motion.button>
-    )}
-  </AnimatePresence>
-);
+  return (
+    <motion.button
+      initial={{ rotateX: 80 }}
+      animate={{ rotateX: 0 }}
+      onClick={handleReturnMenu}
+      className={styles.button}
+    >
+      back
+    </motion.button>
+  );
+};
 
 export default BackBtn;

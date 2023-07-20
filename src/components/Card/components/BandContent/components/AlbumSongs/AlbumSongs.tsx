@@ -3,20 +3,21 @@ import styles from "./AlbumSongs.module.scss";
 import IAlbum from "interfaces/album";
 
 interface props {
-  album: null | undefined | IAlbum;
+  selectedAlbum: null | undefined | IAlbum;
 }
 
-const AlbumSongs = ({ album }: props) => (
-  <div className={styles.container}>
-    <h2 className={styles.title}>{album?.name} TRACKLIST</h2>
+const AlbumSongs = ({ selectedAlbum }: props) => (
+  <>
+    <h2 className={styles.title}>{selectedAlbum?.name} TRACKLIST</h2>
 
     <motion.ul
+      className={styles.tracklist}
       initial={{ x: 450 }}
       animate={{ x: 0 }}
       exit={{ x: -300 }}
       transition={{ type: "tween" }}
     >
-      {album?.tracklist.map((song, index) => (
+      {selectedAlbum?.tracklist.map((song, index) => (
         <li key={index}>
           <p>
             <span>{index + 1}</span>
@@ -25,7 +26,7 @@ const AlbumSongs = ({ album }: props) => (
         </li>
       ))}
     </motion.ul>
-  </div>
+  </>
 );
 
 export default AlbumSongs;

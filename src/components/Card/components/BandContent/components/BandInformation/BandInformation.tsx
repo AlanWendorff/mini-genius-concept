@@ -1,13 +1,16 @@
-import styles from "./Content.module.scss";
+import styles from "./BandInformation.module.scss";
 import { motion } from "framer-motion";
 import BANDS from "data/band.data";
 import { useEffect } from "react";
+import { IBand } from "interfaces/band";
+import IAlbum from "interfaces/album";
 
 interface props {
-  handleAlbum: (id: number) => void;
+  selectedBand: IBand;
+  handleSelectAlbum: (id: number) => void;
 }
 
-const Content = ({ handleAlbum }: props) => {
+const BandInformation = ({ selectedBand, handleSelectAlbum }: props) => {
   const description =
     " are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.";
 
@@ -42,24 +45,24 @@ const Content = ({ handleAlbum }: props) => {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <>
       <div className={styles.about}>
-        <h3>About “DVSR“</h3>
+        <h3>About “{selectedBand.band_name}“</h3>
 
         <p id="description">
-          <span>DVSR</span>
+          <span>{selectedBand.band_name}</span>
         </p>
       </div>
 
       <div className={styles.albums}>
-        <h3>POPULAR DVSR ALBUMS</h3>
+        <h3>POPULAR {selectedBand.band_name} ALBUMS</h3>
         <div className={styles.grid}>
-          {BANDS.dvsr.albums.map(({ id, image, name, release_year }) => (
+          {selectedBand.albums.map(({ id, image, name, release_year }) => (
             <motion.div
               key={id}
               className={styles.album}
               whileHover="onImageHover"
-              onClick={() => handleAlbum(id)}
+              onClick={() => handleSelectAlbum(id)}
             >
               <motion.img
                 variants={variants}
@@ -75,7 +78,7 @@ const Content = ({ handleAlbum }: props) => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
-export default Content;
+export default BandInformation;

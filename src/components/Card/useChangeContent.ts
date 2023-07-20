@@ -1,26 +1,64 @@
 import { useState } from "react";
 import BANDS from "data/band.data";
-import IAlbum from "interfaces/album";
+import IAlbum, { ITrack } from "interfaces/album";
+import IBand from "interfaces/band";
+
+export enum ECardStatus {
+  "BAND" = 0,
+  "ALBUM" = 1,
+  "SONG" = 1,
+}
 
 interface returnProps {
-  album: null | undefined | IAlbum;
-  handleAlbum: (id: number) => void;
-  handleMenu: () => void;
+  cardStatus: ECardStatus.BAND | ECardStatus.ALBUM | ECardStatus.SONG;
+  selectedAlbum: null | undefined | IAlbum;
+  selectedTrack: null | undefined | ITrack;
+  handleSelectAlbum: (id: number) => void;
+  handleSelectSong: (songName: string) => void;
+  handleReturnMenu: () => void;
 }
 
 const useChangeContent = (): returnProps => {
-  const [album, setAlbum] = useState<null | IAlbum | undefined>(null);
+  const [cardStatus, setCardStatus] = useState<
+    ECardStatus.BAND | ECardStatus.ALBUM | ECardStatus.SONG
+  >(ECardStatus.BAND);
 
-  const handleAlbum = (albumId: number) => {
+  const [selectedAlbum, setSelectedAlbum] = useState<null | IAlbum | undefined>(
+    null
+  );
+
+  const [selectedTrack, setSelectedTrack] = useState<null | ITrack | undefined>(
+    null
+  );
+
+  const handleSelectAlbum = (albumId: number) => {
     const albumSelected = BANDS.dvsr.albums.find(({ id }) => id === albumId);
-    setAlbum(albumSelected);
+    setSelectedAlbum(albumSelected);
+    setCardStatus(ECardStatus.ALBUM);
   };
 
-  const handleMenu = () => {
-    setAlbum(null);
+  const handleSelectSong = (songName: string) => {
+    const songSelected = selectedAlbum?.tracklist.find(
+      ({ name }) => name === songName
+    );
+    setSelectedTrack(songSelected);
+    setCardStatus(ECardStatus.SONG);
   };
 
-  return { album, handleAlbum, handleMenu };
+  const handleReturnMenu = () => {
+    setSelectedAlbum(null);
+    setSelectedTrack(null);
+    setCardStatus(ECardStatus.BAND);
+  };
+
+  return {
+    cardStatus,
+    selectedAlbum,
+    selectedTrack,
+    handleSelectAlbum,
+    handleSelectSong,
+    handleReturnMenu,
+  };
 };
 
 export default useChangeContent;

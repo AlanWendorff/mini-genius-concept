@@ -1,11 +1,15 @@
 import { StaticImageData } from "next/image";
 import IAlbum from "./album";
 
-interface IBand {
-  [key: string]: {
-    band_image: StaticImageData;
-    albums: IAlbum[];
-  };
+export interface IBand {
+  band_image: StaticImageData;
+  band_name: string;
+  band_aka: string;
+  albums: IAlbum[];
 }
 
-export default IBand;
+interface IBands {
+  [key: string]: IBand;
+}
+
+export default IBands;

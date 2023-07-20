@@ -1,24 +1,24 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import styles from "./Card.module.scss";
 import Header from "./components/Header";
-import Content from "./components/Content";
+import Content from "./components/BandContent/components/BandInformation";
 import useChangeContent from "./useChangeContent";
-import AlbumSongs from "./components/AlbumSongs/AlbumSongs";
-import IBand from "interfaces/band";
+import AlbumSongs from "./components/BandContent/components/AlbumSongs/AlbumSongs";
+import IBands from "interfaces/band";
+import BandContent from "./components/BandContent/BandContent";
 
-const Card = ({ band }: IBand) => {
-  const { album, handleAlbum, handleMenu } = useChangeContent();
+const Card = ({ band }: IBands) => {
+  const {
+    cardStatus,
+    selectedAlbum,
+    selectedTrack,
+    handleSelectAlbum,
+    handleSelectSong,
+  } = useChangeContent();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const rotateX = useTransform(y, [-100, 100], [30, -30]);
   const rotateY = useTransform(x, [-100, 100], [30, -30]);
-
-  const variants = {
-    default: {
-      translateX: 0,
-      rotateZ: 0,
-    },
-  };
 
   return (
     <motion.div
@@ -30,17 +30,20 @@ const Card = ({ band }: IBand) => {
       whileTap={{ cursor: "grabbing" }}
     >
       <Header
-        album={album}
-        handleMenu={handleMenu}
-        title="DVSR"
-        subtitle="AKA: Designed via Strength & Respect, Devastator"
-        image={band.band_image}
+        cardStatus={cardStatus}
+        selectedBand={band}
+        selectedAlbum={selectedAlbum}
+        selectedTrack={selectedTrack}
       />
-      {album ? (
-        <AlbumSongs album={album} />
-      ) : (
-        <Content handleAlbum={handleAlbum} />
-      )}
+
+      <BandContent
+        cardStatus={cardStatus}
+        selectedBand={band}
+        selectedAlbum={selectedAlbum}
+        selectedTrack={selectedTrack}
+        handleSelectAlbum={handleSelectAlbum}
+        handleSelectSong={handleSelectSong}
+      />
     </motion.div>
   );
 };

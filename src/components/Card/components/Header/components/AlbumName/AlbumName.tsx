@@ -1,34 +1,29 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import styles from "../Texts.module.scss";
 import IAlbum from "interfaces/album";
 
 interface props {
-  album: null | undefined | IAlbum;
-  show: boolean;
+  selectedAlbum: null | undefined | IAlbum;
 }
 
-const AlbumName = ({ album, show }: props) => (
+const AlbumName = ({ selectedAlbum }: props) => (
   <div className={styles.container}>
-    <AnimatePresence>
-      {show && (
-        <motion.div
-          className={styles.animatedContainer}
-          initial={{ x: -300 }}
-          animate={{ x: 0 }}
-          exit={{ x: -300 }}
-          transition={{ type: "tween" }}
-        >
-          <h1>{album?.name}</h1>
+    <motion.div
+      className={styles.animatedContainer}
+      initial={{ x: -300 }}
+      animate={{ x: 0 }}
+      exit={{ x: -300 }}
+      transition={{ type: "tween" }}
+    >
+      <h1>{selectedAlbum?.name}</h1>
 
-          <div className={styles.albumInfo}>
-            <h2>{album?.band}</h2>
-            <p>
-              Released {album?.release_date}, {album?.release_year}
-            </p>
-          </div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+      <div className={styles.albumInfo}>
+        <h2>{selectedAlbum?.band}</h2>
+        <p>
+          Released {selectedAlbum?.release_date}, {selectedAlbum?.release_year}
+        </p>
+      </div>
+    </motion.div>
   </div>
 );
 
