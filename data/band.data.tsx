@@ -2567,11 +2567,11 @@ const BANDS = {
                   <br />
                   Yo, I watched the light in his eyes fade
                   <br />
-                  The sweat moving from my nose it fell on his dying
-                  face,&amp;#x2028;I watched my demons just fly away, the primal
-                  instinct released in me and my mind state.&amp;#x2028;Turned
-                  to his father who was spectating palms to the sky tears in his
-                  eyes hoping god will save him (uhh)
+                  The sweat moving from my nose it fell on his dying face,I
+                  watched my demons just fly away, the primal instinct released
+                  in me and my mind state.Turned to his father who was
+                  spectating palms to the sky tears in his eyes hoping god will
+                  save him (uhh)
                   <br />
                   “Isn’t the devils presence breathtaking” i whispered as i
                   twisted the tool of in him fucking take him
@@ -2589,18 +2589,17 @@ const BANDS = {
                   down my throat and chucked his corpse on the road explosive
                   <br />
                   Yo discard the heart he had left antagonising my magnified
-                  atoms and organise rhythms,&amp;#x2028;uh listen, i made him
-                  stick em’ up like the hair on my arms when the sensation is
-                  thrilling, cuz.&amp;#x2028;ventricular time ticking you’re
-                  quick to get little bit of a incline kick in&amp;#x2028;so so
-                  so many minds thinking won't they just leave me in solace,
-                  alone and so lost emulate behaviour that demotes us
+                  atoms and organise rhythms,uh listen, i made him stick em’ up
+                  like the hair on my arms when the sensation is thrilling,
+                  cuz.ventricular time ticking you’re quick to get little bit of
+                  a incline kick inso so so many minds thinking won't they just
+                  leave me in solace, alone and so lost emulate behaviour that
+                  demotes us
                   <br />I tally my skin with days I can not bare and veil my
-                  weary eyes from the occurrence that
-                  re-appears,&amp;#x2028;yeah deaths doves speak with
-                  assassins&amp;#x2028;motivated by visions of him burning
-                  ashes, &amp;#x2028;my final breathe forever lasting lay me by
-                  his side and just bury me in his casket
+                  weary eyes from the occurrence that re-appears,yeah deaths
+                  doves speak with assassinsmotivated by visions of him burning
+                  ashes, my final breathe forever lasting lay me by his side and
+                  just bury me in his casket
                   <br />
                   Lay me by his side and just bury me in his casket
                 </div>
@@ -2765,8 +2764,8 @@ const BANDS = {
                   <br />
                   [Verse 1]
                   <br />
-                  The generation built on fear,&amp;#x2028; when transparency in
-                  their skin will break off a tear I swear
+                  The generation built on fear, when transparency in their skin
+                  will break off a tear I swear
                   <br />
                   Our sensitivity engraved and biological chemistry enrages them
                   history pages
