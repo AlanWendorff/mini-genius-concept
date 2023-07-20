@@ -1,7 +1,6 @@
 import { useState } from "react";
 import BANDS from "data/band.data";
 import IAlbum, { ITrack } from "interfaces/album";
-import IBand from "interfaces/band";
 
 export enum ECardStatus {
   "BAND" = 0,
