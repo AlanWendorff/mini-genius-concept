@@ -1,3 +1,5 @@
+@use "@styles/_mixins.scss" as mixins;
+
 .animatedContainer {
   position: absolute;
 
@@ -26,7 +28,7 @@
 
     svg {
       top: 0;
-      fill: #ffffff;
+      fill: white;
       width: 0.6162rem;
       position: absolute;
       margin-left: calc(-0.548625em);
@@ -41,15 +43,14 @@
 
 .albumInfo {
   p {
-    color: #9a9a9a;
+    color: var(--color-zeta);
     font-family: "Programme Normal", sans-serif;
     margin-bottom: 0.48rem;
   }
 }
 
 .songInfo {
-  display: flex;
-  align-items: center;
+  @include mixins.flex_container(row, auto, center);
 
   > p {
     margin-top: 0.5rem;

@@ -10,7 +10,8 @@ const BANDS = {
     band_image: BAND_IMAGE,
     band_name: "DVSR",
     band_aka: "AKA: Designed via Strength & Respect, Devastator",
-    band_description: " are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.",
+    band_description:
+      " are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.",
     albums: [
       {
         id: 19,
@@ -3365,10 +3366,7 @@ const BANDS = {
                 >
                   (INTRO/1st VERSE)
                   <br />
-                  <a
-                    href="/8682833/Dvsr-six-figures-deep/Was-it-all-for-the-fame-was-it-all-but-a-game-throwing-around-money-but-you-laughed-in-our-face-and-you-couldnt-buy-love-with-your-money-filled-case"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       Was it all for the fame?
                       <br />
@@ -3418,10 +3416,7 @@ const BANDS = {
                   <br />
                   Sold out by the greed, throw up the cash to match your rich
                   dreams but your ego stands above money you achieve,{" "}
-                  <a
-                    href="/8682841/Dvsr-six-figures-deep/Buy-friends-with-a-drink-love-with-the-a-ring"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       buy friends with a drink, love with the a ring
                     </span>
@@ -3467,10 +3462,7 @@ const BANDS = {
                   dreams of inner peace with a fee
                   <br />
                   <br />
-                  <a
-                    href="/21757614/Dvsr-six-figures-deep/Six-figures-six-feet-deep-i-wont-sleep-given-the-situation-were-dealing-with-is-quite-deep-fuck-a-minimal-speech-im-going-to-be-the-one-to-tell-them-that-money-couldnt-buy-the-essentials-and-theyre-all-free-love-and-respect-youre-a-thug-with-a-cheque-can-you-buy-the-time-when-i-got-you-good-as-dead"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       Six figures six feet deep I won’t sleep given the
                       situation we’re dealing with is quite deep
@@ -3517,10 +3509,7 @@ const BANDS = {
                     />
                   </span>
                   <br />
-                  <a
-                    href="/8769868/Dvsr-six-figures-deep/The-expression-that-resembles-the-queen-up-on-our-cent"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       The expression that resembles the queen up on our cent
                     </span>
@@ -3565,10 +3554,7 @@ const BANDS = {
                   <br />
                   CHORUS:
                   <br />
-                  <a
-                    href="/8682822/Dvsr-six-figures-deep/As-you-brag-with-the-rich-spend-cash-till-your-sick-ima-be-laid-back-with-a-smile-living-care-free-quantity-is-but-a-bitch-as-you-brag-with-the-rich-spend-cash-till-your-sick-ima-be-laid-back-with-a-smile-living-care-free-quantity-is-but-a-bitch-fuck-money-fuck-fame"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       As you brag with the rich, spend cash till your sick ima
                       be laid back with a smile living care free quantity is but
@@ -3796,10 +3782,7 @@ const BANDS = {
                   No stalling when I come
                   <br />
                   Young, free, dumb{" "}
-                  <a
-                    href="/8682961/Dvsr-shutdown/Bet-i-butterfly-tongues"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       bet I butterfly tongues
                     </span>
@@ -4829,10 +4812,7 @@ const BANDS = {
                   (1st Verse)
                   <br />
                   <br />
-                  <a
-                    href="/8769804/Dvsr-unconscious/Stop-taking-steps-in-the-wrong-direction"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       Stop taking steps in the wrong direction
                     </span>
@@ -4873,10 +4853,7 @@ const BANDS = {
                     />
                   </span>
                   <br />
-                  <a
-                    href="/8682942/Dvsr-unconscious/Youre-lost-in-belief-and-your-lifes-affected-youre-restless-when-you-wake-up-in-the-morning-youre-lost-without-a-cause-and-you-follow-the-rest-i-can-feel-it"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       You're lost in belief
                       <br />
@@ -4961,10 +4938,7 @@ const BANDS = {
                   data-lyrics-container="true"
                   className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
                 >
-                  <a
-                    href="/8769824/Dvsr-unconscious/When-you-face-these-knights-up-in-their-shining-armour-recognise-that-metal-has-not-been-dented-no-battle-scars-thus-proving-they-havent-been-tested"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       When you face these knights up in their shining armour
                       <br />
@@ -5021,10 +4995,7 @@ const BANDS = {
                   (2nd Verse)
                   <br />
                   <br />
-                  <a
-                    href="/8769857/Dvsr-unconscious/And-its-like-youre-trapped-up-in-this-maze-all-emotion-locked-away-in-a-cage"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       And it's like you're trapped up in this maze
                       <br />
@@ -5067,10 +5038,7 @@ const BANDS = {
                     />
                   </span>
                   <br />
-                  <a
-                    href="/8769855/Dvsr-unconscious/Youve-been-buried-alive-can-you-feel-the-wet-cement-turn-hard-when-its-sealing-youre-eyes"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       You've been buried alive
                       <br />
@@ -5127,10 +5095,7 @@ const BANDS = {
                   <br />
                   Literally
                   <br />
-                  <a
-                    href="/8682855/Dvsr-unconscious/The-fresh-scent-of-burning-flesh-filled-the-skies-their-thoughts-stay-disguised-so-take-a-breath-what-did-you-expect-in-world-where-belief-overrides-common-sense"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       The fresh scent of burning flesh filled the skies
                       <br />
@@ -5179,10 +5144,7 @@ const BANDS = {
                     />
                   </span>
                   <br />
-                  <a
-                    href="/8769858/Dvsr-unconscious/The-concrete-hardens-when-it-enters-your-chest-they-told-you-to-breath-you-believed-you-would-live"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       The concrete hardens when it enters your chest
                       <br />
@@ -5241,10 +5203,7 @@ const BANDS = {
                   (CHORUS)
                   <br />
                   <br />
-                  <a
-                    href="/8769799/Dvsr-unconscious/You-are-oblivious-become-aware"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       YOU ARE OBLIVIOUS, BECOME AWARE
                     </span>
@@ -5285,10 +5244,7 @@ const BANDS = {
                     />
                   </span>
                   <br />
-                  <a
-                    href="/8682867/Dvsr-unconscious/Dont-assume-until-you-truly-understand"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       DONT ASSUME UNTIL YOU TRULY UNDERSTAND
                     </span>
@@ -5329,10 +5285,7 @@ const BANDS = {
                     />
                   </span>
                   <br />
-                  <a
-                    href="/8682874/Dvsr-unconscious/Entrust-in-stars-and-blame-the-fucking-government"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       ENTRUST IN STARS AND BLAME THE FUCKING GOVERNMENT
                     </span>
@@ -5382,10 +5335,7 @@ const BANDS = {
                   (BRIDGE)
                   <br />
                   <br />
-                  <a
-                    href="/8682884/Dvsr-unconscious/Its-just-one-more-religion-were-adding-into-our-history-you-are-diseased-but-we-possess-the-fucking-immunity"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       It's just one more religion
                       <br />
@@ -5440,10 +5390,7 @@ const BANDS = {
                   <br />
                   (And you will notice that their time is up,)
                   <br />
-                  <a
-                    href="/8682893/Dvsr-unconscious/When-the-last-grain-of-sand-drops-in-the-hour-glass-that-their-reign-has-passed-itll-be-because-of-us-the-ones-with-the-logic-the-humans-who-can-distinguish-a-lie-from-a-promise-the-ones-with-the-common-knowledge"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       When the last grain of sand drops in the hour glass
                       <br />
@@ -5533,10 +5480,7 @@ const BANDS = {
                   (EXTENDED CHORUS)
                   <br />
                   <br />
-                  <a
-                    href="/8682905/Dvsr-unconscious/Trust-me-i-know-why-you-do-believe-its-divine-it-brings-you-hope-you-learn-to-cope-but-youre-narrow-minded-you-cant-let-go-you-wouldnt-know-whats-blinding-your-sight-stay-far-away-from-the-liars-become-you-you-wont-need-any-guidance-relate-to-yourself-feel-what-you-want-we-arent-machines-we-dont-beat-with-the-same-heart"
-                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
-                  >
+                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
                       Trust me i know why you do believe
                       <br />

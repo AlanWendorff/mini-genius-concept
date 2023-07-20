@@ -27,12 +27,12 @@
     }
 
     &::-webkit-scrollbar-thumb {
-      background: #c5c5c5;
+      background: var(--color-scrollbar-thumb);
       border-radius: 0.625rem;
     }
 
     &::-webkit-scrollbar-thumb:hover {
-      background: #b6b6b6;
+      background: var(--color-scrollbar-thumb-hover);
     }
 
     > div > div {

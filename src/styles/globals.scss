@@ -3,8 +3,6 @@
 @use "./_responsives.scss";
 
 :root {
-  --color-white: #{colors.$colorWhite};
-  --color-black: #{colors.$colorBlack};
   --color-alpha: #{colors.$colorAlpha};
   --color-beta: #{colors.$colorBeta};
   --color-gamma: #{colors.$colorGamma};
@@ -12,6 +10,11 @@
   --color-epsilon: #{colors.$colorEpsilon};
   --color-zeta: #{colors.$colorZeta};
   --color-eta: #{colors.$colorEta};
+  --color-theta: #{colors.$colorTheta};
+  --color-iota: #{colors.$colorIota};
+
+  --color-scrollbar-thumb: #{colors.$colorScrollbarThumb};
+  --color-scrollbar-thumb-hover: #{colors.$colorScrollbarThumbHover};
 }
 
 html {

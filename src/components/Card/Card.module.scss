@@ -1,15 +1,15 @@
+@use "@styles/_mixins.scss" as mixins;
+
 .container {
+  @include mixins.flex_container(column, space-between, auto);
   width: 30rem;
   height: 48.375rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   //filter: drop-shadow(0rem 0rem 0.625rem #f7f7f744);
 }
 
 .bandInfo {
   padding: 2rem 1rem 1rem 1rem;
-  background-color: #f7f7f7;
+  background-color: var(--color-beta);
   height: 100%;
   border-radius: 0 0 2.5rem 2.5rem;
 
@@ -38,7 +38,7 @@
     h3 {
       margin-top: 2.25rem;
       margin-bottom: 0.5rem;
-      color: #9a9a9a;
+      color: var(--color-zeta);
       font-size: 0.875rem;
     }
 
@@ -51,10 +51,7 @@
       padding: 1rem;
 
       .album {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        @include mixins.flex_container(column, space-between, center);
         height: 10.4375rem;
         text-align: center;
 
@@ -69,7 +66,7 @@
         }
 
         .year {
-          color: #9a9a9a;
+          color: var(--color-zeta);
         }
       }
     }
