@@ -14,6 +14,7 @@ const BandContent = ({
   cardStatus,
   selectedAlbum,
   selectedBand,
+  selectedTrack,
   handleSelectAlbum,
   handleSelectSong,
 }: IBandContent) => (
@@ -32,7 +33,10 @@ const BandContent = ({
       show={cardStatus === ECardStatus.ALBUM}
     />
 
-    <Lyric show={cardStatus === ECardStatus.SONG} />
+    <Lyric
+      selectedTrack={selectedTrack}
+      show={cardStatus === ECardStatus.SONG}
+    />
   </div>
 );
 

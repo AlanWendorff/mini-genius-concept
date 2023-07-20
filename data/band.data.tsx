@@ -5,6 +5,178 @@ import ALBUM_4 from "@images/band/albums/dvsr.png";
 
 import BAND_IMAGE from "@images/band/band.jpeg";
 
+const LYRICS = (
+  <div
+    id="lyrics-root"
+    className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+  >
+    <div
+      data-lyrics-container="true"
+      className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+    >
+      [Verse 1]
+      <br />
+      <br />
+      I've been waiting for this shit to erupt
+      <br />
+      In a glass shell, been rocking back and forth for a month
+      <br />
+      (for a month)
+      <br />I can't remember the name of a coward only the pain and the scars
+      gained contour the veins, brother
+      <br />I put the rank on my back
+      <br />
+      Let the information sink when you gaze at the facts
+      <br />
+      I'll be waiting for the double headed snake and the rat
+      <br />I need to react and then adapt
+      <br />
+      Before the climax and keep intact, cuz (uh)
+      <br />I keep a terror attack style like cyrax blowing up the mass, mask on
+      (what)
+      <br />
+      I'm in a class above a black belt just like a master
+      <br />
+      Bow to disaster
+      <br />
+      Sipping blood dripping from a dagger
+      <br />
+      Relax like two fat hits of blue magic
+      <br />
+      Raised by the classics
+      <br />
+      First release on repeat, turn them all into addicts
+      <br />
+      <br />
+      (Yeah, and they still ain't fucking with us)
+      <br />
+      <br />
+      [Chorus]
+      <br />
+      <br />
+      You can't fuck with my clique
+      <br />
+      Mad at the world with them scars on my fist, bitch
+      <br />
+      You can't fuck with my clique
+      <br />
+      When you're living in a state of mind you can't fix
+      <br />
+      You can't fuck with my clique
+      <br />
+      Mad at the world with them scars on my fist, bitch
+      <br />
+      You can't fuck with my clique
+      <br />
+      When you're living in a state of mind you can't fix
+      <br />
+    </div>
+    <div
+      data-lyrics-container="true"
+      className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+    >
+      [Bridge]
+      <br />
+      <br />
+      You know I feel;
+      <br />
+      Charismatic the way I open my veins in the attic
+      <br />
+      Feeling of madness in the court of low thinking I'm in the court with a
+      racquet, bringing the racket
+      <br />
+      Disturbing the peace, what a feat, the fraek of nature
+      <br />
+      Birthed my desease
+      <br />
+      Alert to all threats, fuck these figures I'm a hone in the skills
+      <br />A clone in the hills, propose and sacrifice for the youth
+      <br />
+      Admitting the world except your fucking punk crew
+      <br />
+      <br />
+      [Breakdown]
+      <br />
+      <br />
+      I'm a break through with the clique
+      <br />
+      Bleeding out the motherfucking crevice in the mist
+      <br />
+      Surfacing the level of psychopath
+      <br />
+      I'm talking to a motherfucking bitch
+      <br />I need to relocate the grips
+      <br />
+      Re arrange the cheekbonen, jow, gotta list (list)
+      <br />
+      Open that wound if you need another lesson from a brother like this
+      <br />
+      Step in line with the rest of the filth (filth)
+      <br />
+      <br />
+      [Verse 2]
+      <br />
+      <br />
+      Oh no, can't be controlled, step back or fold
+      <br />
+      The gift of rhythm; still it wasn't given to'em
+      <br />
+      Your better pay your respects
+      <br />
+      Put them hands in disposals and laugh at the mess
+      <br />
+      Panic or distress
+      <br />
+      Linear graphs predict where I rest
+      <br />I digress, my minds air locked inside a chest (yo)
+      <br />
+      Everlasting, circumnavigating to find the action
+      <br />
+      Periodical visions of distractions
+      <br />
+      To understand the meaning of wath's happened
+      <br />
+      They asking, "How do we develop what you mastered?"
+      <br />
+      It originated in our deepest fear of falling backwards
+      <br />
+      And we will arise from the ashes
+      <br />
+      Evolded; four blacks souls the eyes matching
+      <br />
+      You dwelling in the past speaking latin
+      <br />
+      Attract the metal scene like a magnet
+      <br />
+      Oh please, now extract the waste that has gathered
+      <br />
+    </div>
+    <div
+      data-lyrics-container="true"
+      className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+    >
+      [Chorus]
+      <br />
+      <br />
+      You can't fuck with my clique
+      <br />
+      Mad at the world with them scars on my fist, bitch
+      <br />
+      You can't fuck with my clique
+      <br />
+      When you're living in a state of mind you can't fix
+      <br />
+      You can't fuck with my clique
+      <br />
+      Mad at the world with them scars on my fist, bitch
+      <br />
+      You can't fuck with my clique
+      <br />
+      When you're living in a state of mind you can't fix
+    </div>
+  </div>
+);
+
 const BANDS = {
   dvsr: {
     band_image: BAND_IMAGE,
@@ -180,7 +352,7 @@ const BANDS = {
             name: "Bad Company",
             band: "DVSR",
             album: "Bad Company",
-            lyric: <p></p>,
+            lyric: LYRICS,
           },
         ],
       },
@@ -270,175 +442,3 @@ const BANDS = {
 };
 
 export default BANDS;
-
-const LYRIC = (
-  <div
-    id="lyrics-root"
-    className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-  >
-    <div
-      data-lyrics-container="true"
-      className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-    >
-      [Verse 1]
-      <br />
-      <br />
-      I've been waiting for this shit to erupt
-      <br />
-      In a glass shell, been rocking back and forth for a month
-      <br />
-      (for a month)
-      <br />I can't remember the name of a coward only the pain and the scars
-      gained contour the veins, brother
-      <br />I put the rank on my back
-      <br />
-      Let the information sink when you gaze at the facts
-      <br />
-      I'll be waiting for the double headed snake and the rat
-      <br />I need to react and then adapt
-      <br />
-      Before the climax and keep intact, cuz (uh)
-      <br />I keep a terror attack style like cyrax blowing up the mass, mask on
-      (what)
-      <br />
-      I'm in a class above a black belt just like a master
-      <br />
-      Bow to disaster
-      <br />
-      Sipping blood dripping from a dagger
-      <br />
-      Relax like two fat hits of blue magic
-      <br />
-      Raised by the classics
-      <br />
-      First release on repeat, turn them all into addicts
-      <br />
-      <br />
-      (Yeah, and they still ain't fucking with us)
-      <br />
-      <br />
-      [Chorus]
-      <br />
-      <br />
-      You can't fuck with my clique
-      <br />
-      Mad at the world with them scars on my fist, bitch
-      <br />
-      You can't fuck with my clique
-      <br />
-      When you're living in a state of mind you can't fix
-      <br />
-      You can't fuck with my clique
-      <br />
-      Mad at the world with them scars on my fist, bitch
-      <br />
-      You can't fuck with my clique
-      <br />
-      When you're living in a state of mind you can't fix
-      <br />
-    </div>
-    <div
-      data-lyrics-container="true"
-      className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-    >
-      [Bridge]
-      <br />
-      <br />
-      You know I feel;
-      <br />
-      Charismatic the way I open my veins in the attic
-      <br />
-      Feeling of madness in the court of low thinking I'm in the court with a
-      racquet, bringing the racket
-      <br />
-      Disturbing the peace, what a feat, the fraek of nature
-      <br />
-      Birthed my desease
-      <br />
-      Alert to all threats, fuck these figures I'm a hone in the skills
-      <br />A clone in the hills, propose and sacrifice for the youth
-      <br />
-      Admitting the world except your fucking punk crew
-      <br />
-      <br />
-      [Breakdown]
-      <br />
-      <br />
-      I'm a break through with the clique
-      <br />
-      Bleeding out the motherfucking crevice in the mist
-      <br />
-      Surfacing the level of psychopath
-      <br />
-      I'm talking to a motherfucking bitch
-      <br />I need to relocate the grips
-      <br />
-      Re arrange the cheekbonen, jow, gotta list (list)
-      <br />
-      Open that wound if you need another lesson from a brother like this
-      <br />
-      Step in line with the rest of the filth (filth)
-      <br />
-      <br />
-      [Verse 2]
-      <br />
-      <br />
-      Oh no, can't be controlled, step back or fold
-      <br />
-      The gift of rhythm; still it wasn't given to'em
-      <br />
-      Your better pay your respects
-      <br />
-      Put them hands in disposals and laugh at the mess
-      <br />
-      Panic or distress
-      <br />
-      Linear graphs predict where I rest
-      <br />I digress, my minds air locked inside a chest (yo)
-      <br />
-      Everlasting, circumnavigating to find the action
-      <br />
-      Periodical visions of distractions
-      <br />
-      To understand the meaning of wath's happened
-      <br />
-      They asking, "How do we develop what you mastered?"
-      <br />
-      It originated in our deepest fear of falling backwards
-      <br />
-      And we will arise from the ashes
-      <br />
-      Evolded; four blacks souls the eyes matching
-      <br />
-      You dwelling in the past speaking latin
-      <br />
-      Attract the metal scene like a magnet
-      <br />
-      Oh please, now extract the waste that has gathered
-      <br />
-    </div>
-    <div
-      data-lyrics-container="true"
-      className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-    >
-      [Chorus]
-      <br />
-      <br />
-      You can't fuck with my clique
-      <br />
-      Mad at the world with them scars on my fist, bitch
-      <br />
-      You can't fuck with my clique
-      <br />
-      When you're living in a state of mind you can't fix
-      <br />
-      You can't fuck with my clique
-      <br />
-      Mad at the world with them scars on my fist, bitch
-      <br />
-      You can't fuck with my clique
-      <br />
-      When you're living in a state of mind you can't fix
-    </div>
-  </div>
-);

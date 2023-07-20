@@ -1,86 +1,42 @@
-.absoluteContainer {
+.animatedContainer {
   position: absolute;
   width: 100%;
-  padding: 2rem 1rem 0rem 1rem;
+  padding: 2rem;
+  height: 100%;
 
-  .about {
-    padding: 1rem;
-    background-color: white;
-    color: black;
-    height: 104.3px;
-    overflow-y: auto;
-
-    h3 {
-      margin-top: 0;
-      font-size: 14px;
-      line-height: 1.45;
-      font-weight: 400;
-    }
-
-    p {
-      margin: 0;
-
-      span {
-        font-family: "Programme Normal", sans-serif;
-      }
-    }
+  h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.025rem;
+    font-weight: 100;
   }
 
-  .albums {
-    h3 {
-      margin-top: 2.25rem;
-      margin-bottom: 0.5rem;
-      color: #9a9a9a;
-      font-size: 14px;
+  .lyrics {
+    overflow-y: auto;
+    height: 500px;
+    padding-right: 0.5rem;
+
+    &::-webkit-scrollbar {
+      width: 7px;
     }
 
-    .grid {
-      background-color: white;
-      border-radius: 0 0 40px 40px;
-      display: grid;
-      grid-template-columns: 130px 1fr 130px;
-      row-gap: 1rem;
-      padding: 1rem;
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
 
-      .album {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: 167px;
-        text-align: center;
-        cursor: pointer;
-        position: relative;
+    &::-webkit-scrollbar-thumb {
+      background: #c5c5c5;
+      border-radius: 10px;
+    }
 
-        img {
-          z-index: 100;
-          width: 130px;
-          height: 130px;
-        }
+    &::-webkit-scrollbar-thumb:hover {
+      background: #b6b6b6;
+    }
 
-        .info {
-          z-index: 100;
-          p {
-            margin: 0;
-            font-size: 12px;
-          }
-
-          .year {
-            color: #9a9a9a;
-          }
-        }
-
-        &:hover::before {
-          content: "";
-          z-index: 0;
-          position: absolute;
-          top: 0;
-          transform: translate(0%, -4px);
-          width: 138px;
-          height: 177px;
-          background-color: #e9e9e9;
-        }
-      }
+    > div > div {
+      padding-bottom: 1.2rem;
     }
   }
 }
