@@ -6,7 +6,7 @@ const MetaTags = () => (
 
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="assets/images/web/icon-512.png" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/assets/images/web/favicon.ico" />
     <meta property="og:type" content="website" />
     <meta name="theme-color" content="#ffff64" />
     <meta name="author" content="Alan Wendorff" />

@@ -1,16 +1,15 @@
 import styles from "./BandInformation.module.scss";
-import { motion } from "framer-motion";
-import BANDS from "data/band.data";
+import { AnimatePresence, motion } from "framer-motion";
 import { useEffect } from "react";
 import { IBand } from "interfaces/band";
-import IAlbum from "interfaces/album";
 
 interface props {
   selectedBand: IBand;
+  show: boolean;
   handleSelectAlbum: (id: number) => void;
 }
 
-const BandInformation = ({ selectedBand, handleSelectAlbum }: props) => {
+const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
   const description =
     " are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.";
 
@@ -41,44 +40,60 @@ const BandInformation = ({ selectedBand, handleSelectAlbum }: props) => {
   }
 
   useEffect(() => {
-    typeWriter();
-  }, []);
+    show && typeWriter();
+  }, [show]);
 
   return (
-    <>
-      <div className={styles.about}>
-        <h3>About “{selectedBand.band_name}“</h3>
+    <AnimatePresence>
+      {show && (
+        <div className={styles.absoluteContainer}>
+          <motion.div
+            className={styles.about}
+            initial={{ x: -480 }}
+            animate={{ x: 0 }}
+            exit={{ x: -480 }}
+            transition={{ type: "tween" }}
+          >
+            <h3>About “{selectedBand.band_name}“</h3>
 
-        <p id="description">
-          <span>{selectedBand.band_name}</span>
-        </p>
-      </div>
+            <p id="description">
+              <span>{selectedBand.band_name}</span>
+            </p>
+          </motion.div>
 
-      <div className={styles.albums}>
-        <h3>POPULAR {selectedBand.band_name} ALBUMS</h3>
-        <div className={styles.grid}>
-          {selectedBand.albums.map(({ id, image, name, release_year }) => (
-            <motion.div
-              key={id}
-              className={styles.album}
-              whileHover="onImageHover"
-              onClick={() => handleSelectAlbum(id)}
-            >
-              <motion.img
-                variants={variants}
-                draggable={false}
-                src={image.src}
-                alt={name}
-              />
-              <div className={styles.info}>
-                <p>{name}</p>
-                <p className={styles.year}>{release_year}</p>
-              </div>
-            </motion.div>
-          ))}
+          <motion.div
+            className={styles.albums}
+            initial={{ x: -480 }}
+            animate={{ x: 0 }}
+            exit={{ x: -480 }}
+            transition={{ type: "tween" }}
+          >
+            <h3>POPULAR {selectedBand.band_name} ALBUMS</h3>
+            <div className={styles.grid}>
+              {selectedBand.albums.map(({ id, image, name, release_year }) => (
+                <motion.div
+                  key={id}
+                  className={styles.album}
+                  whileHover="onImageHover"
+                  onClick={() => handleSelectAlbum(id)}
+                >
+                  <motion.img
+                    variants={variants}
+                    draggable={false}
+                    src={image.src}
+                    alt={name}
+                  />
+                  <div className={styles.info}>
+                    <p>{name}</p>
+                    <p className={styles.year}>{release_year}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
         </div>
-      </div>
-    </>
+      )}
+    </AnimatePresence>
   );
 };
 export default BandInformation;

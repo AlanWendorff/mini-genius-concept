@@ -1,5 +1,4 @@
 import styles from "./BandContent.module.scss";
-import { AnimatePresence } from "framer-motion";
 import AlbumSongs from "./components/AlbumSongs";
 import BandInformation from "./components/BandInformation";
 import { ECardStatus } from "@components/Card/useChangeContent";
@@ -18,21 +17,20 @@ const BandContent = ({
   handleSelectSong,
 }: IBandContent) => (
   <div className={styles.container}>
-    <AnimatePresence>
-      {cardStatus === ECardStatus.BAND && (
-        <BandInformation
-          key="band-information"
-          selectedBand={selectedBand}
-          handleSelectAlbum={handleSelectAlbum}
-        />
-      )}
+    <BandInformation
+      key="band-information"
+      selectedBand={selectedBand}
+      handleSelectAlbum={handleSelectAlbum}
+      show={cardStatus === ECardStatus.BAND}
+    />
 
-      {cardStatus === ECardStatus.ALBUM && (
-        <AlbumSongs key="album-songs" selectedAlbum={selectedAlbum} />
-      )}
+    <AlbumSongs
+      key="album-songs"
+      selectedAlbum={selectedAlbum}
+      show={cardStatus === ECardStatus.ALBUM}
+    />
 
-      {/* {cardStatus === ECardStatus.SONG && <AlbumSongs />} */}
-    </AnimatePresence>
+    {/* {cardStatus === ECardStatus.SONG && <AlbumSongs />} */}
   </div>
 );
 
