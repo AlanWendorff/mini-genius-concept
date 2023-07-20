@@ -11,6 +11,7 @@ const Lyric = ({ selectedTrack, show }: props) => (
   <AnimatePresence>
     {show && (
       <motion.div
+        key="lyric"
         className={styles.animatedContainer}
         initial={{ y: 600 }}
         animate={{ y: 0 }}

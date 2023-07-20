@@ -11,7 +11,7 @@ interface props {
 const AlbumSongs = ({ show, selectedAlbum, handleSelectSong }: props) => (
   <AnimatePresence>
     {show && (
-      <div className={styles.absoluteContainer}>
+      <div className={styles.absoluteContainer} key="album-songs">
         <motion.h2
           initial={{ y: -50 }}
           animate={{ y: 0 }}

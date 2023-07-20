@@ -10,9 +10,6 @@ interface props {
 }
 
 const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
-  const description =
-    " are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.";
-
   let i = 0;
   let speed = 10;
 
@@ -22,22 +19,22 @@ const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
     },
   };
 
-  function typeWriter() {
+  const typeWriter = () => {
     let timeout;
-    if (i < description.length) {
+    if (i < selectedBand.band_description.length) {
       const elem = document.querySelector(
         "#description"
       ) as HTMLParagraphElement;
 
       if (elem) {
-        elem.innerHTML += description.charAt(i);
+        elem.innerHTML += selectedBand.band_description.charAt(i);
       }
       i += 1;
       timeout = setTimeout(typeWriter, speed);
     } else {
       clearTimeout(timeout);
     }
-  }
+  };
 
   useEffect(() => {
     show && typeWriter();
@@ -47,6 +44,7 @@ const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
     <AnimatePresence>
       {show && (
         <motion.div
+          key="band-information"
           className={styles.animatedContainer}
           initial={{ x: -480 }}
           animate={{ x: 0 }}

@@ -10,6 +10,7 @@ const BANDS = {
     band_image: BAND_IMAGE,
     band_name: "DVSR",
     band_aka: "AKA: Designed via Strength & Respect, Devastator",
+    band_description: " are a fusion of Rap/Hip Hop and Metal. Combing these two styles to create one of its own.",
     albums: [
       {
         id: 19,

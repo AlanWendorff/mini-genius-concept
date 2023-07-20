@@ -15,21 +15,6 @@ const MetaTags = () => (
     <meta property="og:title" content="Mini Genius" />
     <meta name="twitter:title" content="Mini Genius" />
 
-    {/*  <meta
-      property="og:image"
-      content="https://voxelarchitects.com/website_og.png"
-    />
-
-    <meta
-      name="twitter:image"
-      content="https://voxelarchitects.com/website_og.png"
-    />
-
-    <meta
-      property="og:image:secure_url"
-      content="https://voxelarchitects.com/website_og.png"
-    /> */}
-
     <meta name="twitter:card" content="summary_large_image" />
 
     <meta

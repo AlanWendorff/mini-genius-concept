@@ -1,7 +1,8 @@
+import type { NextPage } from "next";
 import Card from "@components/Card";
-import BANDS from "data/band.data";
+import BANDS from "data/bands.data";
 
-const Home = () => (
+const Home: NextPage = () => (
   <div>
     <Card band={BANDS.dvsr} />
   </div>

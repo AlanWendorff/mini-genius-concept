@@ -10,7 +10,8 @@
   --color-gamma: #{colors.$colorGamma};
   --color-delta: #{colors.$colorDelta};
   --color-epsilon: #{colors.$colorEpsilon};
-  --color-dzeta: #{colors.$colorDzeta};
+  --color-zeta: #{colors.$colorZeta};
+  --color-eta: #{colors.$colorEta};
 }
 
 html {
@@ -35,15 +36,6 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
-
-  button {
-    font-family: "Programme Normal", sans-serif !important;
-  }
-}
-
-.container {
-  max-width: 90rem;
-  margin: 0 auto;
 }
 
 h1 {
@@ -55,4 +47,13 @@ h1 {
   line-height: 1.125;
   overflow-wrap: break-word;
   font-family: "Programme Normal", sans-serif !important;
+}
+
+.notFound {
+  text-align: center;
+  color: var(--color-eta);
+
+  h1 {
+    font-size: 3rem;
+  }
 }

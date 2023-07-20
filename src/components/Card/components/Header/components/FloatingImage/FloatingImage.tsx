@@ -24,7 +24,7 @@ const FloatingImage = ({ show, image, key }: props) => {
         <motion.img
           key={key}
           className={styles.floatingImage}
-          style={{ x, y, rotateX, rotateY, z: 10000 }}
+          style={{ x, y, rotateX, rotateY, z: 1000 }}
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           exit={{ scale: 0 }}

@@ -4,9 +4,9 @@ import AlbumName from "./components/AlbumName";
 import SongName from "./components/SongName";
 import FloatingImage from "./components/FloatingImage";
 import { ECardStatus } from "@components/Card/useChangeContent";
-import props from "interfaces/sectionProps";
+import ICommonProps from "interfaces/common";
 
-interface IHeaderProps extends props {
+interface IHeaderProps extends ICommonProps {
   handleReturnMenu: () => void;
   handleReturnAlbum: () => void;
 }

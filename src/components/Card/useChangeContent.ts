@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BANDS from "data/band.data";
+import BANDS from "data/bands.data";
 import IAlbum, { ITrack } from "interfaces/album";
 
 export enum ECardStatus {
@@ -8,7 +8,7 @@ export enum ECardStatus {
   "SONG" = 2,
 }
 
-interface returnProps {
+interface IReturnProps {
   cardStatus: ECardStatus.BAND | ECardStatus.ALBUM | ECardStatus.SONG;
   selectedAlbum: null | undefined | IAlbum;
   selectedTrack: null | undefined | ITrack;
@@ -18,7 +18,7 @@ interface returnProps {
   handleReturnAlbum: () => void;
 }
 
-const useChangeContent = (): returnProps => {
+const useChangeContent = (): IReturnProps => {
   const [cardStatus, setCardStatus] = useState<
     ECardStatus.BAND | ECardStatus.ALBUM | ECardStatus.SONG
   >(ECardStatus.BAND);
@@ -46,14 +46,14 @@ const useChangeContent = (): returnProps => {
   };
 
   const handleReturnMenu = () => {
+    setCardStatus(ECardStatus.BAND);
     setSelectedAlbum(null);
     setSelectedTrack(null);
-    setCardStatus(ECardStatus.BAND);
   };
 
   const handleReturnAlbum = () => {
-    setSelectedTrack(null);
     setCardStatus(ECardStatus.ALBUM);
+    setSelectedTrack(null);
   };
 
   return {

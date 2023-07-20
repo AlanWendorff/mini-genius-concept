@@ -1,11 +1,9 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import styles from "./Card.module.scss";
 import Header from "./components/Header";
-import Content from "./components/BandContent/components/BandInformation";
 import useChangeContent from "./useChangeContent";
-import AlbumSongs from "./components/BandContent/components/AlbumSongs/AlbumSongs";
 import IBands from "interfaces/band";
-import BandContent from "./components/BandContent/BandContent";
+import BandContent from "./components/BandContent";
 
 const Card = ({ band }: IBands) => {
   const {
@@ -19,8 +17,9 @@ const Card = ({ band }: IBands) => {
   } = useChangeContent();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const rotateX = useTransform(y, [-100, 100], [30, -30]);
-  const rotateY = useTransform(x, [-100, 100], [30, -30]);
+
+  const rotateX = useTransform(y, [-100, 100], [50, -50]);
+  const rotateY = useTransform(x, [-100, 100], [50, -50]);
 
   return (
     <motion.div
@@ -28,7 +27,7 @@ const Card = ({ band }: IBands) => {
       style={{ x, y, rotateX, rotateY, z: 1000 }}
       drag
       dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
-      dragElastic={0.16}
+      dragElastic={0.2}
       whileTap={{ cursor: "grabbing" }}
     >
       <Header
