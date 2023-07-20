@@ -12,7 +12,14 @@ const AlbumSongs = ({ show, selectedAlbum, handleSelectSong }: props) => (
   <AnimatePresence>
     {show && (
       <div className={styles.absoluteContainer}>
-        <h2 className={styles.title}>{selectedAlbum?.name} TRACKLIST</h2>
+        <motion.h2
+          initial={{ y: -50 }}
+          animate={{ y: 0 }}
+          exit={{ y: -50 }}
+          className={styles.title}
+        >
+          {selectedAlbum?.name} TRACKLIST
+        </motion.h2>
 
         <motion.ul
           className={styles.tracklist}
