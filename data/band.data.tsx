@@ -3354,70 +3354,2216 @@ const BANDS = {
             name: "Six Figures Deep",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (INTRO/1st VERSE)
+                  <br />
+                  <a
+                    href="/8682833/Dvsr-six-figures-deep/Was-it-all-for-the-fame-was-it-all-but-a-game-throwing-around-money-but-you-laughed-in-our-face-and-you-couldnt-buy-love-with-your-money-filled-case"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      Was it all for the fame?
+                      <br />
+                      Was it all but a game?
+                      <br />
+                      Throwing around money but you laughed in our face and you
+                      couldn’t buy love with your money filled case
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  You’re nothing but a weak young mind with a speech, fucked up
+                  <br />
+                  Sold out by the greed, throw up the cash to match your rich
+                  dreams but your ego stands above money you achieve,{" "}
+                  <a
+                    href="/8682841/Dvsr-six-figures-deep/Buy-friends-with-a-drink-love-with-the-a-ring"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      buy friends with a drink, love with the a ring
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  , looking down with a frown picking on me?
+                  <br />
+                  I’ll pay it in cash or go bankrupt to see, you pursuing the
+                  dreams of inner peace with a fee
+                  <br />
+                  <br />
+                  <a
+                    href="/21757614/Dvsr-six-figures-deep/Six-figures-six-feet-deep-i-wont-sleep-given-the-situation-were-dealing-with-is-quite-deep-fuck-a-minimal-speech-im-going-to-be-the-one-to-tell-them-that-money-couldnt-buy-the-essentials-and-theyre-all-free-love-and-respect-youre-a-thug-with-a-cheque-can-you-buy-the-time-when-i-got-you-good-as-dead"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      Six figures six feet deep I won’t sleep given the
+                      situation we’re dealing with is quite deep
+                      <br />
+                      Fuck a minimal speech, I’m going to be the one to tell
+                      them that money couldn’t buy the essentials and they’re
+                      all free, love and respect you’re a thug with a cheque can
+                      you buy the time when I got you good as dead?
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <a
+                    href="/8769868/Dvsr-six-figures-deep/The-expression-that-resembles-the-queen-up-on-our-cent"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      The expression that resembles the queen up on our cent
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  , outside you lie to what your heart represents
+                  <br />
+                  <br />
+                  CHORUS:
+                  <br />
+                  <a
+                    href="/8682822/Dvsr-six-figures-deep/As-you-brag-with-the-rich-spend-cash-till-your-sick-ima-be-laid-back-with-a-smile-living-care-free-quantity-is-but-a-bitch-as-you-brag-with-the-rich-spend-cash-till-your-sick-ima-be-laid-back-with-a-smile-living-care-free-quantity-is-but-a-bitch-fuck-money-fuck-fame"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      As you brag with the rich, spend cash till your sick ima
+                      be laid back with a smile living care free quantity is but
+                      a bitch
+                      <br />
+                      As you brag with the rich, spend cash till your sick ima
+                      be laid back with a smile living care free quantity is but
+                      a bitch
+                      <br />
+                      Fuck money, fuck fame
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  Fuck money, fuck fame
+                  <br />
+                  You can’t buy love with your money filled case, so Fuck money
+                  fuck fame
+                  <br />
+                  Fuck money, fuck fame
+                  <br />
+                  Fuck money, fuck fame
+                  <br />
+                  You can't buy heart with your money filled case, so fuck money
+                  fuck fame
+                  <br />
+                  <br />
+                  (OUTRO)
+                  <br />
+                  So now you’re better than me huh?
+                  <br />
+                  Account filled up you were living it free huh?
+                  <br />
+                  Broadcast and brag that living to seek the exact same grave as
+                  me you ain't the god, you’re nothing but a bitch!
+                  <br />
+                  Oh you’re better than me huh?
+                  <br />
+                  Account filled up you were living it free huh?
+                  <br />
+                  Broadcast and brag that living to seek the exact same grave as
+                  me you ain't the god, you’re nothing but a bitch!
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  Thinking about the money twenty-four seven irrelevant sell
+                  your parents for a seven digit figure no I say FUCK THAT
+                  <br />
+                  Off of the top you’ll get dropped to the bottom it don’t stop
+                  you are not the money you SAVED UP
+                  <br />
+                  Given the life or given the money I’ll be thinking about my
+                  brothers in struggle throw them a breath the gold was but a
+                  SET BACK
+                  <br />
+                  When your older and your strength lacks, you’ll know no money
+                  could bring it all back
+                  <br />
+                  <br />
+                  (CHORUS)
+                </div>
+              </div>
+            ),
           },
           {
             id: 2,
             name: "Fatal Attraction",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (1st VERSE)
+                  <br />
+                  She’s all I see
+                  <br />
+                  But it's hard to believe that, in the dark of the scene
+                  <br />
+                  The figure that will capture the light and the breeze is the
+                  woman who controls my breath and heartbeat
+                  <br />
+                  Scarred and fatigued, alone was I so prone to addiction I
+                  drink
+                  <br />
+                  Her elixir to function under her potion, the offer was given
+                  over to me
+                  <br />
+                  Where do I agree to commit bleed on the quill I recede just a
+                  bit
+                  <br />
+                  But the woman of my dreams never seemed so legit as I’m
+                  dipping the burgundy blood he’s in effect, I’m sealed in a
+                  mess, contract with a forsaken angel, all for the sake of an
+                  angel unbalanced and
+                  <br />
+                  Un-angled I took a deal with the deal with the devil with the
+                  odds in his favor
+                  <br />
+                  <br />
+                  (CHORUS)*
+                  <br />
+                  Cause I’ve been searching for something, it's all a lie I’m
+                  blind by appeal but engaged by fatal ties so
+                  <br />
+                  Should I be dead? Rested in red?
+                  <br />
+                  Ending me silent, softly but violent she could have my head
+                  <br />
+                  And I’ve been searching for something, it's all a lie I’m
+                  blind by appeal but engaged by fatal ties so
+                  <br />
+                  Should I be dead? Rested in red?
+                  <br />
+                  Ending me silent, softly but violent she could have my head,
+                  she could have me dead
+                  <br />
+                  <br />
+                  (BRIDGE)
+                  <br />
+                  Now that I can see her, we’ve fallen in love but the presence
+                  is near
+                  <br />
+                  The more we indulge the coffin is clear
+                  <br />I play with her hair but I’m ripping it out, she falls
+                  in and out of consciousness what’s it about
+                  <br />
+                  The wicked surrounds, the signature given was killing her now,
+                  the love of my life paying the price I need a way out
+                  <br />
+                  <br />
+                  (2nd VERSE)
+                  <br />
+                  So just give me a sign a want to know why
+                  <br />
+                  When I look in her eyes I take away her sight, thinking about
+                  a kiss but that risk is too high
+                  <br />
+                  Tell her I love her but then her lips seal tight, sewn by the
+                  devil in the night right when I kneel I feel a breeze that
+                  cold feeling of liquid on my knees, in a puddle of her blood I
+                  can't believe
+                  <br />
+                  Sickening feeling of a lie eyes deceive, seems she dissipates
+                  when affections applies but the fabricated love was compressed
+                  in the mind heart yelling for the love I never had in my life
+                  <br />
+                  On my knees in a puddle of my own blood, I can't speak my lips
+                  they’ve been sewn up, unconscious now I don’t know what seems
+                  I was dying the whole time I couldn’t hold her
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (CHORUS)*
+                </div>
+              </div>
+            ),
           },
           {
             id: 3,
             name: "Shutdown...",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  VERSE 1)
+                  <br />
+                  Get the fuck outta my face
+                  <br />I wish they would try the shit they’ve been talking
+                  <br />
+                  Stopped in a heartbeat with a warning
+                  <br />
+                  No stalling when I come
+                  <br />
+                  Young, free, dumb{" "}
+                  <a
+                    href="/8682961/Dvsr-shutdown/Bet-i-butterfly-tongues"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      bet I butterfly tongues
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  Get back to this mad advocates, full of free mind
+                  motherfucking activists
+                  <br />
+                  Bring the new sound now and you’re mad at us
+                  <br />
+                  Show your face when you talk and man the fuck up!
+                  <br />
+                  Stuck in a cycle, versatile we keep moving unlike you
+                  <br />
+                  Take in the breath of hate to breathe ice we just like death
+                  hard to fight when he finds you
+                  <br />
+                  Come and get it brother or get on your knees bitch
+                  <br />
+                  Hold up for these metal elitists
+                  <br />
+                  Slash guts with a fast cut and I pass em up to straight up
+                  delete this
+                  <br />
+                  <br />
+                  (BRIDGE)
+                  <br />
+                  But you feel excepted, and I see internals disconnected
+                  <br />
+                  Bring all that hate expect no harm
+                  <br />
+                  Unplug their network fucking end it
+                  <br />
+                  Cause I’ve been around long enough to know what you think
+                  <br />
+                  And I know that you feel alone you wish to break free
+                  <br />
+                  And I know that you wish to have what I have achieved
+                  <br />
+                  Live direct feed my arm through your screen
+                  <br />
+                  Download your death and pay up the fee
+                  <br />
+                  <br />
+                  (VERSE 2)
+                  <br />
+                  But it won’t stop till I break the ice in this bitch
+                  <br />
+                  Looking down from the top you envy my clique
+                  <br />
+                  Get stomped with a Doc to the back of the head and after that
+                  rewind the beef never ends
+                  <br />
+                  Sick trend, fuck what the scene is
+                  <br />
+                  Full of hate no love for achievers
+                  <br />
+                  In a basement behind their keyboards
+                  <br />
+                  Disgrace to the scene more than we are
+                  <br />
+                  Duck taped up
+                  <br />
+                  Put your body on the floor what the fuck they want?
+                  <br />
+                  Lock jaw like a pitty but I’m not chained up
+                  <br />
+                  Put your face to the floor and your back faced up
+                  <br />
+                  Face fate, spine to the future
+                  <br />
+                  Laugh to the sky bring a storm with the humour
+                  <br />
+                  Disturbed my thoughts are just luna tic toc times up run
+                  through them
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  <br />
+                  <br />
+                  (BRIDGE/CHORUS)
+                  <br />
+                  All I see, In the mass of this unsound mind
+                  <br />
+                  Eyes emit the sign views convert to vibe
+                  <br />
+                  I'm just left blind, its my disease my temper directs my needs
+                  I need shelter from these fantasies CAUSE I CANT BREATHE
+                  <br />
+                  <br />
+                  How do I, shut down the brain of this set
+                  <br />
+                  I’ve asked with aimless intent
+                  <br />
+                  I’ll mend the fray that its left
+                  <br />
+                  But i'm afraid of the cause and effect
+                  <br />
+                  How do I address instinctive action I clash with rappers who
+                  blabber vapid vast nasty accents, caught in the middle I need
+                  a reaction
+                  <br />
+                  <br />
+                  Your broken heart, low spirit and charm
+                  <br />
+                  Bitter and green with envy ensuring you can't be harmed
+                  <br />I smile in the face of anger the calm proceeds the storm
+                  <br />
+                  The paths of gods are followed while heroes banish from
+                  thought x2
+                </div>
+              </div>
+            ),
           },
           {
             id: 4,
             name: "Life and Death",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (1st VERSE)
+                  <br />
+                  <br />
+                  So far it's been tough
+                  <br />
+                  So far it's been rough
+                  <br />
+                  But I can't sleep now with a prison in my head will I be
+                  forgiving the minimal living?
+                  <br />I don't want to see death no more
+                  <br />
+                  But I want to see life and I want to see a lot of them that I
+                  know and love
+                  <br />I don't want to see them struggle I m-m-m-mumble and
+                  struggle to tell you I love you
+                  <br />
+                  It's just hard
+                  <br />
+                  And I want you to know this
+                  <br />
+                  No matter how deep in the process
+                  <br />6 feet ain't enough for me to love less
+                  <br />
+                  You're still my heart beat just know this
+                  <br />
+                  From the hearse to a dirt bed
+                  <br />
+                  Transitions so quick for me to gather emotions feelings
+                  prominently comatose
+                  <br />
+                  <br />
+                  (PRE-CHORUS)
+                  <br />
+                  <br />
+                  But now I know
+                  <br />
+                  How it feels to be
+                  <br />
+                  Dead inside functioning perfect
+                  <br />
+                  But emotionally immobile crippled within the skull it's
+                  hurting
+                  <br />
+                  Organs working but my thoughts are fucking bursting
+                  <br />
+                  Make way for mercy
+                  <br />
+                  <br />
+                  (CHORUS)
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (We all know this)
+                  <br />
+                  This feeling even though we don't want to know what it brings
+                  <br />
+                  (We all know this)
+                  <br />
+                  This feeling even though we don't want to know what it brings
+                  <br />
+                  (We all know this)
+                  <br />
+                  This feeling even though we don't want to know what it brings
+                  <br />
+                  We suffer grieve, and carry on
+                  <br />
+                  The love is never gone
+                  <br />
+                  The love is never gone
+                  <br />
+                  <br />
+                  But I'm telling you this while I breakdown
+                  <br />
+                  Be strong cause love ain't gone it lingers
+                  <br />
+                  Absent but it keeps us captivated
+                  <br />
+                  My mind is never vacant
+                  <br />
+                  These memories never faded, never deceased
+                  <br />
+                  Immortal through thought, memories keep me at peace
+                  <br />
+                  I'm breaking down
+                  <br />
+                  I'm breaking down, but what I found was memories looked around
+                  and suddenly gained this energy and sound
+                  <br />
+                  Your vivid image surrounded me
+                  <br />
+                  Searching my past was healing me it astounded me
+                  <br />
+                  <br />
+                  (2nd VERSE)
+                  <br />
+                  <br />
+                  And I know it's hard reminiscing but hold the thoughts from
+                  the past
+                  <br />I grasp and I hold what is real, because I know that it
+                  won't last
+                  <br />
+                  We're loving way too much lose but it happens every day so
+                  what's the use
+                  <br />
+                  Of loving something so dearly that will be departed from you?
+                  <br />I keep bumping this unhealed bruise I think I may need
+                  room to move
+                  <br />
+                  But this room is becoming smaller like a tomb
+                  <br />
+                  And I'm still searching for something looking for somebody
+                  that I'm loving but they're gone
+                  <br />
+                  Under the gravel you grab hold of your thought
+                  <br />
+                  Escape the claw from the reaper
+                  <br />
+                  Grasping my thought
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (BRIDGE)
+                  <br />
+                  <br />
+                  What am I to acknowledge?
+                  <br />
+                  All I see is departure
+                  <br />
+                  This is the devils art
+                  <br />
+                  And my face is filling the newest picture
+                  <br />
+                  And he's just started
+                  <br />
+                  <br />
+                  So tell me am I next
+                  <br />
+                  Confess the fucking truth about life and death
+                  <br />
+                  Is it a set thing?
+                  <br />
+                  Why are these people just dropping dead?
+                  <br />
+                  Why have they left?
+                  <br />
+                  <br />I see the silhouettes of these armies trying to attack
+                  <br />
+                  So much sweat its forming puddles
+                  <br />
+                  I'm drowning so vivid now I see my death
+                  <br />I need a breath
+                  <br />
+                  <br />
+                  I'm just waiting for him to pass by
+                  <br />
+                  Just give me a chance I want to look him in the eye
+                  <br />
+                  Extends his arm as I extend mine cautious
+                  <br />
+                  When you enter night it's pitch black before the sun sets
+                  shadow in the night it's out of context
+                  <br />
+                  How do I see what I can't sense?
+                  <br />
+                  Intense mark of events
+                  <br />
+                  When will he show?
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (PRE-CHORUS)
+                  <br />
+                  <br />
+                  Cause now I know
+                  <br />
+                  How it feels to be dead inside functioning perfect
+                  <br />
+                  But emotionally immobile I'm crippled within the skull its
+                  hurting
+                  <br />
+                  Organs working but my thoughts are fucking bursting
+                  <br />
+                  Make way for mercy
+                  <br />
+                  <br />
+                  (CHORUS)
+                  <br />
+                  <br />
+                  And I know you know
+                  <br />
+                  And I know you know this feeling even though we don't want to
+                  know what it brings
+                  <br />
+                  (We all know this)
+                  <br />
+                  This feeling even though we don't want to know what it brings
+                  <br />
+                  (We all know this)
+                  <br />
+                  This feeling even though we don't want to know what it brings
+                  <br />
+                  (We all know this)
+                  <br />
+                  We suffer grieve, and carry on
+                  <br />
+                  The love is never gone
+                  <br />
+                  The love is never gone
+                  <br />
+                  But I'm telling you this while I breakdown
+                  <br />
+                  Be strong cause love ain't gone it lingers
+                  <br />
+                  Absent but it keeps us captivated my mind is never vacant
+                  <br />
+                  These memories never faded, never deceased
+                  <br />
+                  Immortal through thought, memories keep me at peace I'm
+                  breaking down
+                  <br />
+                  I'm breaking down, but what I found was memories looked around
+                  and suddenly gained this energy
+                  <br />
+                  Your sound and vivid image surrounded me
+                  <br />
+                  Searching my past was healing me it astounded me
+                  <br />
+                  <br />
+                  (OUTRO)
+                  <br />
+                  <br />
+                  Give it up
+                  <br />
+                  Not yet
+                  <br />
+                  Give it up
+                  <br />
+                  Not yet
+                  <br />
+                  Never am I giving up
+                </div>
+              </div>
+            ),
           },
           {
             id: 5,
             name: "Beneath the Skin",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (1st Verse)
+                  <br />
+                  Was it all but a dream, my heart sinks I detest my own speech
+                  <br />I can hear the walls speaking my name they seek
+                  <br />
+                  Wasn’t it me speaking when I could feel two hearts at beat up
+                  in the back of my brain
+                  <br />
+                  Caught in a trap slipping through the cracks
+                  <br />
+                  Need to relax caught in the act and I keep thinking about it
+                  <br />
+                  Pushed to the brink my knees scared and body fatigues I need
+                  to fight or succumb to defeat
+                  <br />
+                  Is it a self-created myself I’m hating fuck wealth I’m aiming
+                  to cure my health in lamens
+                  <br />
+                  Is it paid in black in depth the contract
+                  <br />
+                  The debt that I inherit for bringing myself back
+                  <br />
+                  In my eyes I see nothing but him
+                  <br />
+                  Is it a lie is it me or is it something within
+                  <br />
+                  Either way not to punk and pretend but no pity for the coward
+                  who can’t cover his ends
+                  <br />
+                  <br />
+                  (CHORUS)*
+                  <br />I know it seems dark, but sometimes you got to fight
+                  with your whole heart
+                  <br />
+                  No matter how hard that it gets at the best you just strive to
+                  the spark
+                  <br />I know it seems dark, but sometimes you got to fight
+                  with your whole heart
+                  <br />
+                  No matter how hard that it gets at the best you just strive to
+                  the spark
+                  <br />
+                  As you bask in the breeze of discontent the earth vents and
+                  blinds a clean sleet
+                  <br />
+                  In time you’ll find the weak freeze, in the past where were
+                  leaving the waste we call grief cause
+                  <br />I know it seems dark, but some times you got to fight
+                  with your whole heart
+                  <br />
+                  No matter how hard that it gets at the best you just strive to
+                  the spark
+                  <br />
+                  <br />
+                  (BRIDGE)
+                  <br />
+                  With the military grip one hand on the jack second hand on my
+                  axe just if I slip
+                  <br />
+                  Stuck deep in a pit my brain regrets, delayed defence unstable
+                  will I live?
+                  <br />I can’t see, engrave the last scene I pray that my
+                  thoughts seize and lay in them six feet
+                  <br />
+                  23 long years still I beat my thoughts ripping I’ve never
+                  submitted into defeat, fear me
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (2nd Verse)
+                  <br />
+                  As I collect myself in broken pieces
+                  <br />I gaze in the mirror to liquefy this thesis, ideology me
+                  thinking I need this
+                  <br />
+                  Feeling inside let me iron out the creases, trust to believe
+                  that my will breaches government bases thoughts that are
+                  diseases
+                  <br />
+                  Caught myself in a gaze of shattered glass picking myself up
+                  now should never be a task
+                  <br />
+                  Extract the pitch black demand that it falls back install the
+                  white wall of strength in my core that’s
+                  <br />
+                  White hot to handle, pure love demands you, blank mind like
+                  vandals
+                  <br />
+                  In time everything heals but even time shuts down and it
+                  cancels
+                  <br />
+                  Eye for and eye leave me blind light the candle
+                  <br />
+                  Search my diverse mind and hurt whatever it is paying me out
+                  now I demand you
+                  <br />
+                  <br />
+                  (CHORUS)*
+                </div>
+              </div>
+            ),
           },
           {
             id: 6,
             name: "Remission (Ft. Matt Gelsomino)",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (VERSE 1)
+                  <br />
+                  How do I believe?
+                  <br />
+                  How will I succeed?
+                  <br />
+                  When the future is becoming hopeless and me overdosing is the
+                  only option I see
+                  <br />
+                  Decreased by vicious disease, the easiest way out was seeming
+                  complete
+                  <br />I see me screaming in the face of defeat
+                  <br />
+                  Seeking tranquillity, give me peace, can I please be released?
+                  <br />
+                  As I’m separated away from disease
+                  <br />I was medicated, decaying, I’m weak
+                  <br />
+                  Torn thinking I’m picking petals, they’re all thorns
+                  <br />
+                  I’ve been up and down always elevated away from a smile
+                  <br />
+                  Descending forever into my own frown
+                  <br />
+                  Volatile state of mind, someone please get me out
+                  <br />
+                  <br />
+                  (CHORUS) [Matt Gelsomino-Novelists]
+                  <br />
+                  It’s been way too long
+                  <br />
+                  Putting up a fight inside that I know I can barely beat
+                  <br />
+                  I’ve been pushed but I’ve pulled on
+                  <br />
+                  All of these strings in my heart, I know that they can’t feel
+                  me
+                  <br />
+                  Tell me why I can’t breathe
+                  <br />
+                  Is it all a facade, is it all my dream?
+                  <br />
+                  I’ve been fighting for far too long
+                  <br />
+                  <br />
+                  (VERSE 2)
+                  <br />
+                  As I sat on the sun’s saddle, my heart’s pain rattled the
+                  leaves
+                  <br />
+                  Direct into a hundred thousand degrees
+                  <br />
+                  Skin is a repellent, internal I bleed, I concede
+                  <br />
+                  Walking towards my sanctuary, my ankles barely kept up with
+                  the travel
+                  <br />
+                  That my mind is set to carry the concoction of hope and
+                  pessimism it had me really worried
+                  <br />
+                  Had me either hoping to die or dying with hope in my heart;
+                  pick a side
+                  <br />
+                  Look inside this barrel of empty promises to find something
+                  keeping me alive
+                  <br />I feel my heart reply when I decide to try
+                  <br />
+                  Tell me why a journey that seeks the strong sought out me but
+                  failed to thrive
+                  <br />
+                  Tell me why
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (CHORUS)
+                </div>
+              </div>
+            ),
           },
           {
             id: 7,
             name: "Hooded Race",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (1st Verse)
+                  <br />
+                  As it all unfolds, this world begins to an end but we
+                  developed the mould
+                  <br />
+                  Like a new born soul eyes open up into a life that I just
+                  don’t know
+                  <br />
+                  Far from alone, so far from a home we neighbour most who
+                  oppose
+                  <br />
+                  The thought of a living with the love propelled across zones
+                  <br />
+                  And an end to the rise of war and burnt homes
+                  <br />
+                  We all breathe with the same intention, bleed but then heal
+                  and they claim were different
+                  <br />
+                  And I got to be the one to claim hope in the bright notes but
+                  I know the downward slope declines slow
+                  <br />
+                  So blind to the happening we can reveal the eyes behind
+                  blackening
+                  <br />
+                  At the table of humanity gather in love and over throw the
+                  cause of this tragedy
+                  <br />
+                  <br />
+                  CHORUS:
+                  <br />I fear a future shaded by our thoughtless actions, the
+                  vanta-black that fills the sky reflects the madness
+                  <br />
+                  The earth is only young but hatred aged it faster, will we
+                  close up these open wounds and make a change before we leave?
+                  <br />
+                  Open your heart to let it breathe
+                  <br />
+                  The search for love will come with peace
+                  <br />
+                  Our scars have surfaced can’t you see? They’ve shown who we
+                  were but that can change we must believe
+                  <br />
+                  <br />
+                  BRIDGE:
+                  <br />
+                  Have we all had enough, looking for a way out with the world
+                  in a rut
+                  <br />
+                  Looking down some are looking up above
+                  <br />
+                  When the reason is in front to be solved
+                  <br />
+                  But I know, it is not but a phase
+                  <br />
+                  Just part from the ways, the ways of the un natural thought
+                  break from the chain
+                  <br />
+                  Till we reconnect then we can all make change
+                  <br />
+                  Cause I’ve been looking for the reason why we cycle our past
+                  with the hate but I’ve given up
+                  <br />
+                  Sitting up and I’ve been thinking about it, if we could
+                  refresh our past would the bitterness simmer up?
+                  <br />
+                  Is it ever gonna get any better and then I wonder would it
+                  ever be the same if we never had no purpose to gain
+                  <br />
+                  Kill off the thought and the purpose to hate and search for
+                  the change
+                  <br />
+                  And it might seem tough but the diamond in rough won’t fade
+                  <br />
+                  We can’t wait to long we gotta push enough to make change
+                  <br />
+                  Take a step in the dark put a rest to the bark and the blade
+                  <br />
+                  Just open your chest invest into your heart, the rest will
+                  find us all calm in the shade so don’t be afraid
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (2nd Verse)
+                  <br />
+                  Cause I’ve seen the potential in the brilliant minds of
+                  mankind invent than connect you
+                  <br />
+                  They rest the ones who inject the dark that made us believe we
+                  weren’t meant to
+                  <br />
+                  Be one with each other pull a gun to your brother pull the
+                  trigger and aim into the temple
+                  <br />
+                  Force out that negative one I’ll pull my clip out the gun and
+                  bring back the sun with the mental
+                  <br />
+                  The invented the boarded land then withdrew the touch of your
+                  daughters hand
+                  <br />
+                  But we evolve with economy to slaughter man so we can reclaim
+                  the love that’s stuck in our sands
+                  <br />
+                  Can we all take a chance, hold out your hand believe and just
+                  trust
+                  <br />
+                  Our finger prints won’t fade away from the lives we’ve touched
+                  <br />
+                  <br />
+                  (CHORUS)
+                </div>
+              </div>
+            ),
           },
           {
             id: 8,
             name: "The Forked Tongue",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (INTRO)
+                  <br />
+                  <br />I can't believe this
+                  <br />
+                  You will flee when the breeze hits
+                  <br />
+                  Down for the fellas, nah you're down on you're knees bitch
+                  <br />I dissolve them synthetic soldiers
+                  <br />
+                  Forcing them acidic bullets into your soul ah
+                  <br />
+                  <br />
+                  (VERSE)
+                  <br />
+                  <br />
+                  DESTRUCT THE INDESTRUCTIBLE
+                  <br />
+                  Straight to the depths is where i'ma send them
+                  <br />
+                  Shatter their dreams and cough up the resin
+                  <br />
+                  Destruct and breach like a mother fucking henchmen
+                  <br />
+                  Now you can't breathe you realize your empty
+                  <br />I need you to tell me
+                  <br />
+                  What is that you're looking at
+                  <br />
+                  When you're looking in the mirror
+                  <br />
+                  Now is it clearer
+                  <br />
+                  It's vague right now
+                  <br />
+                  But the visual nears ya
+                  <br />
+                  You are no hero
+                  <br />
+                  SO TELL ME WHAT YOU WANT
+                  <br />
+                  Do you wanna be noticed, Do you wanna be focused on?
+                  <br />
+                  TELL ME WHAT YOU WANT
+                  <br />I know you're looking for attention but you're giving
+                  the impression that you're desperate
+                  <br />
+                  TELL ME WHAT YOU WANT
+                  <br />
+                  Are you sick of yourself now, does it rip through the seams?
+                  <br />
+                  TELL ME WHAT YOU WANT
+                  <br />
+                  You're sick of yourself i can see it inject the vaccine
+                  <br />I can hardly see it
+                  <br />
+                  My eyes roll back and i find it hard to seek it
+                  <br />
+                  So i believe it is the ego speaking
+                  <br />I feel my alter ego breaching my brain and i can't
+                  control it
+                  <br />
+                  Heal them all with the pain
+                  <br />I was taught by
+                  <br />
+                  The mother fucking voice in the back of my head
+                  <br />
+                  Lacerate and invalidate them them
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (CHORUS)
+                  <br />
+                  <br />
+                  (But i know what you want, I know what you desire, I know what
+                  you need)
+                  <br />
+                  <br />
+                  I've tried to recognize
+                  <br />
+                  The truth from your lies
+                  <br />
+                  But your deceptive mind blocked me out you're disguised
+                  <br />
+                  Wrap you're mind around this message it's an eye for an eye
+                  <br />
+                  You're only the fraction of the man you've described
+                  <br />
+                  DON'T BRAG AND DON'T BOAST ABOUT YOUR FRAUDULENT MIND
+                  <br />
+                  YOU'RE ACTIONS ALONE TELL ME THAT YOU ARE IN DISGUISE (x2)
+                  <br />
+                  <br />
+                  (BRIDGE)
+                  <br />
+                  <br />
+                  Taking one look in his eyes i could see that
+                  <br />
+                  That man that he wanted to be and
+                  <br />
+                  That man ain't nothing to me
+                  <br />
+                  Because i, could read him from a distance
+                  <br />
+                  Suddenly tapping into a sixth sense
+                  <br />
+                  Overtaken on the internals domestic
+                  <br />
+                  But to be honest i really love it
+                  <br />
+                  The feeling is over coming
+                  <br />
+                  Demolish em with the knowledge can i risk it?
+                  <br />I should just ditch that!
+                  <br />
+                  Devastation unforeseen
+                  <br />
+                  Instant and rapid pain
+                  <br />
+                  The sense of a darkened aura we torture a liars brain
+                </div>
+              </div>
+            ),
           },
           {
             id: 9,
             name: "React",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (1st Verse)
+                  <br />
+                  My backs up against the wall about to react but the mass of my
+                  temper is short its been
+                  <br />
+                  Hard to ignore, hit them with a jab and aim straight for the
+                  jaw
+                  <br />
+                  Then come examine the blackening of my veins they made it all
+                  happen watching actions
+                  <br />
+                  Picking up on the patterns I’m just here to relax and you know
+                  I’ve been
+                  <br />
+                  Looking real hard for the peace grinding my teeth I can see
+                  you smiling want to see the violence I bring?
+                  <br />
+                  You must unaware, complacent, drunk or just fucking crazy
+                  you’re best to mind your fucking business or my knuckles
+                  minding faces
+                  <br />
+                  <br />
+                  CHORUS:
+                  <br />
+                  Because I been pushed to the edge and it seems that you’re the
+                  fuel to my fire and I’ve tried to keep peace
+                  <br />
+                  And I’ve been, pushed to the edge and it seems that you’re the
+                  fuel to my fire and I’ve tried to keep the peace
+                  <br />
+                  Either you be silent or its silence I guarantee best believe
+                  that silence is the key
+                  <br />
+                  Either you be silent or its silence I guarantee best believe
+                  that silence is the key
+                  <br />
+                  Because I been pushed to the edge and it seems that you’re the
+                  fuel to my fire and I’ve tried to keep peace
+                  <br />
+                  Either you be silent or its silence I guarantee best believe
+                  that silence is the key
+                  <br />
+                  The motherfucking key
+                  <br />
+                  <br />
+                  (2nd Verse)
+                  <br />
+                  My backs up against the wall, you’ve pushed to far forcing it
+                  down my core, what’s about to explore is all this anger that I
+                  have stored I feel rejection, my anger projecting towards
+                  they’re motherfucking head leaving a fat fist full of
+                  impressions, they want to act up so I react with a vengeance
+                  <br />
+                  <br />
+                  (BRIDGE/OUTRO)
+                  <br />
+                  So just take another step bitch, I need you gone realise I
+                  bust skin and bruise eyes
+                  <br />I need you to throw another death stare that aggression
+                  I’ve never feared, underestimated like cheating death you’ll
+                  never make it so beware
+                  <br />
+                  You’re pushing me close to the edge so just beware, the straps
+                  on this straight jacket are disconnecting I can see the fear
+                  <br />
+                  <br />
+                  In those motherfucking eyes and its clear I’ve been giving
+                  them a lot to talk about but their mouth gets shut when I hit
+                  them with a fist, underground gain sound when you hear me spit
+                  <br />
+                  Scars represent regret, memories you can forget stained by the
+                  circle of beast the C.O.B is too legit
+                  <br />
+                  Making laws just to break them we take them out breaking faces
+                  <br />
+                  Leave atheist fucking praying, make way for the path of Satan
+                  <br />
+                  Bringing on the fucking sickness vaccinated by the fist of the
+                  viscous, malnutrition mass murderer skin itching bitches when
+                  it comes to brawling, million dollar baby I feel I’m boxing
+                  with a lady, hands striking unnoticed, losing focus
+                  unconscious but awakened to smell the roses, how can you? Your
+                  nose has been broken
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (CHORUS)
+                </div>
+              </div>
+            ),
           },
           {
             id: 10,
             name: "Unconscious",
             band: "DVSR",
             album: "D.V.S.R",
-            lyric: <p></p>,
+            lyric: (
+              <div
+                id="lyrics-root"
+                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
+              >
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  (1st Verse)
+                  <br />
+                  <br />
+                  <a
+                    href="/8769804/Dvsr-unconscious/Stop-taking-steps-in-the-wrong-direction"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      Stop taking steps in the wrong direction
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <a
+                    href="/8682942/Dvsr-unconscious/Youre-lost-in-belief-and-your-lifes-affected-youre-restless-when-you-wake-up-in-the-morning-youre-lost-without-a-cause-and-you-follow-the-rest-i-can-feel-it"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      You're lost in belief
+                      <br />
+                      And your life's affected
+                      <br />
+                      You're restless
+                      <br />
+                      When you wake up in the morning
+                      <br />
+                      You're lost without a cause
+                      <br />
+                      And you follow the rest, i can feel it
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <br />
+                  Looking down from the birds eye
+                  <br />I can see you looking up
+                  <br />
+                  And you're searching for an answer
+                  <br />
+                  Cure for the cancer
+                  <br />
+                  The meaning of living
+                  <br />
+                  The reason you're giving up
+                  <br />
+                  <br />
+                  Follow your path
+                  <br />
+                  And dwell in your plot
+                  <br />
+                  Learn from your past
+                  <br />
+                  The future is here may you take it
+                  <br />
+                  <br />
+                  (EMBRACE IT)
+                  <br />
+                  <br />
+                  Don't let them break it
+                  <br />
+                  You need to swallow your hatred
+                  <br />
+                </div>
+                <div
+                  data-lyrics-container="true"
+                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
+                >
+                  <a
+                    href="/8769824/Dvsr-unconscious/When-you-face-these-knights-up-in-their-shining-armour-recognise-that-metal-has-not-been-dented-no-battle-scars-thus-proving-they-havent-been-tested"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      When you face these knights up in their shining armour
+                      <br />
+                      Recognise that metal
+                      <br />
+                      Has not been dented
+                      <br />
+                      No battle scars
+                      <br />
+                      Thus proving they haven't been tested
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  Forget them
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  (2nd Verse)
+                  <br />
+                  <br />
+                  <a
+                    href="/8769857/Dvsr-unconscious/And-its-like-youre-trapped-up-in-this-maze-all-emotion-locked-away-in-a-cage"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      And it's like you're trapped up in this maze
+                      <br />
+                      All emotion locked away in a cage
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <a
+                    href="/8769855/Dvsr-unconscious/Youve-been-buried-alive-can-you-feel-the-wet-cement-turn-hard-when-its-sealing-youre-eyes"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      You've been buried alive
+                      <br />
+                      Can you feel the wet cement turn hard when its sealing
+                      you're eyes
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  The lies you've discovered
+                  <br />
+                  The truth thats been covered
+                  <br />
+                  <br />
+                  What a cover up
+                  <br />
+                  How abrupt
+                  <br />
+                  Do i gotta be
+                  <br />
+                  Literally
+                  <br />
+                  <a
+                    href="/8682855/Dvsr-unconscious/The-fresh-scent-of-burning-flesh-filled-the-skies-their-thoughts-stay-disguised-so-take-a-breath-what-did-you-expect-in-world-where-belief-overrides-common-sense"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      The fresh scent of burning flesh filled the skies
+                      <br />
+                      Their thoughts stay disguised
+                      <br />
+                      So take a breath
+                      <br />
+                      What did you expect
+                      <br />
+                      In world where belief overrides common sense
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <a
+                    href="/8769858/Dvsr-unconscious/The-concrete-hardens-when-it-enters-your-chest-they-told-you-to-breath-you-believed-you-would-live"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      The concrete hardens when it enters your chest
+                      <br />
+                      They told you to breath
+                      <br />
+                      You believed you would live?
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <br />
+                  These leaders that lead us to death, of an edge of a cliff
+                  <br />
+                  Believe in your knowledge
+                  <br />
+                  Their theories are leaving us brain dead
+                  <br />
+                  Lets not let them exist
+                  <br />
+                  <br />
+                  <br />
+                  (CHORUS)
+                  <br />
+                  <br />
+                  <a
+                    href="/8769799/Dvsr-unconscious/You-are-oblivious-become-aware"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      YOU ARE OBLIVIOUS, BECOME AWARE
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <a
+                    href="/8682867/Dvsr-unconscious/Dont-assume-until-you-truly-understand"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      DONT ASSUME UNTIL YOU TRULY UNDERSTAND
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <a
+                    href="/8682874/Dvsr-unconscious/Entrust-in-stars-and-blame-the-fucking-government"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      ENTRUST IN STARS AND BLAME THE FUCKING GOVERNMENT
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  YOU ARE NOW MORE CORRUPT
+                  <br />
+                  THEN THE ONES YOU HAVE CONFORMED AGAINST. (x2)
+                  <br />
+                  <br />
+                  <br />
+                  (BRIDGE)
+                  <br />
+                  <br />
+                  <a
+                    href="/8682884/Dvsr-unconscious/Its-just-one-more-religion-were-adding-into-our-history-you-are-diseased-but-we-possess-the-fucking-immunity"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      It's just one more religion
+                      <br />
+                      We're adding into our history
+                      <br />
+                      You are diseased
+                      <br />
+                      But we possess the fucking immunity.
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  (x2)
+                  <br />
+                  <br />
+                  <br />
+                  (3rd Verse)
+                  <br />
+                  <br />
+                  (And you will notice that their time is up,)
+                  <br />
+                  <a
+                    href="/8682893/Dvsr-unconscious/When-the-last-grain-of-sand-drops-in-the-hour-glass-that-their-reign-has-passed-itll-be-because-of-us-the-ones-with-the-logic-the-humans-who-can-distinguish-a-lie-from-a-promise-the-ones-with-the-common-knowledge"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      When the last grain of sand drops in the hour glass
+                      <br />
+                      (that their reign has passed)
+                      <br />
+                      It'll be because of us
+                      <br />
+                      The ones with the logic
+                      <br />
+                      The humans who can distinguish a lie
+                      <br />
+                      From a promise, the ones with the common knowledge
+                    </span>
+                  </a>
+                  <span
+                    tabIndex={0}
+                    style={{
+                      position: "absolute",
+                      opacity: 0,
+                      width: 0,
+                      height: 0,
+                      pointerEvents: "none",
+                      zIndex: -1,
+                    }}
+                  />
+                  <span>
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                    <span
+                      tabIndex={0}
+                      style={{
+                        position: "absolute",
+                        opacity: 0,
+                        width: 0,
+                        height: 0,
+                        pointerEvents: "none",
+                        zIndex: -1,
+                      }}
+                    />
+                  </span>
+                  <br />
+                  <br />
+                  Who engage our greater feelings
+                  <br />
+                  Neglect never consent the concealing, reveal these
+                  <br />
+                  Scars they were leaving
+                  <br />
+                  Mind over matter
+                  <br />
+                  The wounds will start healing
+                  <br />
+                  <br />
+                  MOTHER FUCK THESE HEARTLESS CUNTS
+                  <br />
+                  WHO TRY TO TOUCH WITHOUT THEIR FEELING
+                  <br />
+                  <br />
+                  Take a look and you will see
+                  <br />
+                  Gaze into my retinas
+                  <br />
+                  You can picture it looking better than it is now
+                  <br />
+                  Open your ears now
+                  <br />
+                  To what is clear now
+                  <br />
+                  You have potential
+                  <br />
+                  Become effective they won't forget you
+                  <br />
+                  <br />
+                  (CHORUS)
+                  <br />
+                  <br />
+                  <br />
+                  (EXTENDED CHORUS)
+                  <br />
+                  <br />
+                  <a
+                    href="/8682905/Dvsr-unconscious/Trust-me-i-know-why-you-do-believe-its-divine-it-brings-you-hope-you-learn-to-cope-but-youre-narrow-minded-you-cant-let-go-you-wouldnt-know-whats-blinding-your-sight-stay-far-away-from-the-liars-become-you-you-wont-need-any-guidance-relate-to-yourself-feel-what-you-want-we-arent-machines-we-dont-beat-with-the-same-heart"
+                    className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS"
+                  >
+                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                      Trust me i know why you do believe
+                      <br />
+                      It's divine it brings you hope
+                      <br />
+                      You learn to cope
+                      <br />
+                      But you're narrow minded
+                      <br />
+                      You can't let go
+                      <br />
+                      You wouldn't know what's blinding
+                      <br />
+                      Your sight
+                      <br />
+                      Stay far away from the liars
+                      <br />
+                      Become you you won't need any guidance
+                      <br />
+                      Relate to yourself feel what you want
+                      <br />
+                      We aren't machines we don't beat with the same heart
+                    </span>
+                  </a>
+                </div>
+              </div>
+            ),
           },
         ],
       },
