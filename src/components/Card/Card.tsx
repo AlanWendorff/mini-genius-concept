@@ -14,6 +14,7 @@ const Card = ({ band }: IBands) => {
     selectedTrack,
     handleSelectAlbum,
     handleSelectSong,
+    handleReturnMenu,
   } = useChangeContent();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -34,6 +35,7 @@ const Card = ({ band }: IBands) => {
         selectedBand={band}
         selectedAlbum={selectedAlbum}
         selectedTrack={selectedTrack}
+        handleReturnMenu={handleReturnMenu}
       />
 
       <BandContent

@@ -1,24 +1,29 @@
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import styles from "../Texts.module.scss";
 
 interface props {
+  show: boolean;
   title: string;
   bandAka: string;
+  key: string;
 }
 
-const BandName = ({ title, bandAka }: props) => (
-  <div className={styles.container}>
-    <motion.div
-      className={styles.animatedContainer}
-      initial={{ x: -300 }}
-      animate={{ x: 0 }}
-      exit={{ x: -300 }}
-      transition={{ type: "tween" }}
-    >
-      <h1>{title}</h1>
-      <p className={styles.bandAka}>{bandAka}</p>
-    </motion.div>
-  </div>
+const BandName = ({ show, title, bandAka, key }: props) => (
+  <AnimatePresence>
+    {show && (
+      <motion.div
+        key={key}
+        className={styles.animatedContainer}
+        initial={{ x: -300 }}
+        animate={{ x: 0 }}
+        exit={{ x: -300 }}
+        transition={{ type: "tween" }}
+      >
+        <h1>{title}</h1>
+        <p className={styles.bandAka}>{bandAka}</p>
+      </motion.div>
+    )}
+  </AnimatePresence>
 );
 
 export default BandName;

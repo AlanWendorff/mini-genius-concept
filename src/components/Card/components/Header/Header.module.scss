@@ -16,4 +16,15 @@
     border-width: 15px 15px 0 15px;
     border-color: transparent;
   }
+
+  .textContainer {
+    position: relative;
+    overflow: hidden;
+    max-width: 60%;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
 }

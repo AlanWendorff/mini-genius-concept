@@ -7,11 +7,19 @@ import SongName from "./components/SongName";
 import BackBtn from "./components/BackBtn";
 import FloatingImage from "./components/FloatingImage";
 import { AnimatePresence } from "framer-motion";
-import { IBand } from "interfaces/band";
 import { ECardStatus } from "@components/Card/useChangeContent";
 import props from "interfaces/sectionProps";
 
-const Header = ({ cardStatus, selectedAlbum, selectedBand }: props) => {
+interface IHeaderProps extends props {
+  handleReturnMenu: () => void;
+}
+
+const Header = ({
+  cardStatus,
+  selectedAlbum,
+  selectedBand,
+  handleReturnMenu,
+}: IHeaderProps) => {
   const backgroundColor = selectedAlbum
     ? `linear-gradient(${selectedAlbum.colors.primary}, ${selectedAlbum.colors.secondary})`
     : `linear-gradient(#6f2929, #222222)`;
@@ -25,43 +33,52 @@ const Header = ({ cardStatus, selectedAlbum, selectedBand }: props) => {
     >
       <div className={styles.arrow} style={{ borderTopColor: arrowColor }} />
 
-      <AnimatePresence>
-        {cardStatus === ECardStatus.BAND && (
-          <>
-            <FloatingImage
-              key="floating-image-band"
-              image={selectedBand.band_image.src}
-            />
-            <BandName
-              key="band-name"
-              title={selectedBand.band_name}
-              bandAka={selectedBand.band_aka}
-            />
-          </>
-        )}
+      <FloatingImage
+        key="floating-image-band"
+        image={selectedBand.band_image.src}
+        show={cardStatus === ECardStatus.BAND}
+      />
 
+      <FloatingImage
+        key="floating-image-album"
+        image={selectedAlbum?.image.src ?? ""}
+        show={cardStatus === ECardStatus.ALBUM}
+      />
+
+      {/* <AnimatePresence>
         {cardStatus === ECardStatus.ALBUM && (
-          <>
-            <BackBtn key="back" />
-            <FloatingImage
-              key="floating-image-selectedAlbum"
-              image={selectedAlbum?.image.src ?? ""}
-            />
-            <AlbumName key="selectedAlbum-name" selectedAlbum={selectedAlbum} />
-          </>
+          <BackBtn key="back" handleReturnMenu={handleReturnMenu} />
         )}
+      </AnimatePresence> */}
 
+      <div className={styles.textContainer}>
+        <BandName
+          key="band-name"
+          title={selectedBand.band_name}
+          bandAka={selectedBand.band_aka}
+          show={cardStatus === ECardStatus.BAND}
+        />
+
+        <AlbumName
+          key="album-name"
+          selectedAlbum={selectedAlbum}
+          show={cardStatus === ECardStatus.ALBUM}
+          handleReturnMenu={handleReturnMenu}
+        />
+      </div>
+
+      {/*  <AnimatePresence>
         {cardStatus === ECardStatus.SONG && (
           <>
-            {/* <BackBtn key="back" /> */}
+             <BackBtn key="back" /> 
             <FloatingImage
               key="floating-image-selectedAlbum"
               image={selectedAlbum?.image.src ?? ""}
             />
-            {/*  <SongName index={1} song={} show={false} /> */}
+              <SongName index={1} song={} show={false} /> 
           </>
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
     </div>
   );
 };

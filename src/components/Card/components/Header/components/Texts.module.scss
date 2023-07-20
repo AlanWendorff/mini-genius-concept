@@ -1,14 +1,3 @@
-.container {
-  position: relative;
-  overflow: hidden;
-  max-width: 60%;
-  height: 100%;
-  padding-left: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
 .animatedContainer {
   position: absolute;
 }
@@ -18,12 +7,49 @@
 }
 
 .albumInfo {
-  h2 {
+  button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
     margin-top: 0;
-    font-size: 22px;
-    font-weight: 400;
     margin-bottom: 0.25rem;
-    font-family: "Programme Normal", sans-serif;
+    position: relative;
+    cursor: pointer;
+
+    ::after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      bottom: 6px;
+      transition: width 200ms;
+    }
+
+    &:hover {
+      ::after {
+        width: 0%;
+      }
+    }
+
+    p {
+      font-family: "Programme Normal", sans-serif;
+      color: white;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      margin-right: 0.8rem;
+    }
+
+    svg {
+      fill: rgb(255, 255, 255);
+      width: 0.8rem;
+      margin-left: calc(-0.548625em);
+      vertical-align: middle;
+    }
   }
 
   p {

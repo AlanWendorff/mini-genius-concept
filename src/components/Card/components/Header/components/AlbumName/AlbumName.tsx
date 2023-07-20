@@ -1,30 +1,42 @@
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import styles from "../Texts.module.scss";
 import IAlbum from "interfaces/album";
 
 interface props {
+  show: boolean;
+  key: string;
   selectedAlbum: null | undefined | IAlbum;
+  handleReturnMenu: () => void;
 }
 
-const AlbumName = ({ selectedAlbum }: props) => (
-  <div className={styles.container}>
-    <motion.div
-      className={styles.animatedContainer}
-      initial={{ x: -300 }}
-      animate={{ x: 0 }}
-      exit={{ x: -300 }}
-      transition={{ type: "tween" }}
-    >
-      <h1>{selectedAlbum?.name}</h1>
+const AlbumName = ({ show, key, selectedAlbum, handleReturnMenu }: props) => (
+  <AnimatePresence>
+    {show && (
+      <motion.div
+        key={key}
+        className={styles.animatedContainer}
+        initial={{ x: -300 }}
+        animate={{ x: 0 }}
+        exit={{ x: -300 }}
+        transition={{ type: "tween" }}
+      >
+        <h1>{selectedAlbum?.name}</h1>
 
-      <div className={styles.albumInfo}>
-        <h2>{selectedAlbum?.band}</h2>
-        <p>
-          Released {selectedAlbum?.release_date}, {selectedAlbum?.release_year}
-        </p>
-      </div>
-    </motion.div>
-  </div>
+        <div className={styles.albumInfo}>
+          <button onClick={handleReturnMenu} aria-label="back to band">
+            <p>{selectedAlbum?.band}</p>
+            <svg viewBox="0 0 6.6 16">
+              <path d="M1.6 8.8l.6-.6 1 1 .5.7V6H0v-.8h4.5v4.6l.5-.6 1-1 .6.5L4 11.3 1.6 8.8z"></path>
+            </svg>
+          </button>
+          <p>
+            Released {selectedAlbum?.release_date},{" "}
+            {selectedAlbum?.release_year}
+          </p>
+        </div>
+      </motion.div>
+    )}
+  </AnimatePresence>
 );
 
 export default AlbumName;
