@@ -845,7 +845,7 @@ const BANDS = {
           },
           {
             id: 6,
-            name: "What&apos;s the Proof? (Ft. Frankie Palmeri)",
+            name: "What's the Proof? (Ft. Frankie Palmeri)",
             band: "DVSR",
             album: "West Technique",
             lyric: (
@@ -1282,7 +1282,7 @@ const BANDS = {
           },
           {
             id: 9,
-            name: "Rack &lsquo;em Up",
+            name: "Rack 'em Up",
             band: "DVSR",
             album: "West Technique",
             lyric: (
@@ -2630,7 +2630,7 @@ const BANDS = {
           },
           {
             id: 5,
-            name: "Devil in 95&lsquo;s",
+            name: "Devil in 95's",
             band: "DVSR",
             album: "Therapy",
             lyric: (
