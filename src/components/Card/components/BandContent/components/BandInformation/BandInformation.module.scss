@@ -1,84 +1,130 @@
 @use "@styles/_mixins.scss" as mixins;
+@use "@styles/_responsives.scss" as responsives;
 
 .animatedContainer {
   position: absolute;
   width: 100%;
   padding: 2rem 1rem 0rem 1rem;
+}
 
-  .about {
-    padding: 1rem;
-    background-color: white;
-    color: black;
-    height: 6.5187rem;
-    overflow-y: auto;
+.about {
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  min-height: 6.5187rem;
 
-    h3 {
-      margin-top: 0;
-      font-size: 0.875rem;
-      line-height: 1.45;
-      font-weight: 400;
-    }
-
-    p {
-      margin: 0;
-
-      span {
-        font-family: "Programme Normal", sans-serif;
-      }
-    }
+  h3 {
+    margin-top: 0;
+    font-size: 0.875rem;
+    line-height: 1.45;
+    font-weight: 400;
   }
 
-  .albums {
-    h3 {
-      margin-top: 2.25rem;
-      margin-bottom: 0.5rem;
-      color: var(--color-zeta);
-      font-size: 0.875rem;
+  p {
+    margin: 0;
+
+    span {
+      font-family: "Programme Normal", sans-serif;
+    }
+  }
+}
+
+.popularAlbums {
+  margin-top: 2.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-zeta);
+  font-size: 0.875rem;
+  height: fit-content;
+}
+
+.grid {
+  background-color: white;
+  border-radius: 0 0 2.5rem 2.5rem;
+  display: grid;
+  grid-template-columns: 8.125rem 1fr 8.125rem;
+  row-gap: 1rem;
+  padding: 1rem;
+
+  .album {
+    @include mixins.flex_container(column, space-between, center);
+    height: 10.4375rem;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+
+    img {
+      z-index: 100;
+      width: 8.125rem;
+      height: 8.125rem;
     }
 
-    .grid {
-      background-color: white;
-      border-radius: 0 0 2.5rem 2.5rem;
-      display: grid;
-      grid-template-columns: 8.125rem 1fr 8.125rem;
-      row-gap: 1rem;
-      padding: 1rem;
+    .info {
+      z-index: 100;
 
-      .album {
-        @include mixins.flex_container(column, space-between, center);
-        height: 10.4375rem;
-        text-align: center;
-        cursor: pointer;
-        position: relative;
+      p {
+        margin: 0;
+        font-size: 0.75rem;
+      }
 
-        img {
-          z-index: 100;
-          width: 8.125rem;
-          height: 8.125rem;
-        }
+      .year {
+        color: var(--color-zeta);
+      }
+    }
 
-        .info {
-          z-index: 100;
-          p {
-            margin: 0;
-            font-size: 0.75rem;
-          }
+    &:hover::before {
+      content: "";
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      transform: translate(0%, -0.25rem);
+      width: 8.625rem;
+      height: 11.0625rem;
+      background-color: var(--color-epsilon);
+    }
+  }
+}
 
-          .year {
-            color: var(--color-zeta);
-          }
-        }
+@include responsives.VGA {
+  .animatedContainer {
+    height: 100%;
+    padding-bottom: 1rem;
+    display: grid;
+    place-items: start start;
+    grid-template-rows: fit-content(100%) fit-content(100%);
+  }
 
-        &:hover::before {
-          content: "";
-          z-index: 0;
-          position: absolute;
-          top: 0;
-          transform: translate(0%, -0.25rem);
-          width: 8.625rem;
-          height: 11.0625rem;
-          background-color: var(--color-epsilon);
-        }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: fit-content(100%) fit-content(100%);
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+
+    .album {
+      height: fit-content;
+
+      img {
+        width: 95%;
+        height: auto;
+      }
+
+      .info {
+        margin-top: 0.8rem;
+      }
+
+      &::before {
+        display: none;
+      }
+
+      &:active:after {
+        content: "";
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        width: 95%;
+        height: 102%;
+        background-color: var(--color-epsilon);
       }
     }
   }

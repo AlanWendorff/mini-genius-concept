@@ -1,6 +1,14 @@
+@use "@styles/_responsives.scss" as responsives;
+
 .container {
   display: grid;
   place-items: center;
   width: 100%;
   height: 100vh;
+}
+
+@include responsives.VGA {
+  .container {
+    place-items: start center;
+  }
 }

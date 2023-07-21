@@ -59,29 +59,30 @@ const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
             </p>
           </div>
 
-          <div className={styles.albums}>
-            <h3>POPULAR {selectedBand.band_name} ALBUMS</h3>
-            <div className={styles.grid}>
-              {selectedBand.albums.map(({ id, image, name, release_year }) => (
-                <motion.div
-                  key={id}
-                  className={styles.album}
-                  whileHover="onImageHover"
-                  onClick={() => handleSelectAlbum(id)}
-                >
-                  <motion.img
-                    variants={variants}
-                    draggable={false}
-                    src={image.src}
-                    alt={name}
-                  />
-                  <div className={styles.info}>
-                    <p>{name}</p>
-                    <p className={styles.year}>{release_year}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
+          <h3 className={styles.popularAlbums}>
+            POPULAR {selectedBand.band_name} ALBUMS
+          </h3>
+
+          <div className={styles.grid}>
+            {selectedBand.albums.map(({ id, image, name, release_year }) => (
+              <motion.div
+                key={id}
+                className={styles.album}
+                whileHover="onImageHover"
+                onClick={() => handleSelectAlbum(id)}
+              >
+                <motion.img
+                  variants={variants}
+                  draggable={false}
+                  src={image.src}
+                  alt={name}
+                />
+                <div className={styles.info}>
+                  <p>{name}</p>
+                  <p className={styles.year}>{release_year}</p>
+                </div>
+              </motion.div>
+            ))}
           </div>
         </motion.div>
       )}
