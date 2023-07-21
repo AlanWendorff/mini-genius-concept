@@ -11,9 +11,9 @@
 
 ### Web preview:
 
-![web preview](https://github.com/Kremowy/framer-motion-demo/assets/62715512/1863c188-ba10-4a20-902c-1b126cf653f4)
+![web preview](https://github.com/Kremowy/mini-genius-concept/assets/62715512/94c3fad6-9ffa-4963-97a8-ede76fe4775d)
 
-[Check it out](https://www.google.com)
+[Check it out]([https://www.google.com](https://mini-genius-concept.vercel.app/))
 
 ---
 
