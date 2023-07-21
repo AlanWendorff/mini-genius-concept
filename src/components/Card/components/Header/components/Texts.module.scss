@@ -2,6 +2,14 @@
 
 .animatedContainer {
   position: absolute;
+  width: 100%;
+
+  h1 {
+    width: calc(100% - 2rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
   a {
     display: block;
@@ -50,7 +58,9 @@
 }
 
 .songInfo {
+  width: calc(100% - 2rem);
   @include mixins.flex_container(row, auto, center);
+  flex-wrap: wrap;
 
   > p {
     margin-top: 0.5rem;

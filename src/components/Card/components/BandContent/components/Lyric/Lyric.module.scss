@@ -1,8 +1,10 @@
 .animatedContainer {
   position: absolute;
   width: 100%;
-  padding: 2rem;
   height: 100%;
+  padding: 2rem;
+  display: grid;
+  place-content: start;
 
   h4 {
     margin-top: 0;
@@ -15,7 +17,8 @@
 
   .lyrics {
     overflow-y: auto;
-    height: 31.25rem;
+    height: 100%;
+    margin-bottom: 1rem;
     padding-right: 0.5rem;
 
     &::-webkit-scrollbar {
