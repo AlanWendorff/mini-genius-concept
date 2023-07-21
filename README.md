@@ -13,7 +13,7 @@
 
 ![web preview](https://github.com/Kremowy/mini-genius-concept/assets/62715512/94c3fad6-9ffa-4963-97a8-ede76fe4775d)
 
-[Check it out]([https://www.google.com](https://mini-genius-concept.vercel.app/))
+[Check it out](https://mini-genius-concept.vercel.app/)
 
 ---
 
