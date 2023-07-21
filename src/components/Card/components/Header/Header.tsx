@@ -5,13 +5,22 @@ import SongName from "./components/SongName";
 import FloatingImage from "./components/FloatingImage";
 import { ECardStatus } from "@components/Card/useChangeContent";
 import ICommonProps from "interfaces/common";
+import { MotionValue } from "framer-motion";
 
 interface IHeaderProps extends ICommonProps {
+  x: MotionValue<number>;
+  y: MotionValue<number>;
+  rotateX: MotionValue<number>;
+  rotateY: MotionValue<number>;
   handleReturnMenu: () => void;
   handleReturnAlbum: () => void;
 }
 
 const Header = ({
+  x,
+  y,
+  rotateX,
+  rotateY,
   cardStatus,
   selectedAlbum,
   selectedBand,
@@ -33,12 +42,20 @@ const Header = ({
       <div className={styles.arrow} style={{ borderTopColor: arrowColor }} />
 
       <FloatingImage
+        x={x}
+        y={y}
+        rotateX={rotateX}
+        rotateY={rotateY}
         key="floating-image-band"
         image={selectedBand.band_image.src}
         show={cardStatus === ECardStatus.BAND}
       />
 
       <FloatingImage
+        x={x}
+        y={y}
+        rotateX={rotateX}
+        rotateY={rotateY}
         key="floating-image-album"
         image={selectedAlbum?.image.src ?? ""}
         show={

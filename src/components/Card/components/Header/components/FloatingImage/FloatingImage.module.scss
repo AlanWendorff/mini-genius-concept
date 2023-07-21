@@ -5,8 +5,7 @@
   object-fit: cover;
   right: 0;
   top: 0;
-  filter: drop-shadow(0rem 0.625rem 1.5625rem #0000009f);
+  filter: drop-shadow(0 0 1rem #000000);
   border-radius: 2.5rem;
   padding: 1rem;
-  z-index: 10000;
 }

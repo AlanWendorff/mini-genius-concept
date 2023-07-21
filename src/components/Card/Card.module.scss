@@ -5,6 +5,7 @@
   @include mixins.flex_container(column, space-between, auto);
   width: 30rem;
   height: 48.375rem;
+  position: relative;
 }
 
 .bandInfo {
@@ -80,3 +81,16 @@
     padding: 1rem;
   }
 }
+
+/* .shadow {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  //background-color: rgba(0, 0, 0, 0.404);
+  background-color: red;
+  right: 3%;
+  top: 2%;
+  filter: drop-shadow(0 0 1rem #000000);
+  border-radius: 2.5rem;
+}
+ */
