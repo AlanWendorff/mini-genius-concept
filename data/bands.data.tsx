@@ -41,16 +41,16 @@ const BANDS = {
                   Modern day Houdini, better leave me alone when you see me
                   staunching
                   <br />
-                  Force it into your head, but into your neck cuz, I got a
-                  felony for it
+                  Force it into your head, but into your neck cuz, I got a
+                  felony for it
                   <br />
                   What, come and get some
                   <br />
-                  Looking at the evidence I break in the residence
+                  Looking at the evidence I break in the residence
                   <br />
-                  I’m on the run
+                  I&apos;m on the run
                   <br />
-                  Cuz hit the legs, cuz hit the jet from the 'ops, you bitches
+                  Cuz hit the legs, cuz hit the jet from the 'ops, you bitches
                   wanna lock on my tongue?
                   <br />
                   Death staring like a gronk ay?
@@ -65,7 +65,7 @@ const BANDS = {
                   Assyrian Rambo, too hot to handle, here's an example, dead set
                   head out that red hot lambo
                   <br />
-                  Can’t stand you, manhandled, backhand you, capeesh?
+                  Can&apos;t stand you, manhandled, backhand you, capeesh?
                   <br />
                   Disturb the peace, pull on the leash
                   <br />
@@ -104,7 +104,7 @@ const BANDS = {
                   Ay
                   <br />I put a price on your motherfucking head you flop
                   <br />
-                  So don’t run off when I start exchanging shot for shot
+                  So don&apos;t run off when I start exchanging shot for shot
                   <br />
                   Ay what now, you get stunned how?
                   <br />
@@ -116,7 +116,7 @@ const BANDS = {
                   <br />
                   Certain, urchin, perfect
                   <br />
-                  I’m on the hunt and I’m lurking
+                  I&apos;m on the hunt and I&apos;m lurking
                   <br />
                   Dead set you get inverted, inserted to a tripped server
                   <br />
@@ -172,14 +172,14 @@ const BANDS = {
                   <br />
                   Do as I dare, put them hands in the air
                   <br />
-                  We’re coming for the money power respect, yeah
+                  We&apos;re coming for the money power respect, yeah
                   <br />
-                  Bitch you get put down like a dog (what)
+                  Bitch you get put down like a dog (what)
                   <br />
-                  I see you turning blue, your blood thickens in the
-                  fog (come on)
+                  I see you turning blue, your blood thickens in the fog (come
+                  on)
                   <br />
-                  Yo I could cut your throat out and watch you choke and stomp
+                  Yo I could cut your throat out and watch you choke and stomp
                   your corpse (uh)
                   <br />
                   Extinguishing cigars on your arm, leave you praying for a God
@@ -190,7 +190,7 @@ const BANDS = {
                   <br />
                   Drowned in a shallow bucket of acid, I watch your skin drip
                   off your bones
-                  <br />I can’t ignore it
+                  <br />I can&apos;t ignore it
                   <br />
                   Plugging power cords straight to your heart
                   <br />
@@ -199,24 +199,24 @@ const BANDS = {
                   <br />
                   <br />
                   CHORUS
-                  <br />I can’t get no satisfaction
+                  <br />I can&apos;t get no satisfaction
                   <br />I got a blood lust baby
-                  <br />I can’t get no satisfaction
+                  <br />I can&apos;t get no satisfaction
                   <br />I got a blood lust baby
                   <br />
                   So what's it gonna be?
                   <br />
-                  I’m on without sleep
+                  I&apos;m on without sleep
                   <br />
                   Gangrene, bad seed, living in the heat
                   <br />
                   So what's it gonna be?
                   <br />
-                  Frivolous ID, I’m a bad one
+                  Frivolous ID, I&apos;m a bad one
                   <br />
                   Bad seed in the deep
                   <br />
-                  So what’s it gonna?
+                  So what&apos;s it gonna?
                   <br />
                 </div>
                 <div
@@ -229,15 +229,15 @@ const BANDS = {
                   <br />I love sticking hatchets to the brain
                   <br />
                   Oh I love
-                  <br />I love it when you’re bleeding from the blade
+                  <br />I love it when you&apos;re bleeding from the blade
                   <br />I love it when I used barbed wire for you to hang
                   <br />
-                  Yes I love it when you’re looking in the barrel, hear that
-                  bang?
+                  Yes I love it when you&apos;re looking in the barrel, hear
+                  that bang?
                   <br />
                   Oh I love
                   <br />
-                  I’m loving evading 'oppers and ay
+                  I&apos;m loving evading 'oppers and ay
                   <br />
                   Gearing up with brass knuckles in a raid, bitch its fair
                   <br />
@@ -261,7 +261,7 @@ const BANDS = {
                   <br />
                   Separated so divine
                   <br />
-                  You’ll be buried in the cold, wet dirt
+                  You&apos;ll be buried in the cold, wet dirt
                   <br />
                   Forever slumped by the .9
                   <br />
@@ -320,50 +320,51 @@ const BANDS = {
                   <br />
                   Abysmal as a motherfucker
                   <br />
-                  I’ma keep it crystal clear cousin, you don’t want the muzzle
-                  dipped in cyanide
+                  I&apos;ma keep it crystal clear cousin, you don&apos;t want
+                  the muzzle dipped in cyanide
                   <br />
-                  Cause I’m about to go bezerk, on that 'earch
+                  Cause I&apos;m about to go bezerk, on that 'earch
                   <br />
-                  For the green backs, I’m axing you putrids for the purse
+                  For the green backs, I&apos;m axing you putrids for the purse
                   <br />
                   Does it hurt when I put you through the blade of a spinning
                   fan?
                   <br />
-                  Diminished, so persistent when I’m cleansing competition, damn
+                  Diminished, so persistent when I&apos;m cleansing competition,
+                  damn
                   <br />
                   <br />
                   CHORUS
-                  <br />I can’t get no satisfaction
+                  <br />I can&apos;t get no satisfaction
                   <br />I got a blood lust baby
-                  <br />I can’t get no satisfaction
+                  <br />I can&apos;t get no satisfaction
                   <br />I got a blood lust baby
                   <br />
                   So what's it gonna be?
                   <br />
-                  I’m on without sleep
+                  I&apos;m on without sleep
                   <br />
                   Gangrene, bad seed, living in the heat
                   <br />
                   So what's it gonna be?
                   <br />
-                  Frivolous ID, I’m a bad one
+                  Frivolous ID, I&apos;m a bad one
                   <br />
                   Bad seed in the deep
                   <br />
                   So what's it gonna be?
                   <br />
-                  I’m on without sleep
+                  I&apos;m on without sleep
                   <br />
                   Gangrene, bad seed, living in the heat
                   <br />
                   So what's it gonna be?
                   <br />
-                  Frivolous ID, I’m a bad one
+                  Frivolous ID, I&apos;m a bad one
                   <br />
                   Bad seed in the deep
                   <br />
-                  So what’s it gonna?
+                  So what&apos;s it gonna?
                 </div>
               </div>
             ),
@@ -385,16 +386,16 @@ const BANDS = {
                   [Hook]
                   <br />
                   Yeah, so roll the dice, we put our life on the line for them
-                  snake eyes tonight, it ain't a game
+                  snake eyes tonight, it ain't a game
                   <br />
                   (What, what)
                   <br />
-                  And I'm just looking at the way that we got you, you can
-                  see we don’t wanna play
+                  And I'm just looking at the way that we got you, you can see
+                  we don&apos;t wanna play
                   <br />
                   (You ?)
                   <br />
-                  So fuck the money and fame, power status and gain, we ain't
+                  So fuck the money and fame, power status and gain, we ain't
                   looking any other way
                   <br />
                   (What the fuck did you say?)
@@ -405,7 +406,7 @@ const BANDS = {
                   <br />
                   [Verse 1]
                   <br />
-                  This is a Code black, we’re striking with impact
+                  This is a Code black, we&apos;re striking with impact
                   <br />
                   On that Everest invest, sever the others and peaking at last
                   <br />
@@ -423,18 +424,18 @@ const BANDS = {
                   <br />I bring terror through the mic its live or die with the
                   team
                   <br />
-                  We’re bombing and breaking hearts just like an RPG
+                  We&apos;re bombing and breaking hearts just like an RPG
                   <br />
                   See for that apex
                   <br />
                   Stay vexed, you already know that we're tighter than a fat
                   bitch in latex
                   <br />
-                  Stay flexed in a class we can’t notice
+                  Stay flexed in a class we can&apos;t notice
                   <br />
                   Meditating in the full lotus, holograms still patrol us
                   <br />
-                  Bitch we’re chosen, the god status you know were fucking
+                  Bitch we&apos;re chosen, the god status you know were fucking
                   potent
                   <br />
                   It's either kill or be killed and I can smell the dead roses
@@ -447,32 +448,34 @@ const BANDS = {
                 >
                   [Chorus]
                   <br />
-                  We‘re coming for the top, picking out your poison
+                  We&apos;re coming for the top, picking out your poison
                   <br />
                   And your times up, because it's like 1, 2, 3 and you drop
                   <br />
-                  We’re coming for the top, we’re coming for the top, what they
-                  want, uh
+                  We&apos;re coming for the top, we&apos;re coming for the top,
+                  what they want, uh
                   <br />
-                  We’re coming for the top, picking out your poison
+                  We&apos;re coming for the top, picking out your poison
                   <br />
                   And your times up, because it's like 1, 2, 3 and you drop
                   <br />
-                  Because it’s like 1, 2, 3 and you drop, what you want, uh
+                  Because it&apos;s like 1, 2, 3 and you drop, what you want, uh
                   <br />
                   <br />
                   [Verse 2]
                   <br />
                   See the visions delayed my brain remain free
                   <br />
-                  The South West been calling, we’ve been in them prison greens
+                  The South West been calling, we&apos;ve been in them prison
+                  greens
                   <br />
                   Pulling in waves we're slaying the beat
                   <br />
                   Aggravated taking over with '97 Silver Bullets to faces
                   <br />I hate what they made they can't break me
                   <br />
-                  Armoured like a tank, the system couldn’t take me so maybe
+                  Armoured like a tank, the system couldn&apos;t take me so
+                  maybe
                   <br />
                   We're robbing you out of your dream
                   <br />
@@ -483,19 +486,20 @@ const BANDS = {
                   This is my onslaught baby we contort your beam
                   <br />
                   Like a motherfucking prism so you know there's no defending,
-                  I’m
+                  I&apos;m
                   <br />
                   Top of the food chain robbing competition
                   <br />
-                  We’re some god's smashing tectonics plates who you kidding?
+                  We&apos;re some god's smashing tectonics plates who you
+                  kidding?
                   <br />
                   You a joke, you rappers getting smoked like a V-Rod back tyre
                   <br />
                   Out for the scope you need to let it go, f-f-fuelled by the
                   area code
                   <br />
-                  We couldn’t give it up forever, we we're born to bring it home
-                  so
+                  We couldn&apos;t give it up forever, we we're born to bring it
+                  home so
                   <br />
                 </div>
                 <div
@@ -510,7 +514,7 @@ const BANDS = {
                   (Huh)
                   <br />
                   And I'm just looking at the way that we got you, you can see
-                  we don’t wanna play
+                  we don&apos;t wanna play
                   <br />
                   (Yeah)
                   <br />
@@ -528,18 +532,18 @@ const BANDS = {
                   <br />
                   [Chorus]
                   <br />
-                  We‘re coming for the top, picking out your poison
+                  We&apos;re coming for the top, picking out your poison
                   <br />
                   And your times up, because it's like 1, 2, 3 and you drop
                   <br />
-                  We’re coming for the top, we’re coming for the top, what they
-                  want, uh
+                  We&apos;re coming for the top, we&apos;re coming for the top,
+                  what they want, uh
                   <br />
-                  We’re coming for the top, picking out your poison
+                  We&apos;re coming for the top, picking out your poison
                   <br />
                   And your times up, because it's like 1, 2, 3 and you drop
                   <br />
-                  Because it’s like 1, 2, 3 and you drop, what you want, uh
+                  Because it&apos;s like 1, 2, 3 and you drop, what you want, uh
                 </div>
               </div>
             ),
@@ -562,12 +566,12 @@ const BANDS = {
                   <br />
                   Aye
                   <br />
-                  You don’t really wanna get into it
-                  <br />I put in the study the analytics in
-                  to this intermittently analysing every single anomaly
+                  You don&apos;t really wanna get into it
+                  <br />I put in the study the analytics in to this
+                  intermittently analysing every single anomaly
                   <br />
-                  You think you are but you aren’t, a carbon copy in orbit,
-                  you’re boring
+                  You think you are but you aren&apos;t, a carbon copy in orbit,
+                  you&apos;re boring
                   <br />
                   You ain't unique, you a disease
                   <br />
@@ -585,7 +589,7 @@ const BANDS = {
                   <br />
                   Oxygen thief, subliminal threats on a plot to start beef
                   <br />
-                  You’re a cliché, developing weak ways to cope
+                  You&apos;re a cliché, developing weak ways to cope
                   <br />
                   You tried too hard, so let it go
                   <br />
@@ -593,10 +597,10 @@ const BANDS = {
                   <br />
                   <br />
                   CHORUS
-                  <br />I don’t need no reason, to mingle with clones
-                  <br />I don’t need no reason, so leave alone
-                  <br />I don’t need no reason, to mingle with clones
-                  <br />I don’t need no reason, so leave alone
+                  <br />I don&apos;t need no reason, to mingle with clones
+                  <br />I don&apos;t need no reason, so leave alone
+                  <br />I don&apos;t need no reason, to mingle with clones
+                  <br />I don&apos;t need no reason, so leave alone
                   <br />
                   <br />
                   BRIDGE
@@ -610,11 +614,11 @@ const BANDS = {
                   <br />
                   (it's not who you are)
                   <br />
-                  Sick of the way that you’re thieving, sick of the thought of
-                  you breathing
+                  Sick of the way that you&apos;re thieving, sick of the thought
+                  of you breathing
                   <br />
-                  The rumours are right, cause I’m on the hunt for fakes and
-                  it's piracy season
+                  The rumours are right, cause I&apos;m on the hunt for fakes
+                  and it's piracy season
                   <br />
                   Sick of the way that you branded it individuality
                   <br />
@@ -625,11 +629,11 @@ const BANDS = {
                   <br />
                   (it's not who you are)
                   <br />
-                  Sick of the way that you’re thieving, sick of the thought of
-                  you breathing
+                  Sick of the way that you&apos;re thieving, sick of the thought
+                  of you breathing
                   <br />
-                  The rumours are right, cause I’m on the hunt for fakes and
-                  it's piracy season
+                  The rumours are right, cause I&apos;m on the hunt for fakes
+                  and it's piracy season
                   <br />
                 </div>
                 <div
@@ -647,10 +651,10 @@ const BANDS = {
                   Hijacking my culture over, nobody sees you coast to coast
                   bitch
                   <br />
-                  You suppose to fold, but you’re extra with it
+                  You suppose to fold, but you&apos;re extra with it
                   <br />
-                  Sourced in suburbia, you’re tatted with an attitude, I ain't
-                  burning cuz
+                  Sourced in suburbia, you&apos;re tatted with an attitude, I
+                  ain't burning cuz
                   <br />
                   With bitch made demeanour, ain't scared to meet ya
                   <br />
@@ -663,8 +667,8 @@ const BANDS = {
                   <br />
                   Typical, look at you bank down
                   <br />
-                  You’re bankrupt cause your talk is cheap and we can’t fucking
-                  stand it
+                  You&apos;re bankrupt cause your talk is cheap and we
+                  can&apos;t fucking stand it
                   <br />
                   Zeus status, South West en-route at it
                   <br />
@@ -676,10 +680,10 @@ const BANDS = {
                   <br />
                   <br />
                   CHORUS
-                  <br />I don’t need no reason, to mingle with clones
-                  <br />I don’t need no reason, so leave alone
-                  <br />I don’t need no reason, to mingle with clones
-                  <br />I don’t need no reason, so leave alone
+                  <br />I don&apos;t need no reason, to mingle with clones
+                  <br />I don&apos;t need no reason, so leave alone
+                  <br />I don&apos;t need no reason, to mingle with clones
+                  <br />I don&apos;t need no reason, so leave alone
                 </div>
               </div>
             ),
@@ -700,16 +704,16 @@ const BANDS = {
                 >
                   CHORUS
                   <br />
-                  You take me away from something, but I just can’t ignore it,
-                  distorting
+                  You take me away from something, but I just can&apos;t ignore
+                  it, distorting
                   <br />
-                  You’re just a devil on my shoulder I knew so much that
-                  i couldn’t see
+                  You&apos;re just a devil on my shoulder I knew so much that i
+                  couldn&apos;t see
                   <br />
-                  You make me contagious to that agent i exported, distorting
+                  You make me contagious to that agent i exported, distorting
                   <br />
-                  You’re just a devil on my shoulder I knew so much that I
-                  couldn’t see
+                  You&apos;re just a devil on my shoulder I knew so much that I
+                  couldn&apos;t see
                   <br />
                   <br />
                   VERSE
@@ -718,9 +722,9 @@ const BANDS = {
                   <br />
                   Corrupt, compatible, so rough
                   <br />
-                  I’m flirting with hostility, that devil needs to know but
+                  I&apos;m flirting with hostility, that devil needs to know but
                   <br />
-                  Still in them in 95’s taunting bitches like you so cut
+                  Still in them in 95&apos;s taunting bitches like you so cut
                   <br />
                   They look at me trying to be cynical, stop I spit at you
                   Meta-b-physical, limits control us (uh)
@@ -740,7 +744,7 @@ const BANDS = {
                   Create, cremate, delayed, in vein
                   <br />
                   Sick and just look at the state of me fade
-                  <br />I gotta show what I’m gonna be
+                  <br />I gotta show what I&apos;m gonna be
                   <br />
                   Like a para-parasite paralysing the dream (what you gonna)
                   <br />
@@ -751,16 +755,16 @@ const BANDS = {
                   <br />
                   CHORUS
                   <br />
-                  You take me away from something, but I just can’t ignore it,
-                  distorting
+                  You take me away from something, but I just can&apos;t ignore
+                  it, distorting
                   <br />
-                  You’re just a devil on my shoulder I knew so much that i
-                  couldn’t see
+                  You&apos;re just a devil on my shoulder I knew so much that i
+                  couldn&apos;t see
                   <br />
                   You make me contagious to that agent i exported, distorting
                   <br />
-                  You’re just a devil on my shoulder I knew so much that I
-                  couldn’t see
+                  You&apos;re just a devil on my shoulder I knew so much that I
+                  couldn&apos;t see
                   <br />
                 </div>
                 <div
@@ -791,9 +795,9 @@ const BANDS = {
                   You artificial, you fake
                   <br />
                   Lyrical exorcisms in a prison eviscerate
-                  <br />I couldn’t even stomach it, cunning, you under my skin
-                  it's too late, ay
-                  <br />I gotta show what I’m gonna be
+                  <br />I couldn&apos;t even stomach it, cunning, you under my
+                  skin it's too late, ay
+                  <br />I gotta show what I&apos;m gonna be
                   <br />
                   Like a para-parasite paralysing the dream (what you gonna)
                   <br />
@@ -804,15 +808,15 @@ const BANDS = {
                   <br />
                   BRIDGE
                   <br />
-                  There wasn’t any other way
+                  There wasn&apos;t any other way
                   <br />
-                  There wasn’t any other way
-                  <br />
-                  You know I forced that motherfucking blade into your skin
+                  There wasn&apos;t any other way
                   <br />
                   You know I forced that motherfucking blade into your skin
                   <br />
-                  There wasn’t any other way
+                  You know I forced that motherfucking blade into your skin
+                  <br />
+                  There wasn&apos;t any other way
                   <br />
                 </div>
                 <div
@@ -821,23 +825,23 @@ const BANDS = {
                 >
                   CHORUS
                   <br />
-                  You take me away from something, but I just can’t ignore it,
-                  distorting
+                  You take me away from something, but I just can&apos;t ignore
+                  it, distorting
                   <br />
-                  You’re just a devil on my shoulder I knew so much that i
-                  couldn’t see
+                  You&apos;re just a devil on my shoulder I knew so much that i
+                  couldn&apos;t see
                   <br />
                   You make me contagious to that agent i exported, distorting
                   <br />
-                  You’re just a devil on my shoulder I knew so much that I
-                  couldn’t see
+                  You&apos;re just a devil on my shoulder I knew so much that I
+                  couldn&apos;t see
                 </div>
               </div>
             ),
           },
           {
             id: 6,
-            name: "What’s the Proof? (Ft. Frankie Palmeri)",
+            name: "What&apos;s the Proof? (Ft. Frankie Palmeri)",
             band: "DVSR",
             album: "West Technique",
             lyric: (
@@ -853,23 +857,23 @@ const BANDS = {
                   <br />
                   Yeah, I think I told 'em before
                   <br />
-                  We coming down with the sickness if you open that door
+                  We coming down with the sickness if you open that door
                   <br />
-                  You get tripped up and slapped if they really want more
+                  You get tripped up and slapped if they really want more
                   <br />
                   My brothers are ready for motherfucken war
                   <br />
                   <br />
                   VERSE
                   <br />
-                  Yo, I ain’t gotta prove shit to ya
+                  Yo, I ain&apos;t gotta prove shit to ya
                   <br />
-                  Elevate that formula it cleanses ya, 40 winters run through my
+                  Elevate that formula it cleanses ya, 40 winters run through my
                   head
                   <br />
                   Yo I ain't gotta prove shit
                   <br />
-                  Adjourn the session, you'll learn the lesson, when you’re
+                  Adjourn the session, you'll learn the lesson, when you&apos;re
                   turned by confession not the wit
                   <br />
                   You're done so call it quits
@@ -893,7 +897,7 @@ const BANDS = {
                   <br />
                   What's the proof?
                   <br />
-                  Late 20’s and I’m acting induced
+                  Late 20&apos;s and I&apos;m acting induced
                   <br />
                   Sipping black Russians and mix it with the fountain of youth
                   (Zeus)
@@ -933,7 +937,7 @@ const BANDS = {
                   <br />
                   Rise to the stage if you want to play that game
                   <br />
-                  You’ll get snuffed out
+                  You&apos;ll get snuffed out
                   <br />
                   If you ever tried to step to me
                   <br />
@@ -948,7 +952,7 @@ const BANDS = {
                   <br />
                   Think you make a vision, but it's noise that I hear
                   <br />
-                  Never gonna blow up, fans don’t show up
+                  Never gonna blow up, fans don&apos;t show up
                   <br />
                   Taking Mum and Daddy advice and fucking grow up, bitch
                   <br />
@@ -1023,22 +1027,22 @@ const BANDS = {
                   className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
                 >
                   VERSE 1<br />
-                  Listen; I’m falling in regret
+                  Listen; I&apos;m falling in regret
                   <br />
-                  On approach to these bed spikes I can taste the rust sever
-                  through my head
+                  On approach to these bed spikes I can taste the rust sever
+                  through my head
                   <br />
-                  But then I pause; manipulating these laws of physics
+                  But then I pause; manipulating these laws of physics
                   <br />
-                  I’ve be taught; fabricate your own thought of existence
+                  I&apos;ve be taught; fabricate your own thought of existence
                   <br />
-                  This is it
+                  This is it
                   <br />
-                  Ain't nothing out of my reach and control
+                  Ain't nothing out of my reach and control
                   <br />
-                  I’m seizing electrical currents buried deep in your dome
+                  I&apos;m seizing electrical currents buried deep in your dome
                   <br />
-                  Don’t let it go, hear me though
+                  Don&apos;t let it go, hear me though
                   <br />
                   Let me know, where do I go?
                   <br />
@@ -1098,7 +1102,7 @@ const BANDS = {
                   <br />
                   Impregnate your message
                   <br />
-                  Just don’t taint the testament to faith I gathered
+                  Just don&apos;t taint the testament to faith I gathered
                   <br />
                   So recognise your chance of you evading the minds form of
                   incarceration
@@ -1107,13 +1111,14 @@ const BANDS = {
                   <br />
                   Shit, bitch, see if the shoe fits
                   <br />
-                  You still wouldn’t walk a metre without out sinking in aether
+                  You still wouldn&apos;t walk a metre without out sinking in
+                  aether
                   <br />
                   As i break through
                   <br />
-                  I’m hypnotised and I know I fucking hate you
+                  I&apos;m hypnotised and I know I fucking hate you
                   <br />
-                  For all these times I was told I couldn’t make you
+                  For all these times I was told I couldn&apos;t make you
                   <br />
                   The man looking back in the mirror
                   <br />
@@ -1123,7 +1128,7 @@ const BANDS = {
                   <br />
                   Sipping on the blood of a lion (Zeus, Zeus)
                   <br />
-                  Converge with beats and you’ll find home (true, true)
+                  Converge with beats and you&apos;ll find home (true, true)
                   <br />
                   Secured within the walls of zion
                   <br />
@@ -1195,9 +1200,9 @@ const BANDS = {
                   Stay away from ones like them, they used say
                   <br />I am the chalk around the victim
                   <br />
-                  If evidence proves innocence, I’d beg to differ
+                  If evidence proves innocence, I&apos;d beg to differ
                   <br />
-                  Genetic mutations should fix ya
+                  Genetic mutations should fix ya
                   <br />
                   Inside the afterglow of burning souls, I instigate a new war
                   <br />
@@ -1207,7 +1212,7 @@ const BANDS = {
                   <br />
                   CHORUS
                   <br />
-                  I’ma be forgotten even though I can’t leave
+                  I&apos;ma be forgotten even though I can&apos;t leave
                   <br />
                   One little atom hanging on to a dream
                   <br />I can see the redrum flowing at my knees
@@ -1242,7 +1247,7 @@ const BANDS = {
                 >
                   CHORUS
                   <br />
-                  I’ma be forgotten even though I can’t leave
+                  I&apos;ma be forgotten even though I can&apos;t leave
                   <br />
                   One little atom hanging on to a dream
                   <br />I can see the redrum flowing at my knees
@@ -1283,8 +1288,8 @@ const BANDS = {
                 >
                   VERSE
                   <br />I been living in a motherfucking rush for days
-                  <br />I gotta puff, puff, puff but I’m looking to blaze
-                  <br />I gotta rush to the cage take a bump from the bass drum
+                  <br />I gotta puff, puff, puff but I&apos;m looking to blaze
+                  <br />I gotta rush to the cage take a bump from the bass drum
                   <br />
                   Dump of adrenaline comes and yo, phase 1 (uhh)
                   <br />
@@ -1298,8 +1303,8 @@ const BANDS = {
                   <br />
                   See I just need that angel rain, that yeyo till I drop
                   <br />
-                  And if I gotta rob or drop that I’ma rob the dog for that
-                  candy cane, it won’t stop
+                  And if I gotta rob or drop that I&apos;ma rob the dog for that
+                  candy cane, it won&apos;t stop
                   <br />
                   (Say what) brain looking like an 8-ball
                   <br />
@@ -1332,8 +1337,8 @@ const BANDS = {
                   <br />
                   Arrested and shot at, fiends for the night
                   <br />
-                  (Ohh I don’t wanna wake up no more with a broken jaw and go to
-                  court for this, bitch)
+                  (Ohh I don&apos;t wanna wake up no more with a broken jaw and
+                  go to court for this, bitch)
                   <br />
                   So we just grabbed the gat and put a riff and rhythm and then
                   let the vocals soar with that shit
@@ -1348,12 +1353,12 @@ const BANDS = {
                 >
                   OUTRO
                   <br />
-                  See, I know, what you’ve done
+                  See, I know, what you&apos;ve done
                   <br />I know what you've done, I know what you've done (what
                   you do)
-                  <br />I know what you’ve done, what you do
+                  <br />I know what you&apos;ve done, what you do
                   <br />
-                  What you’re doing to me
+                  What you&apos;re doing to me
                   <br />
                   <br />
                   You know what you do to me (nah nah nah)
@@ -1387,15 +1392,15 @@ const BANDS = {
                   <br />
                   No glitch to get the grip
                   <br />
-                  No switch for me to click
+                  No switch for me to click
                   <br />
-                  Still ain't no fix for me in this
+                  Still ain't no fix for me in this
                   <br />
                   Primitive cognition, on a mission
                   <br />
-                  Self medicated till I’m dead (Zeus)
+                  Self medicated till I&apos;m dead (Zeus)
                   <br />
-                  With a void in my consciousness, still ain't no fix for me in
+                  With a void in my consciousness, still ain't no fix for me in
                   this
                   <br />
                   So they better come alive and die when I tell ya
@@ -1429,18 +1434,18 @@ const BANDS = {
                   <br />
                   <br />
                   CHORUS:
-                  <br />I got a sickness and it won’t stop
+                  <br />I got a sickness and it won&apos;t stop
                   <br />
                   So high, let my brain and my body rot (body rot)
-                  <br />I got a sickness and it won’t stop
+                  <br />I got a sickness and it won&apos;t stop
                   <br />
                   So high, let my brain and my body rot (body rot)
                   <br />
-                  Because I’m sick in the head
+                  Because I&apos;m sick in the head
                   <br />
                   Sick 'em, sick 'em, sick 'em
                   <br />
-                  I’m sick in the head
+                  I&apos;m sick in the head
                   <br />
                   Sick 'em, sick 'em, sick 'em
                   <br />
@@ -1448,7 +1453,7 @@ const BANDS = {
                   <br />
                   Sick 'em, sick 'em, sick 'em
                   <br />
-                  I’m sick in the head
+                  I&apos;m sick in the head
                   <br />
                   Sick 'em, sick 'em, sick 'em
                   <br />
@@ -1475,11 +1480,11 @@ const BANDS = {
                   <br />
                   When the graveyard just veneers my display, kid?
                   <br />
-                  I’m way sick
+                  I&apos;m way sick
                   <br />
                   Spit black acidic waste in your motherfucking face bitch
                   <br />
-                  See i’ve been skipping, skipping to the devils song
+                  See i&apos;ve been skipping, skipping to the devils song
                   <br />
                   Resurrecting demons that are heaven born red clotted eyes
                   <br />
@@ -1488,18 +1493,18 @@ const BANDS = {
                   <br />
                   <br />
                   CHORUS:
-                  <br />I got a sickness and it won’t stop
+                  <br />I got a sickness and it won&apos;t stop
                   <br />
                   So high, let my brain and my body rot (body rot)
-                  <br />I got a sickness and it won’t stop
+                  <br />I got a sickness and it won&apos;t stop
                   <br />
                   So high, let my brain and my body rot (body rot)
                   <br />
-                  Because I’m sick in the head
+                  Because I&apos;m sick in the head
                   <br />
                   Sick 'em, sick 'em, sick 'em
                   <br />
-                  I’m sick in the head
+                  I&apos;m sick in the head
                   <br />
                   Sick 'em, sick 'em, sick 'em
                   <br />
@@ -1507,7 +1512,7 @@ const BANDS = {
                   <br />
                   Sick 'em, sick 'em, sick 'em
                   <br />
-                  I’m sick in the head
+                  I&apos;m sick in the head
                   <br />
                   Sick 'em, sick 'em, sick 'em
                 </div>
@@ -1532,9 +1537,9 @@ const BANDS = {
                   <br />
                   You should know me by now
                   <br />
-                  I’m the one with the gun, in the alley with the drum
+                  I&apos;m the one with the gun, in the alley with the drum
                   <br />
-                  Rump ba bum, rump ba bum, making all they heads numb
+                  Rump ba bum, rump ba bum, making all they heads numb
                   <br />
                   So umm, you should know me by now
                   <br />
@@ -1562,13 +1567,13 @@ const BANDS = {
                   <br />
                   VERSE
                   <br />
-                  See I’ve been fantasising about this everyday
+                  See I&apos;ve been fantasising about this everyday
                   <br />
-                  And I’ve been waiting for about a year and change
+                  And I&apos;ve been waiting for about a year and change
                   <br />
                   "Calibrate his skull" is what my ego says
                   <br />
-                  But now I got you here bitch I’ma innovate
+                  But now I got you here bitch I&apos;ma innovate
                   <br />
                   So meditate, as I serenade 'em with that heavens blade
                   <br />
@@ -1607,18 +1612,18 @@ const BANDS = {
                   <br />
                   Cautious
                   <br />
-                  Your crew, hasn’t really got it for the sources
+                  Your crew, hasn&apos;t really got it for the sources
                   <br />
                   My words have been kept, double locked in high tech vault
-                  Military on it, I’m dormant but still moving you get cornered
-                  with elite movement
+                  Military on it, I&apos;m dormant but still moving you get
+                  cornered with elite movement
                   <br />
-                  In the foreign thing I’m moving
+                  In the foreign thing I&apos;m moving
                   <br />
                   007 options included, ruthless
                   <br />
                   Back to my block, psycho-nautical astronauts detach from the
-                  station and patiently wait till I smash ‘em and run
+                  station and patiently wait till I smash &apos;em and run
                   <br />
                   Hand on my cock (what)
                   <br />
@@ -1627,8 +1632,8 @@ const BANDS = {
                   You got prosthetic nuts, from all those balls you been
                   dropping it's popping
                   <br />
-                  Let me get 'em in with a cha ching, cause I’m really gotta
-                  find a little something
+                  Let me get 'em in with a cha ching, cause I&apos;m really
+                  gotta find a little something
                   <br />
                   See the motherfucking hanzo blade make a little motherfucker
                   blink from buckling
@@ -1646,13 +1651,13 @@ const BANDS = {
                 >
                   VERSE
                   <br />
-                  See I’ve been fantasising about this everyday
+                  See I&apos;ve been fantasising about this everyday
                   <br />
-                  And I’ve been waiting for about a year and change
+                  And I&apos;ve been waiting for about a year and change
                   <br />
                   "Calibrate his skull" is what my ego says
                   <br />
-                  But now I got you here bitch I’ma innovate
+                  But now I got you here bitch I&apos;ma innovate
                   <br />
                   So elevate into that blood pact
                   <br />
@@ -1701,21 +1706,21 @@ const BANDS = {
                   className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
                 >
                   VERSE 1<br />
-                  Why don’t it feel the same anymore?
+                  Why don&apos;t it feel the same anymore?
                   <br />
-                  I've been looking for a place to rest my soul, but I can’t let
-                  go
+                  I've been looking for a place to rest my soul, but I
+                  can&apos;t let go
                   <br />
-                  Why don’t I feel the same anymore?
+                  Why don&apos;t I feel the same anymore?
                   <br />
-                  I've been looking for a place to test my soul, but I can’t let
-                  go
+                  I've been looking for a place to test my soul, but I
+                  can&apos;t let go
                   <br />
                   They pass me like a phantom through walls
                   <br />
-                  I’m restored, but not for long my sanctuary been fraud
+                  I&apos;m restored, but not for long my sanctuary been fraud
                   <br />
-                  Why don’t it feel the same no embrace anymore
+                  Why don&apos;t it feel the same no embrace anymore
                   <br />I need place to rest my head, without this blade I
                   withdraw
                   <br />
@@ -1743,15 +1748,15 @@ const BANDS = {
                   <br />
                   <br />
                   VERSE 2<br />
-                  Why don’t it feel the same anymore?
+                  Why don&apos;t it feel the same anymore?
                   <br />
-                  I've been looking for a place to rest my soul, but I can’t let
-                  go
+                  I've been looking for a place to rest my soul, but I
+                  can&apos;t let go
                   <br />
-                  Why don’t I feel the same anymore?
+                  Why don&apos;t I feel the same anymore?
                   <br />
-                  I've been looking for a place to test my soul, but I can’t let
-                  go
+                  I've been looking for a place to test my soul, but I
+                  can&apos;t let go
                   <br />I whisper to the winds that betrayed me
                   <br />
                   Believe me brother, nobody here wants to save me
@@ -1763,7 +1768,8 @@ const BANDS = {
                   Listen
                   <br />
                   See it constricts like the boa, I get it
-                  <br />I need to know if I’m wanted or if they want me perish
+                  <br />I need to know if I&apos;m wanted or if they want me
+                  perish
                   <br />
                   The sky blushes as I get closer to death, I swear
                   <br />
@@ -1826,16 +1832,16 @@ const BANDS = {
                   <br />
                   Pray to leave and die slowly
                   <br />
-                  Crave dilemma to really know it
+                  Crave dilemma to really know it
                   <br />
                   <br />
-                  VERSE 1
+                  VERSE 1
                   <br />
                   Zone in
                   <br />
-                  Never been afraid to eliminate no man
+                  Never been afraid to eliminate no man
                   <br />
-                  Praise then forever wait, penetrate skulls in
+                  Praise then forever wait, penetrate skulls in
                   <br />
                   Spikes of adrenaline alleviate the pain
                   <br />
@@ -1845,13 +1851,13 @@ const BANDS = {
                   <br />
                   Sick of these spirits illicit pills in appearance
                   <br />
-                  I’m finding pleasure in pain
+                  I&apos;m finding pleasure in pain
                   <br />A sado-masochistic clearance
                   <br />
                   Enduring the city falling and burning
                   <br />
                   They looking up at me freaky the way metamorphosis turn me,
-                  I’m learning
+                  I&apos;m learning
                   <br />
                   Breaching the peace
                   <br />
@@ -1861,7 +1867,7 @@ const BANDS = {
                   <br />
                   Leech all the blood from the ones that believe
                   <br />
-                  Free to believe, agreed that I’m a creep
+                  Free to believe, agreed that I&apos;m a creep
                   <br />
                   Breeze as I beat the life out of the weak
                   <br />
@@ -1881,8 +1887,8 @@ const BANDS = {
                   <br />I see the elegance sprout I kill rappers for the clout
                   and see
                   <br />
-                  I’m outta control but I doubt that I could ever love again and
-                  yo
+                  I&apos;m outta control but I doubt that I could ever love
+                  again and yo
                   <br />I shroud every little fucking thing in this world that
                   we surround
                   <br />
@@ -1905,7 +1911,7 @@ const BANDS = {
                   VERSE 2<br />
                   Yo cut to the chase
                   <br />
-                  Achilles severed while I’m evading to dead space
+                  Achilles severed while I&apos;m evading to dead space
                   <br />
                   They wanna know but it's on a need-to-know basis
                   <br />
@@ -1913,8 +1919,8 @@ const BANDS = {
                   <br />
                   Sitting with the boys at the bar getting faded
                   <br />
-                  What you saying I made it I’m a made man, delaying you strays
-                  fam
+                  What you saying I made it I&apos;m a made man, delaying you
+                  strays fam
                   <br />
                   Confronted they buckle under pressure
                   <br />
@@ -2017,7 +2023,7 @@ const BANDS = {
                   <br />
                   Stethoscope checking the beat never ends, no offence
                   <br />
-                  They still can’t remember
+                  They still can&apos;t remember
                   <br />
                   Yo, so come and enter
                   <br />
@@ -2035,7 +2041,7 @@ const BANDS = {
                   <br />
                   The very last to rest and last to mention
                   <br />
-                  The vessel won’t last but the noise is endless
+                  The vessel won&apos;t last but the noise is endless
                   <br />
                   <br />
                   <br />
@@ -2043,7 +2049,7 @@ const BANDS = {
                   <br />
                   <br />I can feel your heat beat pump away to the record
                   <br />
-                  It won’t stop (won’t stop)
+                  It won&apos;t stop (won&apos;t stop)
                   <br />I can feel your heart beat bang
                   <br />
                   When we vanquished the mob at the top (the mob at the top)
@@ -2055,7 +2061,7 @@ const BANDS = {
                 >
                   I can hear your heart beat pumping
                   <br />
-                  You know we won’t stop
+                  You know we won&apos;t stop
                   <br />
                   Just recognise the venomous souls on the top
                   <br />
@@ -2090,7 +2096,8 @@ const BANDS = {
                   <br />
                   Shut the fuck up!
                   <br />
-                  Fuck all of that bullshit, ‘cause we don’t know who you are
+                  Fuck all of that bullshit, &apos;cause we don&apos;t know who
+                  you are
                   <br />
                   <br />
                   Shut the fuck up!
@@ -2104,7 +2111,8 @@ const BANDS = {
                 >
                   Shut the fuck up!
                   <br />
-                  Fuck all of that bullshit, ‘cause we don’t know who you are
+                  Fuck all of that bullshit, &apos;cause we don&apos;t know who
+                  you are
                   <br />
                   <br />
                   Shut the fuck up!
@@ -2118,7 +2126,7 @@ const BANDS = {
                   <br />
                   And we were born to surpass
                   <br />
-                  Give into this you won’t last
+                  Give into this you won&apos;t last
                   <br />
                   Calibrated with the brain of our brand
                   <br />
@@ -2146,7 +2154,7 @@ const BANDS = {
                   <br />
                   The iceberg flow was made to do damage
                   <br />
-                  You’ve been running out words and breath like asthmatics
+                  You&apos;ve been running out words and breath like asthmatics
                   <br />
                   <br />
                 </div>
@@ -2158,14 +2166,14 @@ const BANDS = {
                   <br />
                   <br />I can feel your heat beat pump away to the record
                   <br />
-                  It won’t stop (won’t stop)
+                  It won&apos;t stop (won&apos;t stop)
                   <br />I can feel your heart beat bang
                   <br />
                   When we vanquished the mob at the top (the mob at the top)
                   <br />
                   <br />I can hear your heart beat pumping
                   <br />
-                  You know we won’t stop
+                  You know we won&apos;t stop
                   <br />
                   Just recognise the venomous souls on the top
                   <br />
@@ -2211,8 +2219,8 @@ const BANDS = {
                 >
                   VERSE 1<br />
                   <br />
-                  Yo, It’s been a while now but i never really wanted you to
-                  disappear
+                  Yo, It&apos;s been a while now but i never really wanted you
+                  to disappear
                   <br />
                   The percentage of fear i get when i awake with no memory but
                   your scent envelops me clear
@@ -2222,17 +2230,17 @@ const BANDS = {
                   be touching me, when the euphoria rises up in me
                   <br />
                   Killing me very slowly on the inside stop it please, let me
-                  binge on them lips for days i’m still amazed at the way you
-                  intoxicate
+                  binge on them lips for days i&apos;m still amazed at the way
+                  you intoxicate
                   <br />
-                  I’m seeing double but its bliss when your here to stay i try
-                  to
+                  I&apos;m seeing double but its bliss when your here to stay i
+                  try to
                   <br />
-                  Talk yo but the slurring is evasive mumble every word like I’m
-                  afraid i need to face it
+                  Talk yo but the slurring is evasive mumble every word like
+                  I&apos;m afraid i need to face it
                   <br />
-                  You leave me blacked out every single time but I’m back for
-                  more i can’t evade it
+                  You leave me blacked out every single time but I&apos;m back
+                  for more i can&apos;t evade it
                   <br />
                   <br />
                   CHORUS
@@ -2240,32 +2248,32 @@ const BANDS = {
                   <br />
                   You take me so very far away
                   <br />
-                  I’m drowning right now down out and i’m still just trying to
-                  swim away
+                  I&apos;m drowning right now down out and i&apos;m still just
+                  trying to swim away
                   <br />
                   You take me so very far away
                   <br />
-                  I’m holding but I’m about to let go consumed by what you gave
-                  to me
+                  I&apos;m holding but I&apos;m about to let go consumed by what
+                  you gave to me
                   <br />
                   You take me so very far away
                   <br />
-                  I’m drowning right now down out and i’m still just trying to
-                  swim away
+                  I&apos;m drowning right now down out and i&apos;m still just
+                  trying to swim away
                   <br />
                   You take me so very far away, away, away
                   <br />
                   <br />
-                  Cause now i’m just addicted, restricted
+                  Cause now i&apos;m just addicted, restricted
                   <br />
-                  Conflicted, pre scripted a slave to your kiss i’m just
+                  Conflicted, pre scripted a slave to your kiss i&apos;m just
                   addicted
                   <br />
-                  Can you tell by the way that I’m sweating it out that I’m
-                  desperate?
+                  Can you tell by the way that I&apos;m sweating it out that
+                  I&apos;m desperate?
                   <br />
-                  Reprogram me without the infection, desolate space i’m just a
-                  slave I’m so a…..
+                  Reprogram me without the infection, desolate space i&apos;m
+                  just a slave I&apos;m so a…..
                   <br />
                 </div>
                 <div
@@ -2277,8 +2285,8 @@ const BANDS = {
                   <br />
                   (Bless)
                   <br />
-                  Yo, did it happened again?, i can’t recall anything that the
-                  we did
+                  Yo, did it happened again?, i can&apos;t recall anything that
+                  the we did
                   <br />
                   By they way that the blood is throbbing through my fucking
                   head i can bet that we lived life up with no care (yeah)
@@ -2287,15 +2295,15 @@ const BANDS = {
                   relationship
                   <br />
                   Mixed in with them toxic agents every lick of you i cherish
-                  but you’ve started ageing me I speak the truth when you’re by
-                  my side
+                  but you&apos;ve started ageing me I speak the truth when
+                  you&apos;re by my side
                   <br />
                   The inhibition reduced when we talk for a while I<br />
-                  Gotta smile but i can’t ‘cause i know that you hurt me every
-                  time that we try to ride
+                  Gotta smile but i can&apos;t &apos;cause i know that you hurt
+                  me every time that we try to ride
                   <br />
-                  I’d fly because we need a little time away, but how the fuck
-                  do i operate without you?
+                  I&apos;d fly because we need a little time away, but how the
+                  fuck do i operate without you?
                   <br />
                   The liquor that i love to hate, this is about me drinking my
                   life away
@@ -2307,32 +2315,32 @@ const BANDS = {
                   <br />
                   You take me so very far away
                   <br />
-                  I’m drowning right now down out and i’m still just trying to
-                  swim away
+                  I&apos;m drowning right now down out and i&apos;m still just
+                  trying to swim away
                   <br />
                   You take me so very far away
                   <br />
-                  I’m holding but I’m about to let go consumed by what you gave
-                  to me
+                  I&apos;m holding but I&apos;m about to let go consumed by what
+                  you gave to me
                   <br />
                   You take me so very far away
                   <br />
-                  I’m drowning right now down out and i’m still just trying to
-                  swim away
+                  I&apos;m drowning right now down out and i&apos;m still just
+                  trying to swim away
                   <br />
                   You take me so very far away, away, away
                   <br />
                   <br />
-                  Cause now i’m just addicted, restricted
+                  Cause now i&apos;m just addicted, restricted
                   <br />
-                  Conflicted, pre scripted a slave to your kiss i’m just
+                  Conflicted, pre scripted a slave to your kiss i&apos;m just
                   addicted
                   <br />
-                  Can you tell by the way that I’m sweating it out that I’m
-                  desperate?
+                  Can you tell by the way that I&apos;m sweating it out that
+                  I&apos;m desperate?
                   <br />
-                  Reprogram me without the infection, desolate space i’m just a
-                  slave I’m so a…..
+                  Reprogram me without the infection, desolate space i&apos;m
+                  just a slave I&apos;m so a…..
                 </div>
               </div>
             ),
@@ -2368,7 +2376,7 @@ const BANDS = {
                   Let their business flourish cause “artists are rubbish” above
                   us
                   <br />I can feel the friction fracture their fingers the way
-                  they’re devising
+                  they&apos;re devising
                   <br />
                   Temperature rising as they rub their hands and smile, yo,
                   could you give me the reason to by it?
@@ -2387,24 +2395,24 @@ const BANDS = {
                   <br />
                   So what do want from me?
                   <br />
-                  You’ve been bleeding us dry
+                  You&apos;ve been bleeding us dry
                   <br />
-                  The reason we won’t
+                  The reason we won&apos;t
                   <br />
-                  The reason we don’t
+                  The reason we don&apos;t
                   <br />
-                  The reason we’re never ever gonna die
+                  The reason we&apos;re never ever gonna die
                   <br />
                   <br />
                   What more do you want from us?
                   <br />
-                  We’re just trying to get by
+                  We&apos;re just trying to get by
                   <br />
-                  The reason we won’t
+                  The reason we won&apos;t
                   <br />
-                  The reason we don’t
+                  The reason we don&apos;t
                   <br />
-                  The reason we’re never ever gonna die
+                  The reason we&apos;re never ever gonna die
                   <br />
                 </div>
                 <div
@@ -2413,7 +2421,7 @@ const BANDS = {
                 >
                   Just give us a second to breathe
                   <br />
-                  You’re bringing us down to the knees
+                  You&apos;re bringing us down to the knees
                   <br />
                   Give us a second to breathe
                   <br />
@@ -2422,7 +2430,7 @@ const BANDS = {
                   <br />
                   Just give us a second to breathe
                   <br />
-                  You’re bringing us down to knees
+                  You&apos;re bringing us down to knees
                   <br />
                   Give us a second to breathe
                   <br />
@@ -2440,7 +2448,7 @@ const BANDS = {
                   <br />
                   Can you prove it?
                   <br />
-                  Yo, who’s this coming through that back door?
+                  Yo, who&apos;s this coming through that back door?
                   <br />
                   Serving city with the rap raw
                   <br />
@@ -2457,8 +2465,8 @@ const BANDS = {
                   <br />
                   Its ugly how they all get rich explicitly making us useless
                   <br />
-                  They’re looting off us now and yo, we’re just trying to make
-                  movements!
+                  They&apos;re looting off us now and yo, we&apos;re just trying
+                  to make movements!
                   <br />
                 </div>
                 <div
@@ -2472,7 +2480,7 @@ const BANDS = {
                   <br />
                   <br />I see them looking and laughing
                   <br />
-                  Think I’m a rookie with action?
+                  Think I&apos;m a rookie with action?
                   <br />I see them looking and laughing
                   <br />
                   Break and enter to the label and trash it! x2
@@ -2484,7 +2492,7 @@ const BANDS = {
                   For that track stash
                   <br />
                   <br />
-                  I’m ‘bout to tell ‘em words
+                  I&apos;m &apos;bout to tell &apos;em words
                   <br />
                   They ain't never heard
                   <br />
@@ -2496,7 +2504,7 @@ const BANDS = {
                   For the money and fame you could lose it
                   <br />
                   Cook up a storm and they cut it like crack and they serve like
-                  who’s this?
+                  who&apos;s this?
                   <br />
                   <br />
                   <br />
@@ -2510,29 +2518,29 @@ const BANDS = {
                 >
                   So what do want from me?
                   <br />
-                  You’ve been bleeding us dry
+                  You&apos;ve been bleeding us dry
                   <br />
-                  The reason we won’t
+                  The reason we won&apos;t
                   <br />
-                  The reason we don’t
+                  The reason we don&apos;t
                   <br />
-                  The reason we’re never ever gonna die
+                  The reason we&apos;re never ever gonna die
                   <br />
                   <br />
                   What more do you want from us?
                   <br />
-                  We’re just trying to get by
+                  We&apos;re just trying to get by
                   <br />
-                  The reason we won’t
+                  The reason we won&apos;t
                   <br />
-                  The reason we don’t
+                  The reason we don&apos;t
                   <br />
-                  The reason we’re never ever gonna die
+                  The reason we&apos;re never ever gonna die
                   <br />
                   <br />
                   Just give us a second to breathe
                   <br />
-                  You’re bringing us down to the knees
+                  You&apos;re bringing us down to the knees
                   <br />
                   Give us a second to breathe
                   <br />
@@ -2541,7 +2549,7 @@ const BANDS = {
                   <br />
                   Just give us a second to breathe
                   <br />
-                  You’re bringing us down to knees
+                  You&apos;re bringing us down to knees
                   <br />
                   Give us a second to breathe
                   <br />
@@ -2575,28 +2583,29 @@ const BANDS = {
                   spectating palms to the sky tears in his eyes hoping god will
                   save him (uhh)
                   <br />
-                  “Isn’t the devils presence breathtaking” i whispered as i
+                  “Isn&apos;t the devils presence breathtaking” i whispered as i
                   twisted the tool of in him fucking take him
                   <br />
                   Corrupted by the vessels that were rotting played his veins
-                  like a puppet displayed ‘em and loved it fuck this
+                  like a puppet displayed &apos;em and loved it fuck this
                   <br />
-                  Yo but i can’t i remember what he did to me this imagery
+                  Yo but i can&apos;t i remember what he did to me this imagery
                   regurgitated displayed it for him to see I<br />
                   Cut a smile on my face and put him out of his misery ageing my
-                  body inside this distillery it’s still in me yo
+                  body inside this distillery it&apos;s still in me yo
                   <br />
                   <br />
-                  Sober?, no, nobodies home i know it, I’ve poured that bottle
-                  down my throat and chucked his corpse on the road explosive
+                  Sober?, no, nobodies home i know it, I&apos;ve poured that
+                  bottle down my throat and chucked his corpse on the road
+                  explosive
                   <br />
                   Yo discard the heart he had left antagonising my magnified
-                  atoms and organise rhythms,uh listen, i made him stick em’ up
-                  like the hair on my arms when the sensation is thrilling,
-                  cuz.ventricular time ticking you’re quick to get little bit of
-                  a incline kick inso so so many minds thinking won't they just
-                  leave me in solace, alone and so lost emulate behaviour that
-                  demotes us
+                  atoms and organise rhythms,uh listen, i made him stick
+                  em&apos; up like the hair on my arms when the sensation is
+                  thrilling, cuz.ventricular time ticking you&apos;re quick to
+                  get little bit of a incline kick inso so so many minds
+                  thinking won't they just leave me in solace, alone and so lost
+                  emulate behaviour that demotes us
                   <br />I tally my skin with days I can not bare and veil my
                   weary eyes from the occurrence that re-appears,yeah deaths
                   doves speak with assassinsmotivated by visions of him burning
@@ -2630,26 +2639,26 @@ const BANDS = {
                   <br />
                   But in fashion of adolescence i shrugged and hung with the
                   clique
-                  <br />A drugged up infected fuck up I’m glad i grew up to
+                  <br />A drugged up infected fuck up I&apos;m glad i grew up to
                   quick
                   <br />
                   Mad at my fucking self all my life would just lag wit you kid
                   <br />
-                  And i’ve regretted too much, but i can’t do too much
+                  And i&apos;ve regretted too much, but i can&apos;t do too much
                   <br />
                   The damage is through done, rebelling to sooth-my aching heart
                   its over
                   <br />
-                  The devil’s marking my body while he whispers over my shoulder
-                  I’m
+                  The devil&apos;s marking my body while he whispers over my
+                  shoulder I&apos;m
                   <br />
                   Infuriated but still trying to hide by this creation of mine
                   that i now fucking despise
                   <br />
-                  Who are you?, yo you’re just the devil in 95’s, recruiting for
-                  your demise, distorting my fucking mind
-                  <br />I try to breathe and can’t cause you impede me leave me
-                  the fuck alone and die
+                  Who are you?, yo you&apos;re just the devil in 95&apos;s,
+                  recruiting for your demise, distorting my fucking mind
+                  <br />I try to breathe and can&apos;t cause you impede me
+                  leave me the fuck alone and die
                   <br />I put my hands to my head and see my mother cry numerous
                   times
                   <br />
@@ -2689,26 +2698,26 @@ const BANDS = {
                   <br />
                   Imperfections, reflected from my speech it was clear
                   <br />
-                  Misdirected, I’m changing how they think of me here
+                  Misdirected, I&apos;m changing how they think of me here
                   <br />
-                  Misconceptions, i’ve fallen to this culture of fear, yeah
+                  Misconceptions, i&apos;ve fallen to this culture of fear, yeah
                   <br />
-                  Salutations erupt completely corrupt don’t i know it so
+                  Salutations erupt completely corrupt don&apos;t i know it so
                   devoted my logic became eroded
                   <br />
                   Broken the will that powers the motive and then i showed it
                   the path that they envisioned to watch me throw it away
                   <br />
                   Break away break away stay the fuck away, walking down this
-                  alley way empty and lost but here i’ll wait (uhh)
+                  alley way empty and lost but here i&apos;ll wait (uhh)
                   <br />
                   Scenarios run through my brain my brain euphonies of an easy
                   fix to my pain my pain a shame
                   <br />
                   All these years all these tears all the mother fucking
                   unwanted close calls and fears
-                  <br />I need to be clear ‘cause I’m leaving and never turning
-                  back
+                  <br />I need to be clear &apos;cause I&apos;m leaving and
+                  never turning back
                   <br />
                   Is what i regret i never said the moment we met
                   <br />
@@ -2853,9 +2862,10 @@ const BANDS = {
                   <br />
                   So let me give you a real fucking reason to complain
                   <br />
-                  You’re looking way to worried about the size of your ring, uh
+                  You&apos;re looking way to worried about the size of your
+                  ring, uh
                   <br />
-                  Can’t exchange words but the money ain't a thing
+                  Can&apos;t exchange words but the money ain't a thing
                   <br />
                   Insane to membrane brother it's a shame
                   <br />
@@ -2868,10 +2878,10 @@ const BANDS = {
                   <br />
                   Yo
                   <br />
-                  So tell me if I’m wrong and prove it
+                  So tell me if I&apos;m wrong and prove it
                   <br />
-                  I’ve been seeing progression in society and its stupid lets
-                  look at this
+                  I&apos;ve been seeing progression in society and its stupid
+                  lets look at this
                   <br />
                   Big booty pics and lip injections make you beautiful what the
                   fuck are we doing to these kids?
@@ -2883,16 +2893,16 @@ const BANDS = {
                   <br />
                   Fucking forget about the muscle we use inside of our head huh?
                   <br />
-                  Everybody still thinking they’re tier one
+                  Everybody still thinking they&apos;re tier one
                   <br />
                   And relative to the world you ain't even bread crumbs
                   <br />
-                  These privileged kids live but thinking they’re owed
+                  These privileged kids live but thinking they&apos;re owed
                   something, uh
                   <br />
                   Now everyone is a victim, on every platform we witness
                   <br />
-                  The countless amount of cards pulled when you’re offended
+                  The countless amount of cards pulled when you&apos;re offended
                   <br />
                   Social integration and knowledge is endless
                   <br />
@@ -2953,11 +2963,12 @@ const BANDS = {
                   Better be taking 'em over to the road of recovery to sort
                   this, oh shit
                   <br />
-                  Isn’t it ironic, the crying is so chronic, lying to get by in
-                  its refined topic
+                  Isn&apos;t it ironic, the crying is so chronic, lying to get
+                  by in its refined topic
                   <br />
-                  I’m buying on it, d-d-d r-r don’t register, best if you exit
-                  better have left with your testament, testing who next to ya
+                  I&apos;m buying on it, d-d-d r-r don&apos;t register, best if
+                  you exit better have left with your testament, testing who
+                  next to ya
                   <br />
                   Mess of a situation we got now, it ain't that bad son you
                   could be gone now
@@ -2987,16 +2998,16 @@ const BANDS = {
                   Ready for whatever running through the hell of a motherfucking
                   endeavour levitate and severe anybody killer come and get it
                   <br />
-                  Mother fucker, run and suffer you a sucker up and comer I’m an
-                  upper-cutter come and bring the ruckus, suck it
+                  Mother fucker, run and suffer you a sucker up and comer
+                  I&apos;m an upper-cutter come and bring the ruckus, suck it
                   <br />
-                  No couldn’t care less special ed’ running out of hair yes,
-                  stress bitch
+                  No couldn&apos;t care less special ed&apos; running out of
+                  hair yes, stress bitch
                   <br />
                   Best from south west check beast through heavy on that tech 9
                   we the best
                   <br />
-                  Yo fuck a Lex, let em heat up, I’m a flex in Tida
+                  Yo fuck a Lex, let em heat up, I&apos;m a flex in Tida
                   <br />
                   We pump bass in the trunk like the street cuz
                   <br />
@@ -3007,7 +3018,7 @@ const BANDS = {
                   <br />
                   Bust them beats too much when fluster freaks
                   <br />
-                  I’m a nike dry-fit and a ralphie T fuck the heat yo
+                  I&apos;m a nike dry-fit and a ralphie T fuck the heat yo
                   <br />
                   Dessert nigga on the run in the island, mosul minded I'ma
                   fight for a genocide
@@ -3016,10 +3027,11 @@ const BANDS = {
                   <br />
                   Black camouflage in the night
                   <br />
-                  Been shot at sliced but never knocked out cold couldn’t run
-                  out of life
+                  Been shot at sliced but never knocked out cold couldn&apos;t
+                  run out of life
                   <br />
-                  Cancer could get me motherfucker I’m a plague in my own right
+                  Cancer could get me motherfucker I&apos;m a plague in my own
+                  right
                   <br />
                   And if i die tonight its all right
                   <br />
@@ -3064,24 +3076,24 @@ const BANDS = {
                   <br />
                   Blood forms horns they display in a sec
                   <br />
-                  You insect bitch i can’t hear what you said
+                  You insect bitch i can&apos;t hear what you said
                   <br />
                   Check that bitch come again
                   <br />
-                  In the domain of kings we don’t fuck with help
+                  In the domain of kings we don&apos;t fuck with help
                   <br />
                   Come test your theories
                   <br />
-                  The myth is real nigga I’m blessed by the helix
+                  The myth is real nigga I&apos;m blessed by the helix
                   <br />
-                  Steel DNA and tested I’m fearless
+                  Steel DNA and tested I&apos;m fearless
                   <br />
                   Trailed in a death simulator and I killed it, bitch
                   <br />
                   Resurrect the realness I came for your whole damn city on the
                   real kid check
-                  <br />I been marked with an ‘X’ the moment I passed through
-                  security checks
+                  <br />I been marked with an &apos;X&apos; the moment I passed
+                  through security checks
                   <br />
                   “we got him running with a shorty through motherfucking lobby
                   grabbing people by the neck its berserk ”<br />
@@ -3121,7 +3133,7 @@ const BANDS = {
                   Took a vow and engaged the bow, the hood beats syncs now with
                   the faithful crowd
                   <br />
-                  I’m in a hell of a predicament
+                  I&apos;m in a hell of a predicament
                   <br />
                   Climbing over cars with tank banging DMX
                   <br />
@@ -3133,7 +3145,7 @@ const BANDS = {
                   <br />
                   Making a maze and separate what encases it
                   <br />
-                  Basically I can’t stop it
+                  Basically I can&apos;t stop it
                   <br />
                   Mind stay hostile and toxic
                   <br />
@@ -3141,9 +3153,9 @@ const BANDS = {
                   <br />
                   The war never ended I promise
                   <br />
-                  We’re the product of the fight that you started
+                  We&apos;re the product of the fight that you started
                   <br />
-                  We’re the soldiers lost in the marches
+                  We&apos;re the soldiers lost in the marches
                 </div>
               </div>
             ),
@@ -3373,7 +3385,7 @@ const BANDS = {
                       Was it all but a game?
                       <br />
                       Throwing around money but you laughed in our face and you
-                      couldn’t buy love with your money filled case
+                      couldn&apos;t buy love with your money filled case
                     </span>
                   </a>
                   <span
@@ -3412,7 +3424,8 @@ const BANDS = {
                     />
                   </span>
                   <br />
-                  You’re nothing but a weak young mind with a speech, fucked up
+                  You&apos;re nothing but a weak young mind with a speech,
+                  fucked up
                   <br />
                   Sold out by the greed, throw up the cash to match your rich
                   dreams but your ego stands above money you achieve,{" "}
@@ -3458,19 +3471,20 @@ const BANDS = {
                   </span>
                   , looking down with a frown picking on me?
                   <br />
-                  I’ll pay it in cash or go bankrupt to see, you pursuing the
-                  dreams of inner peace with a fee
+                  I&apos;ll pay it in cash or go bankrupt to see, you pursuing
+                  the dreams of inner peace with a fee
                   <br />
                   <br />
                   <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
                     <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
-                      Six figures six feet deep I won’t sleep given the
-                      situation we’re dealing with is quite deep
+                      Six figures six feet deep I won&apos;t sleep given the
+                      situation we&apos;re dealing with is quite deep
                       <br />
-                      Fuck a minimal speech, I’m going to be the one to tell
-                      them that money couldn’t buy the essentials and they’re
-                      all free, love and respect you’re a thug with a cheque can
-                      you buy the time when I got you good as dead?
+                      Fuck a minimal speech, I&apos;m going to be the one to
+                      tell them that money couldn&apos;t buy the essentials and
+                      they&apos;re all free, love and respect you&apos;re a thug
+                      with a cheque can you buy the time when I got you good as
+                      dead?
                     </span>
                   </a>
                   <span
@@ -3605,8 +3619,8 @@ const BANDS = {
                   <br />
                   Fuck money, fuck fame
                   <br />
-                  You can’t buy love with your money filled case, so Fuck money
-                  fuck fame
+                  You can&apos;t buy love with your money filled case, so Fuck
+                  money fuck fame
                   <br />
                   Fuck money, fuck fame
                   <br />
@@ -3618,19 +3632,19 @@ const BANDS = {
                   <br />
                   (OUTRO)
                   <br />
-                  So now you’re better than me huh?
+                  So now you&apos;re better than me huh?
                   <br />
                   Account filled up you were living it free huh?
                   <br />
                   Broadcast and brag that living to seek the exact same grave as
-                  me you ain't the god, you’re nothing but a bitch!
+                  me you ain't the god, you&apos;re nothing but a bitch!
                   <br />
-                  Oh you’re better than me huh?
+                  Oh you&apos;re better than me huh?
                   <br />
                   Account filled up you were living it free huh?
                   <br />
                   Broadcast and brag that living to seek the exact same grave as
-                  me you ain't the god, you’re nothing but a bitch!
+                  me you ain't the god, you&apos;re nothing but a bitch!
                   <br />
                 </div>
                 <div
@@ -3640,15 +3654,15 @@ const BANDS = {
                   Thinking about the money twenty-four seven irrelevant sell
                   your parents for a seven digit figure no I say FUCK THAT
                   <br />
-                  Off of the top you’ll get dropped to the bottom it don’t stop
-                  you are not the money you SAVED UP
+                  Off of the top you&apos;ll get dropped to the bottom it
+                  don&apos;t stop you are not the money you SAVED UP
                   <br />
-                  Given the life or given the money I’ll be thinking about my
-                  brothers in struggle throw them a breath the gold was but a
+                  Given the life or given the money I&apos;ll be thinking about
+                  my brothers in struggle throw them a breath the gold was but a
                   SET BACK
                   <br />
-                  When your older and your strength lacks, you’ll know no money
-                  could bring it all back
+                  When your older and your strength lacks, you&apos;ll know no
+                  money could bring it all back
                   <br />
                   <br />
                   (CHORUS)
@@ -3672,7 +3686,7 @@ const BANDS = {
                 >
                   (1st VERSE)
                   <br />
-                  She’s all I see
+                  She&apos;s all I see
                   <br />
                   But it's hard to believe that, in the dark of the scene
                   <br />
@@ -3688,10 +3702,10 @@ const BANDS = {
                   Where do I agree to commit bleed on the quill I recede just a
                   bit
                   <br />
-                  But the woman of my dreams never seemed so legit as I’m
-                  dipping the burgundy blood he’s in effect, I’m sealed in a
-                  mess, contract with a forsaken angel, all for the sake of an
-                  angel unbalanced and
+                  But the woman of my dreams never seemed so legit as I&apos;m
+                  dipping the burgundy blood he&apos;s in effect, I&apos;m
+                  sealed in a mess, contract with a forsaken angel, all for the
+                  sake of an angel unbalanced and
                   <br />
                   Un-angled I took a deal with the deal with the devil with the
                   odds in his favor
@@ -3699,15 +3713,15 @@ const BANDS = {
                   <br />
                   (CHORUS)*
                   <br />
-                  Cause I’ve been searching for something, it's all a lie I’m
-                  blind by appeal but engaged by fatal ties so
+                  Cause I&apos;ve been searching for something, it's all a lie
+                  I&apos;m blind by appeal but engaged by fatal ties so
                   <br />
                   Should I be dead? Rested in red?
                   <br />
                   Ending me silent, softly but violent she could have my head
                   <br />
-                  And I’ve been searching for something, it's all a lie I’m
-                  blind by appeal but engaged by fatal ties so
+                  And I&apos;ve been searching for something, it's all a lie
+                  I&apos;m blind by appeal but engaged by fatal ties so
                   <br />
                   Should I be dead? Rested in red?
                   <br />
@@ -3717,12 +3731,12 @@ const BANDS = {
                   <br />
                   (BRIDGE)
                   <br />
-                  Now that I can see her, we’ve fallen in love but the presence
-                  is near
+                  Now that I can see her, we&apos;ve fallen in love but the
+                  presence is near
                   <br />
                   The more we indulge the coffin is clear
-                  <br />I play with her hair but I’m ripping it out, she falls
-                  in and out of consciousness what’s it about
+                  <br />I play with her hair but I&apos;m ripping it out, she
+                  falls in and out of consciousness what&apos;s it about
                   <br />
                   The wicked surrounds, the signature given was killing her now,
                   the love of my life paying the price I need a way out
@@ -3745,8 +3759,8 @@ const BANDS = {
                   in the mind heart yelling for the love I never had in my life
                   <br />
                   On my knees in a puddle of my own blood, I can't speak my lips
-                  they’ve been sewn up, unconscious now I don’t know what seems
-                  I was dying the whole time I couldn’t hold her
+                  they&apos;ve been sewn up, unconscious now I don&apos;t know
+                  what seems I was dying the whole time I couldn&apos;t hold her
                   <br />
                 </div>
                 <div
@@ -3775,7 +3789,7 @@ const BANDS = {
                   VERSE 1)
                   <br />
                   Get the fuck outta my face
-                  <br />I wish they would try the shit they’ve been talking
+                  <br />I wish they would try the shit they&apos;ve been talking
                   <br />
                   Stopped in a heartbeat with a warning
                   <br />
@@ -3826,7 +3840,7 @@ const BANDS = {
                   Get back to this mad advocates, full of free mind
                   motherfucking activists
                   <br />
-                  Bring the new sound now and you’re mad at us
+                  Bring the new sound now and you&apos;re mad at us
                   <br />
                   Show your face when you talk and man the fuck up!
                   <br />
@@ -3851,7 +3865,7 @@ const BANDS = {
                   <br />
                   Unplug their network fucking end it
                   <br />
-                  Cause I’ve been around long enough to know what you think
+                  Cause I&apos;ve been around long enough to know what you think
                   <br />
                   And I know that you feel alone you wish to break free
                   <br />
@@ -3864,7 +3878,7 @@ const BANDS = {
                   <br />
                   (VERSE 2)
                   <br />
-                  But it won’t stop till I break the ice in this bitch
+                  But it won&apos;t stop till I break the ice in this bitch
                   <br />
                   Looking down from the top you envy my clique
                   <br />
@@ -3883,7 +3897,7 @@ const BANDS = {
                   <br />
                   Put your body on the floor what the fuck they want?
                   <br />
-                  Lock jaw like a pitty but I’m not chained up
+                  Lock jaw like a pitty but I&apos;m not chained up
                   <br />
                   Put your face to the floor and your back faced up
                   <br />
@@ -3913,9 +3927,9 @@ const BANDS = {
                   <br />
                   How do I, shut down the brain of this set
                   <br />
-                  I’ve asked with aimless intent
+                  I&apos;ve asked with aimless intent
                   <br />
-                  I’ll mend the fray that its left
+                  I&apos;ll mend the fray that its left
                   <br />
                   But i'm afraid of the cause and effect
                   <br />
@@ -4221,8 +4235,8 @@ const BANDS = {
                   Was it all but a dream, my heart sinks I detest my own speech
                   <br />I can hear the walls speaking my name they seek
                   <br />
-                  Wasn’t it me speaking when I could feel two hearts at beat up
-                  in the back of my brain
+                  Wasn&apos;t it me speaking when I could feel two hearts at
+                  beat up in the back of my brain
                   <br />
                   Caught in a trap slipping through the cracks
                   <br />
@@ -4231,8 +4245,8 @@ const BANDS = {
                   Pushed to the brink my knees scared and body fatigues I need
                   to fight or succumb to defeat
                   <br />
-                  Is it a self-created myself I’m hating fuck wealth I’m aiming
-                  to cure my health in lamens
+                  Is it a self-created myself I&apos;m hating fuck wealth
+                  I&apos;m aiming to cure my health in lamens
                   <br />
                   Is it paid in black in depth the contract
                   <br />
@@ -4243,7 +4257,7 @@ const BANDS = {
                   Is it a lie is it me or is it something within
                   <br />
                   Either way not to punk and pretend but no pity for the coward
-                  who can’t cover his ends
+                  who can&apos;t cover his ends
                   <br />
                   <br />
                   (CHORUS)*
@@ -4261,8 +4275,8 @@ const BANDS = {
                   As you bask in the breeze of discontent the earth vents and
                   blinds a clean sleet
                   <br />
-                  In time you’ll find the weak freeze, in the past where were
-                  leaving the waste we call grief cause
+                  In time you&apos;ll find the weak freeze, in the past where
+                  were leaving the waste we call grief cause
                   <br />I know it seems dark, but some times you got to fight
                   with your whole heart
                   <br />
@@ -4277,10 +4291,10 @@ const BANDS = {
                   <br />
                   Stuck deep in a pit my brain regrets, delayed defence unstable
                   will I live?
-                  <br />I can’t see, engrave the last scene I pray that my
+                  <br />I can&apos;t see, engrave the last scene I pray that my
                   thoughts seize and lay in them six feet
                   <br />
-                  23 long years still I beat my thoughts ripping I’ve never
+                  23 long years still I beat my thoughts ripping I&apos;ve never
                   submitted into defeat, fear me
                   <br />
                 </div>
@@ -4302,7 +4316,7 @@ const BANDS = {
                   now should never be a task
                   <br />
                   Extract the pitch black demand that it falls back install the
-                  white wall of strength in my core that’s
+                  white wall of strength in my core that&apos;s
                   <br />
                   White hot to handle, pure love demands you, blank mind like
                   vandals
@@ -4350,12 +4364,12 @@ const BANDS = {
                   <br />
                   Seeking tranquillity, give me peace, can I please be released?
                   <br />
-                  As I’m separated away from disease
-                  <br />I was medicated, decaying, I’m weak
+                  As I&apos;m separated away from disease
+                  <br />I was medicated, decaying, I&apos;m weak
                   <br />
-                  Torn thinking I’m picking petals, they’re all thorns
+                  Torn thinking I&apos;m picking petals, they&apos;re all thorns
                   <br />
-                  I’ve been up and down always elevated away from a smile
+                  I&apos;ve been up and down always elevated away from a smile
                   <br />
                   Descending forever into my own frown
                   <br />
@@ -4364,26 +4378,26 @@ const BANDS = {
                   <br />
                   (CHORUS) [Matt Gelsomino-Novelists]
                   <br />
-                  It’s been way too long
+                  It&apos;s been way too long
                   <br />
                   Putting up a fight inside that I know I can barely beat
                   <br />
-                  I’ve been pushed but I’ve pulled on
+                  I&apos;ve been pushed but I&apos;ve pulled on
                   <br />
-                  All of these strings in my heart, I know that they can’t feel
-                  me
+                  All of these strings in my heart, I know that they can&apos;t
+                  feel me
                   <br />
-                  Tell me why I can’t breathe
+                  Tell me why I can&apos;t breathe
                   <br />
                   Is it all a facade, is it all my dream?
                   <br />
-                  I’ve been fighting for far too long
+                  I&apos;ve been fighting for far too long
                   <br />
                   <br />
                   (VERSE 2)
                   <br />
-                  As I sat on the sun’s saddle, my heart’s pain rattled the
-                  leaves
+                  As I sat on the sun&apos;s saddle, my heart&apos;s pain
+                  rattled the leaves
                   <br />
                   Direct into a hundred thousand degrees
                   <br />
@@ -4437,7 +4451,7 @@ const BANDS = {
                   developed the mould
                   <br />
                   Like a new born soul eyes open up into a life that I just
-                  don’t know
+                  don&apos;t know
                   <br />
                   Far from alone, so far from a home we neighbour most who
                   oppose
@@ -4470,8 +4484,8 @@ const BANDS = {
                   <br />
                   The search for love will come with peace
                   <br />
-                  Our scars have surfaced can’t you see? They’ve shown who we
-                  were but that can change we must believe
+                  Our scars have surfaced can&apos;t you see? They&apos;ve shown
+                  who we were but that can change we must believe
                   <br />
                   <br />
                   BRIDGE:
@@ -4490,10 +4504,10 @@ const BANDS = {
                   <br />
                   Till we reconnect then we can all make change
                   <br />
-                  Cause I’ve been looking for the reason why we cycle our past
-                  with the hate but I’ve given up
+                  Cause I&apos;ve been looking for the reason why we cycle our
+                  past with the hate but I&apos;ve given up
                   <br />
-                  Sitting up and I’ve been thinking about it, if we could
+                  Sitting up and I&apos;ve been thinking about it, if we could
                   refresh our past would the bitterness simmer up?
                   <br />
                   Is it ever gonna get any better and then I wonder would it
@@ -4502,14 +4516,15 @@ const BANDS = {
                   Kill off the thought and the purpose to hate and search for
                   the change
                   <br />
-                  And it might seem tough but the diamond in rough won’t fade
+                  And it might seem tough but the diamond in rough won&apos;t
+                  fade
                   <br />
-                  We can’t wait to long we gotta push enough to make change
+                  We can&apos;t wait to long we gotta push enough to make change
                   <br />
                   Take a step in the dark put a rest to the bark and the blade
                   <br />
                   Just open your chest invest into your heart, the rest will
-                  find us all calm in the shade so don’t be afraid
+                  find us all calm in the shade so don&apos;t be afraid
                   <br />
                 </div>
                 <div
@@ -4518,28 +4533,29 @@ const BANDS = {
                 >
                   (2nd Verse)
                   <br />
-                  Cause I’ve seen the potential in the brilliant minds of
+                  Cause I&apos;ve seen the potential in the brilliant minds of
                   mankind invent than connect you
                   <br />
                   They rest the ones who inject the dark that made us believe we
-                  weren’t meant to
+                  weren&apos;t meant to
                   <br />
                   Be one with each other pull a gun to your brother pull the
                   trigger and aim into the temple
                   <br />
-                  Force out that negative one I’ll pull my clip out the gun and
-                  bring back the sun with the mental
+                  Force out that negative one I&apos;ll pull my clip out the gun
+                  and bring back the sun with the mental
                   <br />
                   The invented the boarded land then withdrew the touch of your
                   daughters hand
                   <br />
                   But we evolve with economy to slaughter man so we can reclaim
-                  the love that’s stuck in our sands
+                  the love that&apos;s stuck in our sands
                   <br />
                   Can we all take a chance, hold out your hand believe and just
                   trust
                   <br />
-                  Our finger prints won’t fade away from the lives we’ve touched
+                  Our finger prints won&apos;t fade away from the lives
+                  we&apos;ve touched
                   <br />
                   <br />
                   (CHORUS)
@@ -4712,24 +4728,26 @@ const BANDS = {
                   Then come examine the blackening of my veins they made it all
                   happen watching actions
                   <br />
-                  Picking up on the patterns I’m just here to relax and you know
-                  I’ve been
+                  Picking up on the patterns I&apos;m just here to relax and you
+                  know I&apos;ve been
                   <br />
                   Looking real hard for the peace grinding my teeth I can see
                   you smiling want to see the violence I bring?
                   <br />
                   You must unaware, complacent, drunk or just fucking crazy
-                  you’re best to mind your fucking business or my knuckles
+                  you&apos;re best to mind your fucking business or my knuckles
                   minding faces
                   <br />
                   <br />
                   CHORUS:
                   <br />
-                  Because I been pushed to the edge and it seems that you’re the
-                  fuel to my fire and I’ve tried to keep peace
+                  Because I been pushed to the edge and it seems that
+                  you&apos;re the fuel to my fire and I&apos;ve tried to keep
+                  peace
                   <br />
-                  And I’ve been, pushed to the edge and it seems that you’re the
-                  fuel to my fire and I’ve tried to keep the peace
+                  And I&apos;ve been, pushed to the edge and it seems that
+                  you&apos;re the fuel to my fire and I&apos;ve tried to keep
+                  the peace
                   <br />
                   Either you be silent or its silence I guarantee best believe
                   that silence is the key
@@ -4737,8 +4755,9 @@ const BANDS = {
                   Either you be silent or its silence I guarantee best believe
                   that silence is the key
                   <br />
-                  Because I been pushed to the edge and it seems that you’re the
-                  fuel to my fire and I’ve tried to keep peace
+                  Because I been pushed to the edge and it seems that
+                  you&apos;re the fuel to my fire and I&apos;ve tried to keep
+                  peace
                   <br />
                   Either you be silent or its silence I guarantee best believe
                   that silence is the key
@@ -4748,11 +4767,12 @@ const BANDS = {
                   <br />
                   (2nd Verse)
                   <br />
-                  My backs up against the wall, you’ve pushed to far forcing it
-                  down my core, what’s about to explore is all this anger that I
-                  have stored I feel rejection, my anger projecting towards
-                  they’re motherfucking head leaving a fat fist full of
-                  impressions, they want to act up so I react with a vengeance
+                  My backs up against the wall, you&apos;ve pushed to far
+                  forcing it down my core, what&apos;s about to explore is all
+                  this anger that I have stored I feel rejection, my anger
+                  projecting towards they&apos;re motherfucking head leaving a
+                  fat fist full of impressions, they want to act up so I react
+                  with a vengeance
                   <br />
                   <br />
                   (BRIDGE/OUTRO)
@@ -4760,16 +4780,18 @@ const BANDS = {
                   So just take another step bitch, I need you gone realise I
                   bust skin and bruise eyes
                   <br />I need you to throw another death stare that aggression
-                  I’ve never feared, underestimated like cheating death you’ll
-                  never make it so beware
+                  I&apos;ve never feared, underestimated like cheating death
+                  you&apos;ll never make it so beware
                   <br />
-                  You’re pushing me close to the edge so just beware, the straps
-                  on this straight jacket are disconnecting I can see the fear
+                  You&apos;re pushing me close to the edge so just beware, the
+                  straps on this straight jacket are disconnecting I can see the
+                  fear
                   <br />
                   <br />
-                  In those motherfucking eyes and its clear I’ve been giving
-                  them a lot to talk about but their mouth gets shut when I hit
-                  them with a fist, underground gain sound when you hear me spit
+                  In those motherfucking eyes and its clear I&apos;ve been
+                  giving them a lot to talk about but their mouth gets shut when
+                  I hit them with a fist, underground gain sound when you hear
+                  me spit
                   <br />
                   Scars represent regret, memories you can forget stained by the
                   circle of beast the C.O.B is too legit
@@ -4780,8 +4802,8 @@ const BANDS = {
                   <br />
                   Bringing on the fucking sickness vaccinated by the fist of the
                   viscous, malnutrition mass murderer skin itching bitches when
-                  it comes to brawling, million dollar baby I feel I’m boxing
-                  with a lady, hands striking unnoticed, losing focus
+                  it comes to brawling, million dollar baby I feel I&apos;m
+                  boxing with a lady, hands striking unnoticed, losing focus
                   unconscious but awakened to smell the roses, how can you? Your
                   nose has been broken
                   <br />
