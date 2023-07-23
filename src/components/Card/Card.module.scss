@@ -2,7 +2,7 @@
 @use "@styles/_responsives.scss" as responsives;
 
 .container {
-  @include mixins.flex_container(column, space-between, auto);
+  @include mixins.flex_container(column, space-between, unset);
   width: 30rem;
   height: 48.375rem;
   position: relative;

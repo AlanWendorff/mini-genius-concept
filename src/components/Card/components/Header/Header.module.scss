@@ -22,7 +22,7 @@
   }
 
   .textContainer {
-    @include mixins.flex_container(column, flex-start, auto);
+    @include mixins.flex_container(column, flex-start, unset);
     position: relative;
     overflow: hidden;
     max-width: 20.3125rem;
@@ -34,7 +34,8 @@
 @include responsives.VGA {
   .container {
     .textContainer {
-      max-width: 18rem;
+      max-width: none;
+      width: calc(100% - 8rem);
     }
   }
 }
