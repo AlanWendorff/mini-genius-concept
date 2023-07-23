@@ -52,7 +52,7 @@ const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
           transition={{ type: "tween" }}
         >
           <div className={styles.about}>
-            <h3>About “{selectedBand.band_name}“</h3>
+            <h2>About “{selectedBand.band_name}“</h2>
 
             <p id="description">
               <span>{selectedBand.band_name}</span>

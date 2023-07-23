@@ -19,6 +19,7 @@ const SongName = ({
     <AnimatePresence>
       {show && (
         <motion.div
+          key="song-name"
           className={styles.animatedContainer}
           initial={{ x: -300 }}
           animate={{ x: 0 }}

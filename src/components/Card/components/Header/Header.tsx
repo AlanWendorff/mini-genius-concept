@@ -46,9 +46,9 @@ const Header = ({
         y={y}
         rotateX={rotateX}
         rotateY={rotateY}
-        key="floating-image-band"
         image={selectedBand.band_image.src}
         show={cardStatus === ECardStatus.BAND}
+        alt="band members portrait"
       />
 
       <FloatingImage
@@ -56,30 +56,27 @@ const Header = ({
         y={y}
         rotateX={rotateX}
         rotateY={rotateY}
-        key="floating-image-album"
         image={selectedAlbum?.image.src ?? ""}
         show={
           cardStatus === ECardStatus.ALBUM || cardStatus === ECardStatus.SONG
         }
+        alt="album portrait"
       />
 
       <div className={styles.textContainer}>
         <BandName
-          key="band-name"
           title={selectedBand.band_name}
           bandAka={selectedBand.band_aka}
           show={cardStatus === ECardStatus.BAND}
         />
 
         <AlbumName
-          key="album-name"
           selectedAlbum={selectedAlbum}
           show={cardStatus === ECardStatus.ALBUM}
           handleReturnMenu={handleReturnMenu}
         />
 
         <SongName
-          key="song-name"
           selectedTrack={selectedTrack}
           handleReturnAlbum={handleReturnAlbum}
           handleReturnMenu={handleReturnMenu}

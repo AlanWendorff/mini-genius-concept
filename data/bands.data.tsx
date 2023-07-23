@@ -1,7 +1,7 @@
-import ALBUM_1 from "@images/band/albums/wt.jpg";
-import ALBUM_2 from "@images/band/albums/thrpy.jpg";
-import ALBUM_3 from "@images/band/albums/company.jpg";
-import ALBUM_4 from "@images/band/albums/dvsr.png";
+import ALBUM_1 from "@images/band/albums/wt.webp";
+import ALBUM_2 from "@images/band/albums/thrpy.webp";
+import ALBUM_3 from "@images/band/albums/company.webp";
+import ALBUM_4 from "@images/band/albums/dvsr.webp";
 
 import BAND_IMAGE from "@images/band/band.jpeg";
 

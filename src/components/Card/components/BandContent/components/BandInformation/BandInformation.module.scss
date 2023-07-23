@@ -14,7 +14,7 @@
   min-height: 6.5187rem;
   width: 100%;
 
-  h3 {
+  h2 {
     margin-top: 0;
     font-size: 0.875rem;
     line-height: 1.45;
@@ -34,8 +34,11 @@
   margin-top: 2.25rem;
   margin-bottom: 0.5rem;
   color: var(--color-zeta);
+  font-family: "Programme Normal", sans-serif;
+  font-weight: 400;
   font-size: 0.875rem;
   height: fit-content;
+  letter-spacing: 0.04em;
 }
 
 .grid {

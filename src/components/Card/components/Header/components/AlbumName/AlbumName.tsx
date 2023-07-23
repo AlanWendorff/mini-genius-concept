@@ -4,16 +4,15 @@ import IAlbum from "interfaces/album";
 
 interface props {
   show: boolean;
-  key: string;
   selectedAlbum: null | undefined | IAlbum;
   handleReturnMenu: () => void;
 }
 
-const AlbumName = ({ show, key, selectedAlbum, handleReturnMenu }: props) => (
+const AlbumName = ({ show, selectedAlbum, handleReturnMenu }: props) => (
   <AnimatePresence>
     {show && (
       <motion.div
-        key={key}
+        key="album-name"
         className={styles.animatedContainer}
         initial={{ x: -300 }}
         animate={{ x: 0 }}

@@ -5,14 +5,13 @@ interface props {
   show: boolean;
   title: string;
   bandAka: string;
-  key: string;
 }
 
-const BandName = ({ show, title, bandAka, key }: props) => (
+const BandName = ({ show, title, bandAka }: props) => (
   <AnimatePresence>
     {show && (
       <motion.div
-        key={key}
+        key="band-name"
         className={styles.animatedContainer}
         initial={{ x: -300 }}
         animate={{ x: 0 }}

@@ -18,7 +18,7 @@ const Lyric = ({ selectedTrack, show }: props) => (
         exit={{ y: 600 }}
         transition={{ type: "tween" }}
       >
-        <h4>{selectedTrack?.name} lyrics</h4>
+        <h2>{selectedTrack?.name} lyrics</h2>
         <div className={styles.lyrics}>{selectedTrack?.lyric}</div>
       </motion.div>
     )}

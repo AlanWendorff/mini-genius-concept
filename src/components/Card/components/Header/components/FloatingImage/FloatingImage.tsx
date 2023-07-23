@@ -8,14 +8,14 @@ interface props {
   rotateY: MotionValue<number>;
   show: boolean;
   image: string;
-  key: string;
+  alt: string;
 }
 
-const FloatingImage = ({ x, y, rotateX, rotateY, show, image, key }: props) => (
+const FloatingImage = ({ x, y, rotateX, rotateY, show, image, alt }: props) => (
   <AnimatePresence>
     {show && (
       <motion.img
-        key={key}
+        key="floating-image"
         className={styles.floatingImage}
         style={{
           x,
@@ -30,7 +30,7 @@ const FloatingImage = ({ x, y, rotateX, rotateY, show, image, key }: props) => (
         exit={{ scale: 0 }}
         draggable={false}
         src={image}
-        alt={key}
+        alt={alt}
       />
     )}
   </AnimatePresence>
