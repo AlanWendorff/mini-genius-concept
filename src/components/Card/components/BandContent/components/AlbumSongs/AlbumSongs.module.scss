@@ -2,7 +2,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  padding: 2rem 1rem 0rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
 
   .title {
     padding: 0 1rem;
@@ -20,6 +22,8 @@
   .tracklist {
     margin: 0;
     padding: 0;
+    overflow-y: auto;
+    height: 100%;
 
     .track {
       margin: 0;
@@ -35,6 +39,7 @@
       }
 
       button {
+        display: flex;
         background-color: transparent;
         border: none;
         margin: 0;
@@ -44,18 +49,22 @@
         cursor: pointer;
 
         p {
-          display: flex;
-          font-size: 1.125rem;
+          margin: 0;
           font-family: "Programme Normal", sans-serif;
+          font-size: 1.125rem;
+        }
+
+        .index {
+          color: var(--color-zeta);
+          width: 2.5rem;
+          display: block;
+        }
+
+        .name {
           font-feature-settings: "ss07", "ss08", "ss11", "ss12", "ss14", "ss15",
             "ss16", "ss18", "ss19", "ss20", "ss21";
-          margin: 0;
-
-          span {
-            color: var(--color-zeta);
-            width: 2.5rem;
-            display: block;
-          }
+          text-align: start;
+          color: black;
         }
       }
     }

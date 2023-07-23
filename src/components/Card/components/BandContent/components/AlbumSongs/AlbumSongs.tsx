@@ -31,10 +31,8 @@ const AlbumSongs = ({ show, selectedAlbum, handleSelectSong }: props) => (
           {selectedAlbum?.tracklist.map((song, index) => (
             <li className={styles.track} key={index}>
               <button onClick={() => handleSelectSong(song.name)}>
-                <p>
-                  <span>{index + 1}</span>
-                  {song.name}
-                </p>
+                <p className={styles.index}>{index + 1}</p>
+                <p className={styles.name}>{song.name}</p>
               </button>
             </li>
           ))}
