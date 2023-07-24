@@ -28,14 +28,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   [Verse 1]
                   <br />
                   Modern day Houdini, better leave me alone when you see me
@@ -95,10 +89,7 @@ const BANDS = {
                   Break that law, break that law, break that law
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   [Verse 2]
                   <br />
                   Ay
@@ -160,14 +151,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE
                   <br />
                   Do as I dare, put them hands in the air
@@ -219,10 +204,7 @@ const BANDS = {
                   So what&apos;s it gonna?
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   VERSE
                   <br />
                   You know I love
@@ -301,10 +283,7 @@ const BANDS = {
                   <br />I swear, no surrender, the west; no contender
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   VERSE
                   <br />
                   Do as I deem
@@ -375,14 +354,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   [Hook]
                   <br />
                   Yeah, so roll the dice, we put our life on the line for them
@@ -442,10 +415,7 @@ const BANDS = {
                   roses so
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   [Chorus]
                   <br />
                   We&apos;re coming for the top, picking out your poison
@@ -504,10 +474,7 @@ const BANDS = {
                   bring it home so
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   [Hook]
                   <br />
                   Yeah, so roll the dice, we put our life on the line for them
@@ -558,14 +525,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE
                   <br />
                   Aye
@@ -640,10 +601,7 @@ const BANDS = {
                   and it&lsquo;s piracy season
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   VERSE
                   <br />
                   Ay
@@ -698,14 +656,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   CHORUS
                   <br />
                   You take me away from something, but I just can&apos;t ignore
@@ -771,10 +723,7 @@ const BANDS = {
                   couldn&apos;t see
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   VERSE 2<br />
                   Straight up
                   <br />
@@ -823,10 +772,7 @@ const BANDS = {
                   There wasn&apos;t any other way
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   You take me away from something, but I just can&apos;t ignore
@@ -849,14 +795,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   INTRO
                   <br />
                   Yeah, I think I told &lsquo;em before
@@ -911,10 +851,7 @@ const BANDS = {
                   <br />I see the spotlight, call me Bruce Wayne kid, woo
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   You can call me Bruce Wayne kid, woo
@@ -1002,10 +939,7 @@ const BANDS = {
                   she&lsquo;s through
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   You can call me Bruce Wayne kid, woo
@@ -1025,14 +959,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE 1<br />
                   Listen; I&apos;m falling in regret
                   <br />
@@ -1091,10 +1019,7 @@ const BANDS = {
                   Liberate me, I was always, I was always free
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   VERSE 2<br />
                   <br />
                   Motherfucker I never lied
@@ -1156,10 +1081,7 @@ const BANDS = {
                   Liberate me, I was always, I was always free
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   BRIDGE
                   <br />
                   See I know this whole melancholic way of breaking me
@@ -1195,14 +1117,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE
                   <br />
                   Stay away from ones like them, they used say
@@ -1249,10 +1165,7 @@ const BANDS = {
                   ones who tampered
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   I&apos;ma be forgotten even though I can&apos;t leave
@@ -1286,14 +1199,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE
                   <br />I been living in a motherfucking rush for days
                   <br />I gotta puff, puff, puff but I&apos;m looking to blaze
@@ -1355,10 +1262,7 @@ const BANDS = {
                   smashing bags full of hits
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   OUTRO
                   <br />
                   See, I know, what you&apos;ve done
@@ -1386,14 +1290,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE
                   <br />
                   No I ain&lsquo;t got no fucken fix for this trip
@@ -1466,10 +1364,7 @@ const BANDS = {
                   Sick &lsquo;em, sick &lsquo;em, sick &lsquo;em
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   VERSE
                   <br />
                   Dragging &lsquo;em in the mud
@@ -1534,14 +1429,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   REFRAIN
                   <br />
                   You should know me by now
@@ -1594,10 +1483,7 @@ const BANDS = {
                   Google maps telling you turn around, but you acting brave
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   So put your money where your mouth is
@@ -1655,10 +1541,7 @@ const BANDS = {
                   <br />
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   VERSE
                   <br />
                   See I&apos;ve been fantasising about this everyday
@@ -1707,14 +1590,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE 1<br />
                   Why don&apos;t it feel the same anymore?
                   <br />
@@ -1789,10 +1666,7 @@ const BANDS = {
                   Yeah...
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   Why do I feel the walls collapse around me?
@@ -1827,14 +1701,8 @@ const BANDS = {
             band: "DVSR",
             album: "West Technique",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   CHORUS
                   <br />
                   Stay out, notice
@@ -1904,10 +1772,7 @@ const BANDS = {
                   we surround
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   Stay out, notice
@@ -1974,10 +1839,7 @@ const BANDS = {
                   Still coming for the heads of you snitches in the booth (woo!)
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   Stay out, notice
@@ -2008,14 +1870,8 @@ const BANDS = {
             band: "DVSR",
             album: "Therapy",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE 1<br />
                   <br />
                   Magnetised to the centre
@@ -2066,10 +1922,7 @@ const BANDS = {
                   When we vanquished the mob at the top (the mob at the top)
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   I can hear your heart beat pumping
                   <br />
                   You know we won&apos;t stop
@@ -2116,10 +1969,7 @@ const BANDS = {
                   Talking all that new shit, like you think you a star
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   Shut the fuck up!
                   <br />
                   Fuck all of that bullshit, &apos;cause we don&apos;t know who
@@ -2169,10 +2019,7 @@ const BANDS = {
                   <br />
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   CHORUS
                   <br />
                   <br />I can feel your heat beat pump away to the record
@@ -2220,14 +2067,8 @@ const BANDS = {
             band: "DVSR",
             album: "Therapy",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE 1<br />
                   <br />
                   Yo, It&apos;s been a while now but i never really wanted you
@@ -2287,10 +2128,7 @@ const BANDS = {
                   just a slave I&apos;m so a…..
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   <br />
                   VERSE 2<br />
                   <br />
@@ -2362,14 +2200,8 @@ const BANDS = {
             band: "DVSR",
             album: "Therapy",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE 1<br />
                   <br />
                   Come now, look at the twist in their promise and the way they
@@ -2426,10 +2258,7 @@ const BANDS = {
                   The reason we&apos;re never ever gonna die
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   Just give us a second to breathe
                   <br />
                   You&apos;re bringing us down to the knees
@@ -2480,10 +2309,7 @@ const BANDS = {
                   to make movements!
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   <br />
                   <br />
                   <br />
@@ -2523,10 +2349,7 @@ const BANDS = {
                   CHORUS
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   So what do want from me?
                   <br />
                   You&apos;ve been bleeding us dry
@@ -2575,14 +2398,8 @@ const BANDS = {
             band: "DVSR",
             album: "Therapy",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE
                   <br />
                   <br />
@@ -2634,14 +2451,8 @@ const BANDS = {
             band: "DVSR",
             album: "Therapy",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE 1<br />
                   <br />
                   Well i remember growing up
@@ -2698,10 +2509,7 @@ const BANDS = {
                   You gave me your word so absurd that i trust you
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   <br />
                   VERSE 2<br />
                   <br />
@@ -2762,14 +2570,8 @@ const BANDS = {
             band: "DVSR",
             album: "Therapy",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   [Intro]
                   <br />
                   Yeah
@@ -2822,10 +2624,7 @@ const BANDS = {
                   When I was a kid, yeah
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   [Chorus]
                   <br />
                   So look into the window of my soul and lie
@@ -2881,10 +2680,7 @@ const BANDS = {
                   Insane to membrane brother it&lsquo;s a shame
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   [Verse 2]
                   <br />
                   Yo
@@ -2950,10 +2746,7 @@ const BANDS = {
                   Yo when them glass emotions break
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   [Outro]
                   <br />
                   Yo, so whats this all about?
@@ -2996,14 +2789,8 @@ const BANDS = {
             band: "DVSR",
             album: "Therapy",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   [VERSE 1]
                   <br />
                   Ready for whatever running through the hell of a motherfucking
@@ -3068,10 +2855,7 @@ const BANDS = {
                   Ready for the worst, ready for the worst
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   <br />
                   <br />
                   [VERSE 2]
@@ -3188,14 +2972,8 @@ const BANDS = {
             band: "DVSR",
             album: "Bad Company",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   [Verse 1]
                   <br />
                   <br />
@@ -3255,10 +3033,7 @@ const BANDS = {
                   fix
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   [Bridge]
                   <br />
                   <br />
@@ -3338,10 +3113,7 @@ const BANDS = {
                   Oh please, now extract the waste that has gathered
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   [Chorus]
                   <br />
                   <br />
@@ -3383,18 +3155,12 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (INTRO/1st VERSE)
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       Was it all for the fame?
                       <br />
                       Was it all but a game?
@@ -3444,10 +3210,8 @@ const BANDS = {
                   <br />
                   Sold out by the greed, throw up the cash to match your rich
                   dreams but your ego stands above money you achieve,{" "}
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
-                      buy friends with a drink, love with the a ring
-                    </span>
+                  <a>
+                    <span>buy friends with a drink, love with the a ring</span>
                   </a>
                   <span
                     tabIndex={0}
@@ -3490,8 +3254,8 @@ const BANDS = {
                   the dreams of inner peace with a fee
                   <br />
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       Six figures six feet deep I won&apos;t sleep given the
                       situation we&apos;re dealing with is quite deep
                       <br />
@@ -3538,8 +3302,8 @@ const BANDS = {
                     />
                   </span>
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       The expression that resembles the queen up on our cent
                     </span>
                   </a>
@@ -3583,8 +3347,8 @@ const BANDS = {
                   <br />
                   CHORUS:
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       As you brag with the rich, spend cash till your sick ima
                       be laid back with a smile living care free quantity is but
                       a bitch
@@ -3662,10 +3426,7 @@ const BANDS = {
                   me you ain&lsquo;t the god, you&apos;re nothing but a bitch!
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   Thinking about the money twenty-four seven irrelevant sell
                   your parents for a seven digit figure no I say FUCK THAT
                   <br />
@@ -3691,14 +3452,8 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (1st VERSE)
                   <br />
                   She&apos;s all I see
@@ -3779,12 +3534,7 @@ const BANDS = {
                   couldn&apos;t hold her
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
-                  (CHORUS)*
-                </div>
+                <div>(CHORUS)*</div>
               </div>
             ),
           },
@@ -3794,14 +3544,8 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   VERSE 1)
                   <br />
                   Get the fuck outta my face
@@ -3812,10 +3556,8 @@ const BANDS = {
                   No stalling when I come
                   <br />
                   Young, free, dumb{" "}
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
-                      bet I butterfly tongues
-                    </span>
+                  <a>
+                    <span>bet I butterfly tongues</span>
                   </a>
                   <span
                     tabIndex={0}
@@ -3925,10 +3667,7 @@ const BANDS = {
                   through them
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   <br />
                   <br />
                   (BRIDGE/CHORUS)
@@ -3971,14 +3710,8 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (1st VERSE)
                   <br />
                   <br />
@@ -4030,10 +3763,7 @@ const BANDS = {
                   (CHORUS)
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   (We all know this)
                   <br />
                   This feeling even though we don&lsquo;t want to know what it
@@ -4105,10 +3835,7 @@ const BANDS = {
                   Grasping my thought
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   (BRIDGE)
                   <br />
                   <br />
@@ -4157,10 +3884,7 @@ const BANDS = {
                   When will he show?
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   (PRE-CHORUS)
                   <br />
                   <br />
@@ -4243,14 +3967,8 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (1st Verse)
                   <br />
                   Was it all but a dream, my heart sinks I detest my own speech
@@ -4319,10 +4037,7 @@ const BANDS = {
                   submitted into defeat, fear me
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   (2nd Verse)
                   <br />
                   As I collect myself in broken pieces
@@ -4362,14 +4077,8 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (VERSE 1)
                   <br />
                   How do I believe?
@@ -4443,12 +4152,7 @@ const BANDS = {
                   Tell me why
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
-                  (CHORUS)
-                </div>
+                <div>(CHORUS)</div>
               </div>
             ),
           },
@@ -4458,14 +4162,8 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (1st Verse)
                   <br />
                   As it all unfolds, this world begins to an end but we
@@ -4548,10 +4246,7 @@ const BANDS = {
                   find us all calm in the shade so don&apos;t be afraid
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   (2nd Verse)
                   <br />
                   Cause I&apos;ve seen the potential in the brilliant minds of
@@ -4590,14 +4285,8 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (INTRO)
                   <br />
                   <br />I can&lsquo;t believe this
@@ -4668,10 +4357,7 @@ const BANDS = {
                   Lacerate and invalidate them them
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+                <div>
                   (CHORUS)
                   <br />
                   <br />
@@ -4735,14 +4421,8 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (1st Verse)
                   <br />
                   My backs up against the wall about to react but the mass of my
@@ -4834,12 +4514,7 @@ const BANDS = {
                   nose has been broken
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
-                  (CHORUS)
-                </div>
+                <div>(CHORUS)</div>
               </div>
             ),
           },
@@ -4849,60 +4524,17 @@ const BANDS = {
             band: "DVSR",
             album: "D.V.S.R",
             lyric: (
-              <div
-                id="lyrics-root"
-                className="PageGriddesktop-a6v82w-0 SongPageGriddesktop-sc-1px5b71-0 Lyrics__Root-sc-1ynbvzw-0 iEyyHq"
-              >
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
+              <div>
+                <div>
                   (1st Verse)
                   <br />
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
-                      Stop taking steps in the wrong direction
-                    </span>
+                  <a>
+                    <span>Stop taking steps in the wrong direction</span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       You&lsquo;re lost in belief
                       <br />
                       And your life&lsquo;s affected
@@ -4916,41 +4548,6 @@ const BANDS = {
                       And you follow the rest, i can feel it
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
                   <br />
                   Looking down from the birds eye
@@ -4982,12 +4579,9 @@ const BANDS = {
                   You need to swallow your hatred
                   <br />
                 </div>
-                <div
-                  data-lyrics-container="true"
-                  className="Lyrics__Container-sc-1ynbvzw-5 Dzxov"
-                >
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                <div>
+                  <a>
+                    <span>
                       When you face these knights up in their shining armour
                       <br />
                       Recognise that metal
@@ -4999,41 +4593,6 @@ const BANDS = {
                       Thus proving they haven&lsquo;t been tested
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
                   Forget them
                   <br />
@@ -5043,92 +4602,22 @@ const BANDS = {
                   (2nd Verse)
                   <br />
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       And it&lsquo;s like you&lsquo;re trapped up in this maze
                       <br />
                       All emotion locked away in a cage
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       You&lsquo;ve been buried alive
                       <br />
                       Can you feel the wet cement turn hard when its sealing
                       you&lsquo;re eyes
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
                   The lies you&lsquo;ve discovered
                   <br />
@@ -5143,8 +4632,8 @@ const BANDS = {
                   <br />
                   Literally
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       The fresh scent of burning flesh filled the skies
                       <br />
                       Their thoughts stay disguised
@@ -5156,44 +4645,9 @@ const BANDS = {
                       In world where belief overrides common sense
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       The concrete hardens when it enters your chest
                       <br />
                       They told you to breath
@@ -5201,41 +4655,6 @@ const BANDS = {
                       You believed you would live?
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
                   <br />
                   These leaders that lead us to death, of an edge of a cliff
@@ -5251,128 +4670,19 @@ const BANDS = {
                   (CHORUS)
                   <br />
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
-                      YOU ARE OBLIVIOUS, BECOME AWARE
-                    </span>
+                  <a>
+                    <span>YOU ARE OBLIVIOUS, BECOME AWARE</span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
-                      DONT ASSUME UNTIL YOU TRULY UNDERSTAND
-                    </span>
+                  <a>
+                    <span>DONT ASSUME UNTIL YOU TRULY UNDERSTAND</span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       ENTRUST IN STARS AND BLAME THE FUCKING GOVERNMENT
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
                   YOU ARE NOW MORE CORRUPT
                   <br />
@@ -5383,8 +4693,8 @@ const BANDS = {
                   (BRIDGE)
                   <br />
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       It&lsquo;s just one more religion
                       <br />
                       We&lsquo;re adding into our history
@@ -5394,41 +4704,6 @@ const BANDS = {
                       But we possess the fucking immunity.
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   (x2)
                   <br />
                   <br />
@@ -5438,8 +4713,8 @@ const BANDS = {
                   <br />
                   (And you will notice that their time is up,)
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       When the last grain of sand drops in the hour glass
                       <br />
                       (that their reign has passed)
@@ -5453,41 +4728,6 @@ const BANDS = {
                       From a promise, the ones with the common knowledge
                     </span>
                   </a>
-                  <span
-                    tabIndex={0}
-                    style={{
-                      position: "absolute",
-                      opacity: 0,
-                      width: 0,
-                      height: 0,
-                      pointerEvents: "none",
-                      zIndex: -1,
-                    }}
-                  />
-                  <span>
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                    <span
-                      tabIndex={0}
-                      style={{
-                        position: "absolute",
-                        opacity: 0,
-                        width: 0,
-                        height: 0,
-                        pointerEvents: "none",
-                        zIndex: -1,
-                      }}
-                    />
-                  </span>
                   <br />
                   <br />
                   Who engage our greater feelings
@@ -5528,8 +4768,8 @@ const BANDS = {
                   (EXTENDED CHORUS)
                   <br />
                   <br />
-                  <a className="ReferentFragmentdesktop__ClickTarget-sc-110r0d9-0 cehZkS">
-                    <span className="ReferentFragmentdesktop__Highlight-sc-110r0d9-1 jAzSMw">
+                  <a>
+                    <span>
                       Trust me i know why you do believe
                       <br />
                       It&lsquo;s divine it brings you hope
