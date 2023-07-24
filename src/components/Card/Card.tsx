@@ -42,11 +42,6 @@ const Card = ({ band }: IBands) => {
         handleReturnAlbum={handleReturnAlbum}
       />
 
-      {/*  <motion.div
-        style={{ x: x, y: y, translateZ: 10, zIndex: 10 }}
-        className={styles.shadow}
-      ></motion.div> */}
-
       <BandContent
         cardStatus={cardStatus}
         selectedBand={band}

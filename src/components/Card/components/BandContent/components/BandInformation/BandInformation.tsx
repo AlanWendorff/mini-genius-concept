@@ -10,8 +10,8 @@ interface props {
 }
 
 const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
-  let i = 0;
-  let speed = 10;
+  let letterIndex = 0;
+  const speed = 10;
 
   const variants = {
     onImageHover: {
@@ -21,23 +21,23 @@ const BandInformation = ({ show, selectedBand, handleSelectAlbum }: props) => {
 
   const typeWriter = () => {
     let timeout;
-    if (i < selectedBand.band_description.length) {
+    if (letterIndex < selectedBand.band_description.length) {
       const elem = document.querySelector(
         "#description"
       ) as HTMLParagraphElement;
 
       if (elem) {
-        elem.innerHTML += selectedBand.band_description.charAt(i);
+        elem.innerHTML += selectedBand.band_description.charAt(letterIndex);
       }
-      i += 1;
+      letterIndex++;
       timeout = setTimeout(typeWriter, speed);
-    } else {
-      clearTimeout(timeout);
+      return;
     }
+    clearTimeout(timeout);
   };
 
   useEffect(() => {
-    show && typeWriter();
+    if (show) typeWriter();
   }, [show]);
 
   return (

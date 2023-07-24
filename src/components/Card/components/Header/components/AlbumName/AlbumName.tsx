@@ -25,7 +25,7 @@ const AlbumName = ({ show, selectedAlbum, handleReturnMenu }: props) => (
           <a onClick={handleReturnMenu} role="button" aria-label="back to band">
             <p>{selectedAlbum?.band}&nbsp;&nbsp;&nbsp;</p>
             <svg viewBox="0 0 6.6 16">
-              <path d="M1.6 8.8l.6-.6 1 1 .5.7V6H0v-.8h4.5v4.6l.5-.6 1-1 .6.5L4 11.3 1.6 8.8z"></path>
+              <path d="M1.6 8.8l.6-.6 1 1 .5.7V6H0v-.8h4.5v4.6l.5-.6 1-1 .6.5L4 11.3 1.6 8.8z" />
             </svg>
           </a>
           <p>

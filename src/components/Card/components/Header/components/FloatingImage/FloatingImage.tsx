@@ -22,8 +22,8 @@ const FloatingImage = ({ x, y, rotateX, rotateY, show, image, alt }: props) => (
           y,
           rotateX,
           rotateY,
-          z: 10000,
-          zIndex: 10000,
+          z: 10_000,
+          zIndex: 10_000,
         }}
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
