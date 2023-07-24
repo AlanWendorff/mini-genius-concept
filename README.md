@@ -13,7 +13,8 @@
 
 ![preview](https://github.com/Kremowy/mini-genius-concept/assets/62715512/1a9b59c3-5f60-402b-b1fc-9724a1303675)
 ![technologies](https://github.com/Kremowy/mini-genius-concept/assets/62715512/d1bdb26e-3883-4d37-a7f3-39a682958714)
-![lighthouse benchmark](https://github.com/Kremowy/mini-genius-concept/assets/62715512/ba503849-7ccb-4e56-ab0c-b3d25b6effcd)
+![lighthouse benchmark](https://github.com/Kremowy/mini-genius-concept/assets/62715512/ef2fdbe8-e2d6-4705-bceb-efb1243ea00e)
+![formal benchmark](https://github.com/Kremowy/mini-genius-concept/assets/62715512/348be392-5e41-4fb2-82af-e3421f19ff20)
 
 
 [Check it out](https://mini-genius-concept.vercel.app/)
